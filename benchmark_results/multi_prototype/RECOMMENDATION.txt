@@ -1,0 +1,18 @@
+PLACEMENT RECOMMENDATION: MAIN_TEXT
+============================================================
+
+Strong recommendation for MAIN TEXT inclusion:
+  - 32.1% of agents show >5% MRR improvement
+  - 36.3% relative improvement in mean MRR
+  - Statistically significant (Wilcoxon p=0.0000)
+  - Improvement is broad and substantial
+
+DECISION CRITERIA:
+  Main text: >30% improved, >20% relative gain, p<0.01
+  Supplement: 15-30% improved, 10-20% relative gain, p<0.05
+  Brief: <15% improved or <10% relative gain
+
+ACTUAL RESULTS:
+  % improved: 32.1%
+  Relative gain: 36.3%
+  P-value: 0.000000

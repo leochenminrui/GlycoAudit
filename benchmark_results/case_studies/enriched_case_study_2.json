@@ -1,0 +1,100 @@
+{
+  "agent_id": "SB_AB_1E3",
+  "case_name": "Case 2: Size-selective binding",
+  "metrics": {
+    "n_positives": 5,
+    "mrr": 0.1559999999999999,
+    "recall@5": 0.4,
+    "mean_rank": 20.8
+  },
+  "positive_glycans": [
+    "G00068MO",
+    "G35778AN",
+    "G40696TO",
+    "G61459JW",
+    "G94435QH"
+  ],
+  "feature_statistics": {
+    "n_atoms": {
+      "pos_mean": 65.6,
+      "bg_mean": 122.69005847953217,
+      "pos_std": 12.074767078498866,
+      "z_score": -0.7599383554036957
+    },
+    "n_residues": {
+      "pos_mean": 3.8,
+      "bg_mean": 5.646198830409356,
+      "pos_std": 0.44721359549995787,
+      "z_score": -0.6160835173867876
+    },
+    "radius_of_gyration": {
+      "pos_mean": 4.280200000000001,
+      "bg_mean": 6.233730994152047,
+      "pos_std": 0.2813746612614575,
+      "z_score": -0.9383706926011391
+    },
+    "max_pair_distance": {
+      "pos_mean": 12.730999999999998,
+      "bg_mean": 20.03343274853801,
+      "pos_std": 1.2291578417762299,
+      "z_score": -0.9636710727498009
+    },
+    "compactness": {
+      "pos_mean": 0.33702,
+      "bg_mean": 0.31673684210526315,
+      "pos_std": 0.013783033047917994,
+      "z_score": 0.8645650187294596
+    },
+    "branch_proxy": {
+      "pos_mean": 0.0,
+      "bg_mean": 0.9883040935672515,
+      "pos_std": 0.0,
+      "z_score": -0.7061464188902054
+    },
+    "terminal_proxy": {
+      "pos_mean": 2.0,
+      "bg_mean": 2.318713450292398,
+      "pos_std": 0.0,
+      "z_score": -0.36068196477021597
+    },
+    "exposure_proxy": {
+      "pos_mean": 17.1478,
+      "bg_mean": 17.659432748538013,
+      "pos_std": 0.6420967216860716,
+      "z_score": -0.23840203613484176
+    }
+  },
+  "ssv_preferences": [
+    {
+      "dimension": "n_atoms",
+      "cliff_delta": -0.7166666666666667,
+      "cohens_d": -0.9963521054914748,
+      "direction": "lower",
+      "p_holm": 0.0480905531881134
+    },
+    {
+      "dimension": "radius_of_gyration",
+      "cliff_delta": -0.715,
+      "cohens_d": -1.0132943898907472,
+      "direction": "lower",
+      "p_holm": 0.0480905531881134
+    },
+    {
+      "dimension": "max_pair_distance",
+      "cliff_delta": -0.7366666666666667,
+      "cohens_d": -1.109017787458321,
+      "direction": "lower",
+      "p_holm": 0.0437470122600356
+    }
+  ],
+  "structural_patterns": [
+    "Small glycans (mean 3.8 residues vs background 5.6)",
+    "Compact structures (compactness 0.337 vs 0.317)",
+    "Predominantly linear structures"
+  ],
+  "performance_interpretation": "Weak SSV-based prediction (potential failure mode)",
+  "failure_modes": [
+    "None detected"
+  ],
+  "biological_context": ""
+}

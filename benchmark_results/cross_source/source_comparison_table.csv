@@ -1,0 +1,8 @@
+feature,source_a,mean_a,source_b,mean_b,p_value,significant
+n_atoms,targeted_sugarbind,111.264,carbogrove_glycoshape,129.27188940092165,0.8286871980416879,False
+n_residues,targeted_sugarbind,4.672,carbogrove_glycoshape,6.207373271889401,0.00057867037967178,True
+radius_of_gyration,targeted_sugarbind,5.7172480000000006,carbogrove_glycoshape,6.531244239631336,0.009364400229430981,True
+max_pair_distance,targeted_sugarbind,18.443104,carbogrove_glycoshape,20.94952073732719,0.04132397720115221,True
+compactness,targeted_sugarbind,0.31381039999999993,carbogrove_glycoshape,0.3184225806451613,0.04550482980838802,True
+branch_proxy,targeted_sugarbind,0.864,carbogrove_glycoshape,1.0599078341013826,0.7100810873333528,False
+terminal_proxy,targeted_sugarbind,1.904,carbogrove_glycoshape,2.557603686635945,4.114995784325695e-09,True

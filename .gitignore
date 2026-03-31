@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Conda
+.conda/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Data (large files)
+data/raw/
+data/processed/
+data/ssv/
+data/gcv/
+data/binding/
+data/joined/
+*.pdb
+*.cif
+*.json.gz
+*.csv.gz
+*.parquet
+
+# Allow manifests
+!data/manifests/
+!data/checksums/
+!data/sample_outputs/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI assistants
+.claude/
+.cursor/
+
+# Outputs (keep only benchmark_results/)
+outputs/
+results/
+reports/
+
+# Private configs
+configs/private/
+*.secret
+*.key
+.env
+
+# Large artifacts
+*.tar.gz
+*.zip
+figures/*.pdf
+figures/*.png
+tables/*.tex
+
+# Allow example outputs
+!benchmark_results/
+!examples/outputs/

@@ -1,0 +1,85 @@
+{
+  "agent_id": "SB_AB_CB",
+  "case_name": "Case 1: Terminal-rich binding",
+  "metrics": {
+    "n_positives": 5,
+    "mrr": 0.3962121212121212,
+    "recall@5": 0.6,
+    "mean_rank": 11.6
+  },
+  "positive_glycans": [
+    "G00031MO",
+    "G00066MO",
+    "G17480GI",
+    "G57321FI",
+    "G66163TI",
+    "G74353FF",
+    "G80062GG",
+    "G99315PE"
+  ],
+  "feature_statistics": {
+    "n_atoms": {
+      "pos_mean": 84.5,
+      "bg_mean": 122.69005847953217,
+      "pos_std": 32.204702407301596,
+      "z_score": -0.5083562884089808
+    },
+    "n_residues": {
+      "pos_mean": 4.25,
+      "bg_mean": 5.646198830409356,
+      "pos_std": 1.164964745021435,
+      "z_score": -0.46591681905636845
+    },
+    "radius_of_gyration": {
+      "pos_mean": 4.8248750000000005,
+      "bg_mean": 6.233730994152047,
+      "pos_std": 0.8906106151720532,
+      "z_score": -0.676738264693653
+    },
+    "max_pair_distance": {
+      "pos_mean": 14.826625,
+      "bg_mean": 20.03343274853801,
+      "pos_std": 3.0943032420193446,
+      "z_score": -0.6871203311855438
+    },
+    "compactness": {
+      "pos_mean": 0.3271625,
+      "bg_mean": 0.31673684210526315,
+      "pos_std": 0.019724961524496248,
+      "z_score": 0.4443913102588935
+    },
+    "branch_proxy": {
+      "pos_mean": 0.625,
+      "bg_mean": 0.9883040935672515,
+      "pos_std": 0.5175491695067657,
+      "z_score": -0.25958193061274565
+    },
+    "terminal_proxy": {
+      "pos_mean": 2.625,
+      "bg_mean": 2.318713450292398,
+      "pos_std": 0.5175491695067657,
+      "z_score": 0.34661867715302824
+    },
+    "exposure_proxy": {
+      "pos_mean": 17.355249999999998,
+      "bg_mean": 17.659432748538013,
+      "pos_std": 2.073505296420946,
+      "z_score": -0.14173796891573961
+    }
+  },
+  "ssv_preferences": [
+    {
+      "dimension": "terminal_proxy",
+      "cliff_delta": 0.7916666666666666,
+      "cohens_d": 1.3158486100519489,
+      "direction": "higher",
+      "p_holm": 0.0084734293197019
+    }
+  ],
+  "structural_patterns": [],
+  "performance_interpretation": "Strong SSV-based prediction",
+  "failure_modes": [
+    "None detected"
+  ],
+  "biological_context": ""
+}

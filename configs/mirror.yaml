@@ -1,0 +1,174 @@
+# Public Glyco Data Mirror Configuration
+# =======================================
+#
+# This configuration file controls the behavior of the glyco data mirror.
+# Paths are relative to this file's parent directory.
+#
+# Quick Start:
+#   pip install -r requirements.txt
+#   python scripts/run_stage.py --config configs/mirror.yaml --stage 1 --dry-run
+#   python scripts/run_stage.py --config configs/mirror.yaml --stage 1
+
+# Directory paths
+root_dir: "data/raw"
+meta_dir: "data/meta"
+checksum_dir: "data/checksums"
+log_dir: "logs"
+
+# HTTP client settings (conservative defaults for politeness)
+max_concurrent: 4
+requests_per_second: 0.5  # 1 request per 2 seconds (be nice to servers)
+timeout_seconds: 120      # Long timeout for slow servers
+max_retries: 5
+user_agent: "public-glyco-mirror/1.0 (research project; contact: your-email@example.com)"
+
+# Source configurations
+# =====================
+# Each source can be enabled/disabled independently.
+# Run stages:
+#   Stage 1: glytoucan, glycoshape, glygen, pride (metadata only)
+#   Stage 2: cfg (slow, careful scraping)
+#   Stage 3: glycopost (metadata only)
+#   Stage 4: large MS files (requires explicit confirmation)
+
+sources:
+  # ==========================================================================
+  # Category A: Glycan ID/sequence registry
+  # ==========================================================================
+
+  glytoucan:
+    enabled: true
+    mode: "bulk_or_api"  # Options: bulk, api, bulk_or_api
+    # GlyTouCan provides:
+    # - SPARQL endpoint for bulk queries
+    # - REST API for individual records
+    # - WURCS and GlycoCT sequence formats
+    #
+    # Typical download: ~200k glycan entries, ~100MB total
+
+  # ==========================================================================
+  # Category B: Glycan 3D structures / conformational resources
+  # ==========================================================================
+
+  glycoshape:
+    enabled: true
+    mode: "api"
+    # GlycoShape provides:
+    # - 3D glycan structures in PDB format
+    # - REST API for listing and downloading
+    #
+    # Typical download: ~1000 structures, ~50MB total
+
+  glycam_web:
+    enabled: false  # Disabled by default - requires auth
+    mode: "manual_or_api"
+    note: |
+      GLYCAM-Web is primarily interactive and requires authentication.
+      To use this source:
+      1. Set GLYCAM_AUTH_TOKEN environment variable, OR
+      2. Create data/raw/glycam_web/manifest.csv with URLs to download
+      See README for details.
+
+  # ==========================================================================
+  # Category C: Lectin-glycan binding (microarray) datasets
+  # ==========================================================================
+
+  cfg:
+    enabled: true
+    mode: "experiment_list_then_files"
+    # CFG Glycan Array provides:
+    # - Experiment listings (discovered via HTML parsing)
+    # - Per-experiment Excel/CSV data
+    # - Lectin binding data
+    #
+    # NOTE: CFG website structure may change. This connector saves
+    # HTML snapshots for debugging. If experiments not found:
+    # 1. Check data/raw/cfg/_snapshots/ for HTML files
+    # 2. Create data/raw/cfg/manual_manifest.csv as fallback
+    #
+    # For stage 2, use: --cfg-max-experiments 50 --cfg-sleep 2.0
+
+  sugarbind:
+    enabled: true
+    mode: "bulk"
+    # SugarBind provides:
+    # - Pathogen-glycan binding interactions via GlyCosmos SPARQL
+    # - Lectin/protein identifiers linked to GlyTouCan glycan IDs
+    # - Source: https://ts.glycosmos.org/sparql
+    #
+    # Rate limit: 0.5 requests/sec (2 seconds between queries)
+    # Data: ~2000 binding interactions
+
+  glygen:
+    enabled: true
+    mode: "api"
+    # GlyGen provides:
+    # - Glycan annotations
+    # - Protein-glycan interactions
+    # - Well-documented REST API
+    #
+    # Typical download: glycan list + motif list, ~20MB
+
+  # ==========================================================================
+  # Category D: MS datasets (optional, can be very large)
+  # ==========================================================================
+
+  glycopost:
+    enabled: true
+    mode: "project_download"
+
+    # GlycoPOST is a PARTIAL STUB - API not fully documented
+    # Provide specific project accessions for reliable downloads:
+    project_accessions: []
+    # Example:
+    #   - "GPST000001"
+    #   - "GPST000002"
+
+    # Download policy for MS data (default: metadata_only = safe)
+    ms_download_policy: "metadata_only"
+    ms_size_limit_mb: 100
+    confirm_large_download: false
+
+  pride:
+    enabled: true
+    mode: "project_download"
+
+    # PRIDE has a well-documented API
+    # Add glycoproteomics project accessions to download:
+    # Search at https://www.ebi.ac.uk/pride/ for relevant projects
+    project_accessions: []
+    # Example glycoproteomics projects:
+    #   - "PXD012345"
+    #   - "PXD067890"
+
+    # Download policy (default: metadata_only = safe)
+    ms_download_policy: "metadata_only"
+    ms_size_limit_mb: 100
+    confirm_large_download: false
+
+# =============================================================================
+# Environment Variables
+# =============================================================================
+#
+# Some sources may require authentication. Set these environment variables:
+#
+# GLYTOUCAN_API_KEY    - API key for GlyTouCan (usually not required)
+# GLYCAM_AUTH_TOKEN    - Authentication token for GLYCAM-Web
+# GLYCAM_SESSION_COOKIE - Session cookie for GLYCAM-Web
+# GLYCOPOST_API_KEY    - API key for GlycoPOST (if available)
+#
+# Example:
+#   export GLYCAM_AUTH_TOKEN="your-token-here"
+#   python scripts/run_stage.py --config configs/mirror.yaml --stage 1
+
+# =============================================================================
+# Rate Limiting
+# =============================================================================
+#
+# To adjust rate limits for specific stages:
+#
+# Stage 2 (CFG - slow mode):
+#   python scripts/run_stage.py --stage 2 --cfg-sleep 3.0
+#
+# Global rate limit:
+#   Edit requests_per_second above (lower = slower = more polite)

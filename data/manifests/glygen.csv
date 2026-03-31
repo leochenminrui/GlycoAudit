@@ -1,0 +1,9 @@
+source,source_item_id,item_type,url,local_path,sha256,bytes,downloaded_at,status,error,extra_json
+glygen,glycan_list,bulk_export,https://api.glygen.org/glycan/list,data/raw/glygen/glycan_list.json,,0,2025-12-26T07:47:08.244605+00:00,failed,"Server error '502 Proxy Error' for url 'https://api.glygen.org/glycan/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",{}
+glygen,motif_list,bulk_export,https://api.glygen.org/motif/list,data/raw/glygen/motif_list.json,,0,2025-12-26T07:48:08.495568+00:00,failed,"Server error '502 Proxy Error' for url 'https://api.glygen.org/motif/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",{}
+glygen,glycan_list,bulk_export,https://api.glygen.org/glycan/list,data/raw/glygen/glycan_list.json,,0,2025-12-26T08:23:52.985624+00:00,failed,"RETRY_LATER: Server error '502 Proxy Error' for url 'https://api.glygen.org/glycan/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502","{""retry_later"": true, ""reason"": ""upstream_502""}"
+glygen,motif_list,bulk_export,https://api.glygen.org/motif/list,data/raw/glygen/motif_list.json,,0,2025-12-26T08:24:53.191706+00:00,failed,"RETRY_LATER: Server error '502 Proxy Error' for url 'https://api.glygen.org/motif/list'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502","{""retry_later"": true, ""reason"": ""upstream_502""}"

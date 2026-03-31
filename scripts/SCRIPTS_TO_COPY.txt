@@ -1,0 +1,31 @@
+# Data Download
+run_stage.py -> download/01_run_stage.py
+validate_mirror.py -> download/validate_mirror.py
+acquire_targeted_structures.py -> download/acquire_structures.py
+
+# Feature Computation
+compute_ssv_expanded_v1.py -> compute/compute_ssv.py
+compute_gcv_expanded_v1.py -> compute/compute_gcv.py
+
+# Benchmark Execution
+run_paper_benchmark_v2_1_minorrev.py -> evaluate/run_benchmark.py
+evaluate_binding_ranking_pu.py -> evaluate/pu_ranking.py
+evaluate_binding_ranking_pu_baselines.py -> evaluate/baselines.py
+
+# Analysis
+analyze_cross_source_decomposition.py -> analyze/cross_source.py
+analyze_candidate_pool_diagnostics.py -> analyze/candidate_pool.py
+audit_joinability_coverage.py -> analyze/joinability.py
+analyze_multi_prototype.py -> analyze/multi_prototype.py
+generate_case_studies.py -> analyze/case_studies.py
+
+# Results & Figures
+build_benchmark_release_summary.py -> release/build_summary.py
+generate_publication_figures.py -> release/generate_figures.py
+
+# Experiments (E-series)
+run_e1_ensemble_sensitivity_v2.py -> evaluate/e1_ensemble.py
+run_e5_scaffold_split_nulls_v2.py -> evaluate/e5_splits.py
+run_e7_ssv_preferences.py -> evaluate/e7_preferences.py
+run_e8_dl_comparison.py -> evaluate/e8_dl_baseline.py
+run_e9_fewshot.py -> evaluate/e9_fewshot.py

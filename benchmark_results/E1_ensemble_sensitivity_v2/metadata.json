@@ -1,0 +1,45 @@
+{
+  "experiment": "E1_ensemble_sensitivity_v2",
+  "seed": 42,
+  "n_bootstrap": 1000,
+  "n_glycans": 125,
+  "n_features": 8,
+  "n_with_multi_source": 0,
+  "timestamp": "2025-12-30T15:38:55.398482+00:00",
+  "code_version": "run_e1_ensemble_sensitivity_v2.py",
+  "input_files": {
+    "ssv_table": "/home/minrui/glyco/public_glyco_mirror/data/ssv/targeted_sugarbind_v0/ssv_table.csv",
+    "ssv_table_sha256": "18e549e9341a0fcdbcf17b6aeca7251d1cae90b411476d0c00dbe47c0434a4e5"
+  },
+  "outputs": [
+    "summary.csv",
+    "per_glycan_feature.csv",
+    "provenance_rules.json",
+    "figures/icc_distribution.pdf",
+    "figures/R_distribution.pdf",
+    "figures/ensemble_limited_rate_by_feature.pdf"
+  ],
+  "limitations": [
+    "Single source per glycan (no multi-source ensemble)",
+    "Cannot compute across-source variance",
+    "ICC(2,1) computation requires multiple sources per glycan - not available",
+    "Spearman rho between sources not computable",
+    "Dominance ratio R not computable",
+    "Ensemble-limited classification not applicable"
+  ],
+  "overall_summary": {
+    "n_glycans_evaluated": 125,
+    "n_with_multi_source": 0,
+    "multi_source_fraction": 0.0,
+    "icc_median": NaN,
+    "icc_fraction_above_0.7": NaN,
+    "spearman_rho_median": NaN,
+    "spearman_rho_fraction_above_0.7": NaN,
+    "R_median": NaN,
+    "R_fraction_above_0.5": NaN,
+    "ensemble_limited_fraction_pairs": NaN,
+    "ensemble_limited_fraction_glycans": NaN,
+    "median_bootstrap_cv": 0.034376786967870304,
+    "limitation": "All glycans are single-source (ES-B tier); ICC, rho, R cannot be computed"
+  }
+}

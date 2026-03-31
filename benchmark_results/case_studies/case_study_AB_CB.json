@@ -1,0 +1,61 @@
+{
+  "agent_id": "AB_CB",
+  "n_positives": 5,
+  "positive_glycans": [
+    "G00066MO",
+    "G17480GI",
+    "G66163TI",
+    "G74353FF",
+    "G99315PE"
+  ],
+  "performance": {
+    "mrr_nn": 0.4566666666666666,
+    "mrr_proto": 0.36,
+    "recall5_nn": 1.0,
+    "recall5_proto": 0.6
+  },
+  "structural_profile": {
+    "prototype": {
+      "n_atoms": 92.6,
+      "n_residues": 4.8,
+      "radius_of_gyration": 5.052999999999999,
+      "max_pair_distance": 15.5224,
+      "compactness": 0.32785999999999993,
+      "branch_proxy": 1.0,
+      "terminal_proxy": 3.0,
+      "exposure_proxy": 17.5112
+    },
+    "z_scores": {
+      "n_atoms": -0.40053540255410314,
+      "n_residues": -0.28237974331918964,
+      "radius_of_gyration": -0.5671593458587606,
+      "max_pair_distance": -0.5953018559278662,
+      "compactness": 0.47412209003654315,
+      "branch_proxy": 0.008356762353730241,
+      "terminal_proxy": 0.7709990623069748,
+      "exposure_proxy": -0.06907100683900211
+    },
+    "top_distinctive_features": [
+      [
+        "terminal_proxy",
+        0.7709990623069748
+      ],
+      [
+        "max_pair_distance",
+        -0.5953018559278662
+      ],
+      [
+        "radius_of_gyration",
+        -0.5671593458587606
+      ],
+      [
+        "compactness",
+        0.47412209003654315
+      ],
+      [
+        "n_atoms",
+        -0.40053540255410314
+      ]
+    ]
+  }
+}

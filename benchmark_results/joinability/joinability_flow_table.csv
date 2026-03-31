@@ -1,0 +1,7 @@
+Stage,Count,Description
+1. Raw Labeled Glycans,1097,Unique glycans with binding labels from SugarBind + Carbogrove
+2. Normalized IDs,1097,After GlyTouCan ID normalization
+3. Direct Joinable,217,Glycans with pre-existing 3D structures
+4. Targeted Completion,125,Structures acquired via targeted pipeline
+5. Final Benchmark,342,Joinable glycans with structure + binding labels
+6. Unresolved,755,Labels without usable structures

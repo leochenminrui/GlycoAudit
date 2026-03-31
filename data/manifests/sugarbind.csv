@@ -1,0 +1,4 @@
+source,source_item_id,item_type,url,local_path,sha256,bytes,downloaded_at,status,error,extra_json
+sugarbind,bulk_export,bulk_export,https://ts.glycosmos.org/sparql,data/raw/sugarbind/bulk_export.json,,0,2025-12-26T11:45:06.055312+00:00,failed,No data retrieved,{}
+sugarbind,bulk_export,bulk_export,https://ts.glycosmos.org/sparql,data/raw/sugarbind/bulk_export.json,30cc4533920c6bd46f71e50324101a60a9a1993581bd9c33204072edac7156d9,438985,2025-12-26T11:57:56.835734+00:00,ok,,{}
+sugarbind,binding_table,binding_record,https://ts.glycosmos.org/sparql,data/raw/sugarbind/binding_table.csv,90102add6af293f8dc61af0771c2364c826ac7c86b6dc589c66d7036ad333a15,44068,2025-12-26T11:57:56.840965+00:00,ok,,"{""rows"": 881}"

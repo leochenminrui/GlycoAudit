@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "n_agents": 196,
+    "n_improved": "63",
+    "n_degraded": "1",
+    "n_neutral": "132",
+    "pct_improved": 32.142857142857146,
+    "pct_degraded": 0.5102040816326531,
+    "mean_mrr_delta": 0.0845035723712583,
+    "median_mrr_delta": 0.005418589326114397,
+    "mean_recall5_delta": 0.14618901329605738,
+    "median_recall5_delta": 0.0,
+    "mean_mrr_proto": 0.23260280994891155,
+    "mean_mrr_multi": 0.31710638232016986,
+    "relative_improvement": 36.329557837163925,
+    "wilcoxon_stat": 422.0,
+    "wilcoxon_pval": 2.202476305306577e-17,
+    "significant": "True"
+  },
+  "recommendation": "MAIN_TEXT",
+  "reasoning": "Strong recommendation for MAIN TEXT inclusion:\n  - 32.1% of agents show >5% MRR improvement\n  - 36.3% relative improvement in mean MRR\n  - Statistically significant (Wilcoxon p=0.0000)\n  - Improvement is broad and substantial"
+}

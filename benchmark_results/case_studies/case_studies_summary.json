@@ -1,0 +1,30 @@
+{
+  "n_cases": 2,
+  "selection_criteria": {
+    "min_positives": 5,
+    "diversity": "lectin + antibody + carbogrove",
+    "performance": "high MRR with nearest neighbor"
+  },
+  "cases": [
+    {
+      "agent_id": "AB_CB",
+      "n_positives": 5,
+      "mrr_nn": 0.4566666666666666,
+      "mrr_proto": 0.36,
+      "top_feature": [
+        "terminal_proxy",
+        0.7709990623069748
+      ]
+    },
+    {
+      "agent_id": "CG_GL_000782",
+      "n_positives": 5,
+      "mrr_nn": 0.4566666666666666,
+      "mrr_proto": 0.2789321128909229,
+      "top_feature": [
+        "radius_of_gyration",
+        1.8318804447340706
+      ]
+    }
+  ]
+}

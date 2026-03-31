@@ -1,0 +1,50 @@
+{
+  "experiment": "E5_split_robustness_v2",
+  "seed": 42,
+  "n_folds": 5,
+  "n_random_repeats": 1000,
+  "n_perm_repeats": 1000,
+  "n_candidates": 125,
+  "n_agents": 539,
+  "timestamp": "2025-12-30T15:50:45.128819+00:00",
+  "code_version": "run_e5_scaffold_split_nulls_v2.py",
+  "input_files": {
+    "ssv_table": "/home/minrui/glyco/public_glyco_mirror/data/ssv/targeted_sugarbind_v0/ssv_table.csv",
+    "ssv_table_sha256": "18e549e9341a0fcdbcf17b6aeca7251d1cae90b411476d0c00dbe47c0434a4e5",
+    "labels": "/home/minrui/glyco/public_glyco_mirror/data/binding/sugarbind_v0/labels.csv",
+    "labels_sha256": "8309882c42c46e2fe669aabfde161c6158a4788635b87382c9b799e89a856a0e"
+  },
+  "outputs": [
+    "scaffold_split_observed_by_fold.csv",
+    "scaffold_split_null_by_fold.csv",
+    "scaffold_split_aggregate.csv",
+    "pvalues.json",
+    "figures/scaffold_split_degradation.pdf",
+    "figures/scaffold_split_null_overlay.pdf"
+  ],
+  "observed_summary": {
+    "mrr_mean": 0.27933841218760685,
+    "mrr_std": 0.15985794388297,
+    "recall@5_mean": 0.3496565119060916,
+    "recall@5_std": 0.18987036022759357,
+    "auprc_lb_mean": 0.27460793660795546,
+    "auprc_lb_std": 0.15072704463128894
+  },
+  "null_summary": {
+    "random_mrr_mean": 0.17955431749589293,
+    "random_recall@5_mean": 0.2198177507502465,
+    "perm_mrr_mean": 0.17867715283004923,
+    "perm_recall@5_mean": 0.2175010918253079
+  },
+  "pvalues": {
+    "mrr_vs_random": 0.015796840631873626,
+    "recall@5_vs_random": 0.046390721855628876,
+    "auprc_lb_vs_random": 0.007198560287942412,
+    "mrr_vs_perm": 0.11377724455108978,
+    "recall@5_vs_perm": 0.16336732653469307,
+    "auprc_lb_vs_perm": 0.09158168366326734,
+    "mrr_holm_significant": false,
+    "recall@5_holm_significant": false,
+    "auprc_lb_holm_significant": false
+  }
+}

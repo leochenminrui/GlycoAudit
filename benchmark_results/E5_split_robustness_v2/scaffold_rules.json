@@ -1,0 +1,8 @@
+{
+  "description": "Topology signature based on size bin + branching + terminals",
+  "components": [
+    "n_residues binned into terciles",
+    "branch_proxy (exact)",
+    "terminal_proxy (exact)"
+  ]
+}

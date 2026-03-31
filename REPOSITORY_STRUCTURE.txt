@@ -1,0 +1,145 @@
+.
+├── benchmark_results
+│   ├── case_studies
+│   │   ├── case_studies_summary.json
+│   │   ├── case_studies_table.csv
+│   │   ├── case_study_AB_CB.json
+│   │   ├── case_study_AB_CB.png
+│   │   ├── case_study_CG_GL_000782.json
+│   │   ├── case_study_CG_GL_000782.png
+│   │   ├── enriched_case_study_1.json
+│   │   ├── enriched_case_study_2.json
+│   │   ├── enriched_case_study_3.json
+│   │   ├── enriched_summary_table.csv
+│   │   ├── manuscript_text_case_studies.tex
+│   │   └── manuscript_text_enriched.tex
+│   ├── cross_source
+│   │   ├── cross_source_decomposition_summary.json
+│   │   ├── source_comparison_table.csv
+│   │   └── source_structural_comparison.png
+│   ├── E1_ensemble_sensitivity
+│   │   ├── figures
+│   │   ├── per_glycan_feature.csv
+│   │   ├── provenance_rules.json
+│   │   └── summary.csv
+│   ├── E1_ensemble_sensitivity_v2
+│   │   ├── figures
+│   │   ├── metadata.json
+│   │   ├── per_glycan_feature.csv
+│   │   ├── provenance_rules.json
+│   │   └── summary.csv
+│   ├── E2_pu_ranking
+│   │   ├── figures
+│   │   ├── aggregate_metrics.csv
+│   │   ├── null_distributions.csv
+│   │   └── pvalues.json
+│   ├── E4_runtime_scaling
+│   │   ├── figures
+│   │   ├── hardware.json
+│   │   └── runtime_table.csv
+│   ├── E5_split_robustness
+│   │   ├── agent_holdout_metrics.csv
+│   │   ├── scaffold_rules.json
+│   │   └── scaffold_split_metrics.csv
+│   ├── E5_split_robustness_v2
+│   │   ├── figures
+│   │   ├── metadata.json
+│   │   ├── pvalues.json
+│   │   ├── scaffold_rules.json
+│   │   ├── scaffold_split_aggregate.csv
+│   │   ├── scaffold_split_null_by_fold.csv
+│   │   └── scaffold_split_observed_by_fold.csv
+│   ├── E6_size_control
+│   │   ├── residualized_vs_full.csv
+│   │   ├── size_matched_null.csv
+│   │   ├── size_strata_metrics.csv
+│   │   └── summary.json
+│   ├── joinability
+│   │   ├── biological_composition_distributions.png
+│   │   ├── biological_composition_stats.csv
+│   │   ├── coverage_uplift_size_comparison.png
+│   │   ├── coverage_uplift_summary.json
+│   │   ├── failure_taxonomy.csv
+│   │   ├── joinability_audit_summary.json
+│   │   ├── joinability_flow_table.csv
+│   │   └── source_distribution.csv
+│   ├── logs
+│   │   ├── e1_v2_20251227_130325.log
+│   │   ├── e1_v2_20251231_003842.log
+│   │   ├── e5_v2_20251227_130349.log
+│   │   └── e5_v2_20251231_003902.log
+│   ├── multi_prototype
+│   │   ├── improvement_by_positive_count.csv
+│   │   ├── manuscript_section_e11.tex
+│   │   ├── manuscript_text_multi_prototype.tex
+│   │   ├── multi_prototype_analysis.json
+│   │   ├── multi_prototype_comparison.png
+│   │   ├── per_agent_comparison.csv
+│   │   └── RECOMMENDATION.txt
+│   ├── benchmark_summary.csv
+│   ├── benchmark_summary.json
+│   ├── PROVENANCE.md
+│   └── README.md
+├── configs
+│   └── mirror.yaml
+├── data
+│   ├── checksums
+│   ├── manifests
+│   │   ├── glycoshape.csv
+│   │   ├── glycoshape_library_dump.csv
+│   │   ├── glycoshape_recovery.csv
+│   │   ├── glygen.csv
+│   │   ├── glytoucan.csv
+│   │   └── sugarbind.csv
+│   ├── sample_outputs
+│   └── README.md
+├── docs
+│   └── quickstart.md
+├── examples
+├── scripts
+│   ├── analyze
+│   │   ├── candidate_pool.py
+│   │   ├── case_studies.py
+│   │   ├── cross_source.py
+│   │   ├── joinability.py
+│   │   └── multi_prototype.py
+│   ├── compute
+│   │   ├── compute_gcv.py
+│   │   └── compute_ssv.py
+│   ├── download
+│   │   ├── 01_run_stage.py
+│   │   ├── acquire_structures.py
+│   │   └── validate_mirror.py
+│   ├── evaluate
+│   │   ├── baselines.py
+│   │   ├── e1_ensemble.py
+│   │   ├── e5_splits.py
+│   │   ├── e7_preferences.py
+│   │   ├── e8_dl_baseline.py
+│   │   ├── e9_fewshot.py
+│   │   ├── pu_ranking.py
+│   │   └── run_benchmark.py
+│   ├── release
+│   │   ├── build_summary.py
+│   │   └── generate_figures.py
+│   ├── utils
+│   └── SCRIPTS_TO_COPY.txt
+├── src
+│   └── glycoaudit
+│       ├── analysis
+│       ├── evaluation
+│       ├── features
+│       ├── mirror
+│       └── __init__.py
+├── tests
+├── CITATION.cff
+├── CRITICAL_FIXES_NEEDED.md
+├── environment.yml
+├── LICENSE
+├── PRE_PUSH_CHECKLIST.md
+├── pyproject.toml
+├── README.md
+├── REPOSITORY_STRUCTURE.txt
+└── requirements.txt
+
+39 directories, 103 files

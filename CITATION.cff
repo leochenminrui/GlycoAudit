@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use GlycoAudit in your research, please cite it as below."
+title: "GlycoAudit: A Semantically Audited Benchmark for Glycan-Binding Interaction Prediction"
+version: 1.0.0
+date-released: 2026-01-01
+url: "https://github.com/your-username/GlycoAudit"
+repository-code: "https://github.com/your-username/GlycoAudit"
+license: MIT
+type: dataset
+authors:
+  - family-names: "[Author Last Name]"
+    given-names: "[Author First Name]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "[Institution]"
+keywords:
+  - glycobiology
+  - benchmark
+  - machine learning
+  - positive-unlabeled learning
+  - lectin
+  - antibody
+  - glycan
+  - binding prediction
+abstract: |
+  GlycoAudit is a reproducible benchmark for evaluating computational methods
+  that predict lectin-glycan and antibody-glycan binding interactions. The
+  benchmark provides 342 structurally resolved glycans, 196 binding agents,
+  and 1,523 experimentally validated interactions, integrated from 7 major
+  glycobiology data sources. It uses a positive-unlabeled (PU) learning
+  framework designed for incomplete experimental data, with comprehensive
+  statistical validation including null controls, robustness checks, and
+  generalization experiments.

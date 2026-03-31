@@ -1,0 +1,13 @@
+{
+  "mrr_vs_random": 0.000999000999000999,
+  "mrr_vs_perm": 0.000999000999000999,
+  "recall@5_vs_random": 0.000999000999000999,
+  "recall@5_vs_perm": 0.000999000999000999,
+  "auprc_lb_vs_random": 0.000999000999000999,
+  "auprc_lb_vs_perm": 0.000999000999000999,
+  "mean_rank_vs_random": 0.000999000999000999,
+  "mean_rank_vs_perm": 0.000999000999000999,
+  "mrr_holm_significant": true,
+  "recall@5_holm_significant": true,
+  "auprc_lb_holm_significant": true
+}

@@ -1,0 +1,79 @@
+{
+  "agent_id": "SB_AB_A1-245",
+  "case_name": "Case 3: Non-responder failure mode",
+  "metrics": {
+    "n_positives": 8,
+    "mrr": 0.0581486003827716,
+    "recall@5": 0.0,
+    "mean_rank": 34.75
+  },
+  "positive_glycans": [
+    "G02657AK",
+    "G18625KA",
+    "G37184KW",
+    "G40183QN",
+    "G61424BA",
+    "G68110IF",
+    "G82775QT",
+    "G98544DH"
+  ],
+  "feature_statistics": {
+    "n_atoms": {
+      "pos_mean": 159.125,
+      "bg_mean": 122.69005847953217,
+      "pos_std": 52.387123554225745,
+      "z_score": 0.4849935396058653
+    },
+    "n_residues": {
+      "pos_mean": 6.0,
+      "bg_mean": 5.646198830409356,
+      "pos_std": 2.2677868380553634,
+      "z_score": 0.11806478556192804
+    },
+    "radius_of_gyration": {
+      "pos_mean": 6.710125,
+      "bg_mean": 6.233730994152047,
+      "pos_std": 1.3678853792311274,
+      "z_score": 0.22883392920654153
+    },
+    "max_pair_distance": {
+      "pos_mean": 21.668375,
+      "bg_mean": 20.03343274853801,
+      "pos_std": 4.735552371989687,
+      "z_score": 0.2157563934656958
+    },
+    "compactness": {
+      "pos_mean": 0.3110125,
+      "bg_mean": 0.31673684210526315,
+      "pos_std": 0.015561806496309212,
+      "z_score": -0.2439987878186785
+    },
+    "branch_proxy": {
+      "pos_mean": 1.75,
+      "bg_mean": 0.9883040935672515,
+      "pos_std": 1.4880476182856899,
+      "z_score": 0.5442341482866819
+    },
+    "terminal_proxy": {
+      "pos_mean": 2.0,
+      "bg_mean": 2.318713450292398,
+      "pos_std": 0.7559289460184544,
+      "z_score": -0.36068196477021597
+    },
+    "exposure_proxy": {
+      "pos_mean": 18.805125000000004,
+      "bg_mean": 17.659432748538013,
+      "pos_std": 1.2093658831328566,
+      "z_score": 0.5338504353228609
+    }
+  },
+  "ssv_preferences": [],
+  "structural_patterns": [
+    "Highly branched (mean 1.8 vs 1.0)"
+  ],
+  "performance_interpretation": "Weak SSV-based prediction (potential failure mode)",
+  "failure_modes": [
+    "No significant SSV preferences detected - likely binding heterogeneity"
+  ],
+  "biological_context": ""
+}

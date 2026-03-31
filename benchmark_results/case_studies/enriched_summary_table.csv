@@ -1,0 +1,4 @@
+agent_id,case_name,n_positives,mrr,recall@5,n_ssv_prefs,key_patterns,interpretation
+SB_AB_CB,Case 1: Terminal-rich binding,5,0.3962121212121212,0.6,1,None,Strong SSV-based prediction
+SB_AB_1E3,Case 2: Size-selective binding,5,0.1559999999999999,0.4,3,Small glycans (mean 3.8 residues vs background 5.6); Compact structures (compactness 0.337 vs 0.317),Weak SSV-based prediction (potential failure mode)
+SB_AB_A1-245,Case 3: Non-responder failure mode,8,0.0581486003827716,0.0,0,Highly branched (mean 1.8 vs 1.0),Weak SSV-based prediction (potential failure mode)

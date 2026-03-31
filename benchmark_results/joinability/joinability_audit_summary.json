@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-03-25T03:12:49.414167+00:00",
+  "stages": {
+    "stage1_raw_labeled": {
+      "description": "Raw labeled glycans from sources",
+      "glycans": 1097,
+      "glycans_sugarbind": 162,
+      "glycans_carbogrove": 1008,
+      "pairs_sugarbind": 881,
+      "pairs_carbogrove": 19028,
+      "pairs_total": 19909
+    },
+    "stage2_normalized": {
+      "description": "Glycans after ID normalization",
+      "glycans": 1097,
+      "normalization_failures": 0
+    },
+    "stage3_directly_joinable": {
+      "description": "Glycans with existing structures (not targeted)",
+      "glycans": 217,
+      "proportion_of_raw": 0.19781221513217867
+    },
+    "stage4_targeted_completion": {
+      "description": "Glycans added via targeted structure acquisition",
+      "glycans": 125,
+      "proportion_of_raw": 0.11394712853236098
+    },
+    "stage5_final_joinable": {
+      "description": "Final benchmark subset with structure + labels",
+      "glycans": 342,
+      "pairs": 3004,
+      "join_success_rate": 0.31175934366453967
+    },
+    "stage6_unresolved": {
+      "description": "Glycans with labels but no usable structure",
+      "glycans": 755,
+      "proportion_of_raw": 0.6882406563354604
+    }
+  },
+  "failure_modes": {
+    "taxonomy": {
+      "no_structure": {
+        "count": 755,
+        "proportion": 1.0,
+        "examples": [
+          "G09713JE",
+          "G84526ST",
+          "G86386QT",
+          "G58956TM",
+          "G69277LC"
+        ]
+      }
+    },
+    "total_failures": 755
+  },
+  "flow_summary": {
+    "raw_labeled": 1097,
+    "normalized": 1097,
+    "direct_joinable": 217,
+    "targeted_added": 125,
+    "final_joinable": 342,
+    "unresolved": 755
+  }
+}

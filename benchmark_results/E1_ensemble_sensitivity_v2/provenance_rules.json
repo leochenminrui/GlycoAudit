@@ -1,0 +1,23 @@
+{
+  "description": "All structures derived from GlycoShape/GLYCAM-Web conformer generation",
+  "tiers": {
+    "ES-A": "Experimentally determined (X-ray, NMR, cryo-EM) - NONE in current dataset",
+    "ES-B": "Public library (GlycoShape/GLYCAM-Web) - ALL structures",
+    "ES-C": "MD-derived with multiple seeds - NONE in current dataset"
+  },
+  "assignment": "All 125 glycans assigned ES-B tier",
+  "multi_source_count": 0,
+  "limitations": [
+    "Single source per glycan (no multi-source ensemble)",
+    "Cannot compute across-source variance",
+    "ICC(2,1) computation requires multiple sources per glycan - not available",
+    "Spearman rho between sources not computable",
+    "Dominance ratio R not computable",
+    "Ensemble-limited classification not applicable"
+  ],
+  "available_statistics": [
+    "Within-tier bootstrap coefficient of variation",
+    "Per-feature value distributions",
+    "Bootstrap confidence intervals"
+  ]
+}

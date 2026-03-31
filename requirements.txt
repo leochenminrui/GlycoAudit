@@ -1,0 +1,46 @@
+# Core dependencies for GlycoAudit
+# For reproducible installation, use environment.yml instead
+
+# Core scientific stack
+numpy>=1.26.0,<2.0.0
+scipy>=1.11.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+scikit-learn>=1.4.0,<2.0.0
+
+# Data I/O
+pyarrow>=14.0.0,<16.0.0
+
+# Networking and web scraping
+httpx>=0.25.0,<1.0.0
+requests>=2.31.0,<3.0.0
+beautifulsoup4>=4.12.0,<5.0.0
+lxml>=4.9.0,<6.0.0
+
+# SPARQL and semantic web
+sparqlwrapper>=2.0.0,<3.0.0
+
+# Async utilities
+aiofiles>=23.0.0,<24.0.0
+aiolimiter>=1.1.0,<2.0.0
+tenacity>=8.2.0,<9.0.0
+
+# Config and CLI
+pyyaml>=6.0,<7.0
+click>=8.1.0,<9.0
+tqdm>=4.66.0,<5.0.0
+
+# Plotting
+matplotlib>=3.8.0,<4.0.0
+seaborn>=0.13.0,<1.0.0
+
+# Graph analysis
+networkx>=3.0,<4.0
+
+# Molecular structure analysis (optional)
+biopython>=1.83,<2.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+ruff>=0.1.0

@@ -1,0 +1,259 @@
+{
+  "benchmark_version": "v1.1",
+  "generation_note": "Values extracted verbatim from computed result files. No post-hoc modification.",
+  "generated_at": "2025-12-27T04:15:48.414055+00:00",
+  "metrics": [
+    {
+      "metric_name": "n_glycans_evaluated",
+      "value": 125,
+      "source_file": "E1_ensemble_sensitivity_v2/summary.csv",
+      "experiment_id": "E1"
+    },
+    {
+      "metric_name": "n_glycans_with_multi_source",
+      "value": 0,
+      "source_file": "E1_ensemble_sensitivity_v2/summary.csv",
+      "experiment_id": "E1"
+    },
+    {
+      "metric_name": "median_bootstrap_cv",
+      "value": 0.034376786967870304,
+      "source_file": "E1_ensemble_sensitivity_v2/summary.csv",
+      "experiment_id": "E1"
+    },
+    {
+      "metric_name": "observed_mrr",
+      "value": 0.6198571594195698,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "observed_recall_at_5",
+      "value": 0.5365853658536586,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "observed_auprc_lb",
+      "value": 0.4752382935712136,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "observed_mean_rank",
+      "value": 14.296747967479677,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_mrr_mean",
+      "value": 0.0891770258880203,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_mrr_std",
+      "value": 0.0152486714036736,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_recall_at_5_mean",
+      "value": 0.040320325203252,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_recall_at_5_std",
+      "value": 0.0115835628946842,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_auprc_lb_mean",
+      "value": 0.0573058131722577,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "random_baseline_auprc_lb_std",
+      "value": 0.0067222620808275,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "permutation_baseline_mrr_mean",
+      "value": 0.4333922877953923,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "permutation_baseline_mrr_std",
+      "value": 0.0609480069436921,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "permutation_baseline_recall_at_5_mean",
+      "value": 0.3257952574525745,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "permutation_baseline_recall_at_5_std",
+      "value": 0.0457149895820474,
+      "source_file": "E2_pu_ranking/aggregate_metrics.csv",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "pvalue_mrr_vs_random",
+      "value": 0.000999000999000999,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "pvalue_mrr_vs_perm",
+      "value": 0.000999000999000999,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "pvalue_recall_at_5_vs_perm",
+      "value": 0.000999000999000999,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "holm_corrected_mrr_significant",
+      "value": true,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "holm_corrected_recall_at_5_significant",
+      "value": true,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "holm_corrected_auprc_lb_significant",
+      "value": true,
+      "source_file": "E2_pu_ranking/pvalues.json",
+      "experiment_id": "E2"
+    },
+    {
+      "metric_name": "runtime_optimized_seconds_per_glycan_n125",
+      "value": 0.0006366907948195,
+      "source_file": "E4_runtime_scaling/runtime_table.csv",
+      "experiment_id": "E4"
+    },
+    {
+      "metric_name": "runtime_kdtree_seconds_per_glycan_n125",
+      "value": 0.0009501462030892,
+      "source_file": "E4_runtime_scaling/runtime_table.csv",
+      "experiment_id": "E4"
+    },
+    {
+      "metric_name": "scaffold_split_mrr_fold_mean",
+      "value": 0.2793384121876068,
+      "source_file": "E5_split_robustness_v2/scaffold_split_aggregate.csv",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_split_recall_at_5_fold_mean",
+      "value": 0.3496565119060916,
+      "source_file": "E5_split_robustness_v2/scaffold_split_aggregate.csv",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_split_mrr_fold_std",
+      "value": 0.15985794388297,
+      "source_file": "E5_split_robustness_v2/scaffold_split_aggregate.csv",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_split_recall_at_5_fold_std",
+      "value": 0.1898703602275935,
+      "source_file": "E5_split_robustness_v2/scaffold_split_aggregate.csv",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_pvalue_mrr_vs_perm",
+      "value": 0.11377724455108978,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_pvalue_recall_at_5_vs_perm",
+      "value": 0.16336732653469307,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_pvalue_mrr_vs_random",
+      "value": 0.015796840631873626,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_pvalue_recall_at_5_vs_random",
+      "value": 0.046390721855628876,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_holm_mrr_significant",
+      "value": false,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "scaffold_holm_recall_at_5_significant",
+      "value": false,
+      "source_file": "E5_split_robustness_v2/pvalues.json",
+      "experiment_id": "E5"
+    },
+    {
+      "metric_name": "residualized_mrr",
+      "value": 0.6050522648083624,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "residualized_recall_at_5",
+      "value": 0.6010840108401084,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "residualized_auprc_lb",
+      "value": 0.507299908626925,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "size_matched_null_mrr_mean",
+      "value": 0.47731090394015113,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "size_matched_null_recall_at_5_mean",
+      "value": 0.3806578590785908,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "pvalue_mrr_vs_size_matched",
+      "value": 0.004975124378109453,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    },
+    {
+      "metric_name": "pvalue_recall_at_5_vs_size_matched",
+      "value": 0.004975124378109453,
+      "source_file": "E6_size_control/summary.json",
+      "experiment_id": "E6"
+    }
+  ]
+}

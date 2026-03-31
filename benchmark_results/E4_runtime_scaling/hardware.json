@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python_version": "3.12.12",
+  "cpu_count": 32,
+  "ram_gb": 503.5437927246094,
+  "cpu_model": "Intel(R) Xeon(R) Gold 6346 CPU @ 3.10GHz"
+}

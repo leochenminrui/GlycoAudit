@@ -1,0 +1,36 @@
+{
+  "overview": {
+    "total_benchmark_glycans": 342,
+    "direct_available": 217,
+    "targeted_added": 125,
+    "targeted_proportion": 0.3654970760233918
+  },
+  "size_comparison": {
+    "direct": {
+      "n_atoms_mean": 129.27188940092165,
+      "n_atoms_median": 99.0,
+      "n_residues_mean": 6.207373271889401,
+      "n_residues_median": 5.0
+    },
+    "targeted": {
+      "n_atoms_mean": 111.264,
+      "n_atoms_median": 99.0,
+      "n_residues_mean": 4.672,
+      "n_residues_median": 5.0
+    }
+  },
+  "complexity_comparison": {
+    "direct": {
+      "branch_proxy_mean": 1.0599078341013826,
+      "compactness_mean": 0.3184225806451613
+    },
+    "targeted": {
+      "branch_proxy_mean": 0.864,
+      "compactness_mean": 0.31381040000000004
+    }
+  },
+  "biological_interpretation": {
+    "size_shift": "targeted_smaller",
+    "complexity_shift": "targeted_less_complex"
+  }
+}

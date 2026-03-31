@@ -1,0 +1,69 @@
+name: glyco-audit
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Python version
+  - python=3.11
+
+  # Core scientific stack
+  - numpy=1.26.4
+  - scipy=1.11.4
+  - pandas=2.2.1
+  - scikit-learn=1.4.1.post1
+
+  # Data I/O
+  - pyarrow=15.0.0
+
+  # Networking and web
+  - httpx=0.27.0
+  - requests=2.31.0
+  - beautifulsoup4=4.12.3
+  - lxml=5.1.0
+
+  # SPARQL and semantic web
+  - sparqlwrapper=2.0.0
+
+  # Async and utilities
+  - aiofiles=23.2.1
+  - aiolimiter=1.1.0
+  - tenacity=8.2.3
+
+  # Config and CLI
+  - pyyaml=6.0.1
+  - click=8.1.7
+  - tqdm=4.66.2
+
+  # Plotting
+  - matplotlib=3.8.3
+  - seaborn=0.13.2
+
+  # Graph analysis
+  - networkx=3.2.1
+
+  # Molecular structure analysis (optional, for PDB parsing if needed)
+  - biopython=1.83
+
+  # Testing and dev tools
+  - pytest=8.1.1
+  - pytest-asyncio=0.23.5
+  - black=24.3.0
+  - ruff=0.3.3
+
+  # Workflow management (optional but recommended)
+  - snakemake-minimal=8.7.0
+
+  # Jupyter (for exploratory analysis)
+  - jupyter=1.0.0
+  - ipykernel=6.29.3
+
+  # Additional utilities
+  - pip=24.0
+
+  # pip-only dependencies (not in conda)
+  - pip:
+    # Any pip-specific packages if needed
+    # (currently all dependencies available via conda)
+

@@ -1,0 +1,11 @@
+{
+  "mrr_vs_random": 0.015796840631873626,
+  "recall@5_vs_random": 0.046390721855628876,
+  "auprc_lb_vs_random": 0.007198560287942412,
+  "mrr_vs_perm": 0.11377724455108978,
+  "recall@5_vs_perm": 0.16336732653469307,
+  "auprc_lb_vs_perm": 0.09158168366326734,
+  "mrr_holm_significant": false,
+  "recall@5_holm_significant": false,
+  "auprc_lb_holm_significant": false
+}

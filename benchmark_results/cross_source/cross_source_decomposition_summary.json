@@ -1,0 +1,624 @@
+{
+  "timestamp": "2026-03-24T18:58:36.957450",
+  "composition_by_source": {
+    "targeted_sugarbind": {
+      "n_glycans": 125,
+      "size": {
+        "n_atoms": {
+          "mean": 111.264,
+          "std": 48.460183855974364,
+          "median": 99.0
+        },
+        "n_residues": {
+          "mean": 4.672,
+          "std": 1.7541471597515743,
+          "median": 5.0
+        }
+      },
+      "geometry": {
+        "radius_of_gyration": {
+          "mean": 5.7172480000000006,
+          "std": 1.5005040478710543,
+          "median": 5.43
+        },
+        "max_pair_distance": {
+          "mean": 18.443104,
+          "std": 5.470261305936472,
+          "median": 17.891
+        },
+        "compactness": {
+          "mean": 0.31381039999999993,
+          "std": 0.022075624508025925,
+          "median": 0.3107
+        }
+      },
+      "topology": {
+        "branch_proxy": {
+          "mean": 0.864,
+          "std": 1.1383632846073066,
+          "median": 1.0
+        },
+        "terminal_proxy": {
+          "mean": 1.904,
+          "std": 0.8928388938227214,
+          "median": 2.0
+        }
+      }
+    },
+    "carbogrove_glycoshape": {
+      "n_glycans": 217,
+      "size": {
+        "n_atoms": {
+          "mean": 129.27188940092165,
+          "std": 86.2700046185034,
+          "median": 99.0
+        },
+        "n_residues": {
+          "mean": 6.207373271889401,
+          "std": 3.397758113519266,
+          "median": 5.0
+        }
+      },
+      "geometry": {
+        "radius_of_gyration": {
+          "mean": 6.531244239631336,
+          "std": 2.3035441755639363,
+          "median": 5.904
+        },
+        "max_pair_distance": {
+          "mean": 20.94952073732719,
+          "std": 8.436051729794123,
+          "median": 19.679
+        },
+        "compactness": {
+          "mean": 0.3184225806451613,
+          "std": 0.024110931837035648,
+          "median": 0.3187
+        }
+      },
+      "topology": {
+        "branch_proxy": {
+          "mean": 1.0599078341013826,
+          "std": 1.5278603990134465,
+          "median": 1.0
+        },
+        "terminal_proxy": {
+          "mean": 2.557603686635945,
+          "std": 0.7862532868595571,
+          "median": 2.0
+        }
+      }
+    }
+  },
+  "composition_statistical_comparisons": {
+    "n_atoms": {
+      "test": "Mann-Whitney U",
+      "statistic": 13371.5,
+      "p_value": 0.8286871980416879,
+      "significant": false,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 111.264,
+      "mean_b": 129.27188940092165
+    },
+    "n_residues": {
+      "test": "Mann-Whitney U",
+      "statistic": 10565.5,
+      "p_value": 0.00057867037967178,
+      "significant": true,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 4.672,
+      "mean_b": 6.207373271889401
+    },
+    "radius_of_gyration": {
+      "test": "Mann-Whitney U",
+      "statistic": 11274.0,
+      "p_value": 0.009364400229430981,
+      "significant": true,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 5.7172480000000006,
+      "mean_b": 6.531244239631336
+    },
+    "max_pair_distance": {
+      "test": "Mann-Whitney U",
+      "statistic": 11765.5,
+      "p_value": 0.04132397720115221,
+      "significant": true,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 18.443104,
+      "mean_b": 20.94952073732719
+    },
+    "compactness": {
+      "test": "Mann-Whitney U",
+      "statistic": 11801.0,
+      "p_value": 0.04550482980838802,
+      "significant": true,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 0.31381039999999993,
+      "mean_b": 0.3184225806451613
+    },
+    "branch_proxy": {
+      "test": "Mann-Whitney U",
+      "statistic": 13259.5,
+      "p_value": 0.7100810873333528,
+      "significant": false,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 0.864,
+      "mean_b": 1.0599078341013826
+    },
+    "terminal_proxy": {
+      "test": "Mann-Whitney U",
+      "statistic": 8884.0,
+      "p_value": 4.114995784325695e-09,
+      "significant": true,
+      "source_a": "targeted_sugarbind",
+      "source_b": "carbogrove_glycoshape",
+      "mean_a": 1.904,
+      "mean_b": 2.557603686635945
+    }
+  },
+  "agent_overlap": {
+    "agents_per_source": {
+      "ASNLinked": 14,
+      "ASYMN": 11,
+      "CEMAOGalNAc": 1,
+      "CFG": 63,
+      "FeiziCLL": 2,
+      "GHMO": 5,
+      "Man6P": 1,
+      "Microbial": 12,
+      "NCFG": 12,
+      "NGGM-TM": 3,
+      "PolyLacNAc": 4,
+      "Schistosoma": 1,
+      "SialoGlycanNGL": 1,
+      "ZBiotech": 27,
+      "sugarbind": 539
+    },
+    "total_unique_agents": 614,
+    "shared_sugarbind_CFG": 0,
+    "jaccard_sugarbind_CFG": 0.0,
+    "shared_sugarbind_ASYMN": 0,
+    "jaccard_sugarbind_ASYMN": 0.0,
+    "shared_sugarbind_FeiziCLL": 0,
+    "jaccard_sugarbind_FeiziCLL": 0.0,
+    "shared_sugarbind_NCFG": 0,
+    "jaccard_sugarbind_NCFG": 0.0,
+    "shared_sugarbind_PolyLacNAc": 0,
+    "jaccard_sugarbind_PolyLacNAc": 0.0,
+    "shared_sugarbind_ZBiotech": 0,
+    "jaccard_sugarbind_ZBiotech": 0.0,
+    "shared_sugarbind_ASNLinked": 0,
+    "jaccard_sugarbind_ASNLinked": 0.0,
+    "shared_sugarbind_Microbial": 0,
+    "jaccard_sugarbind_Microbial": 0.0,
+    "shared_sugarbind_GHMO": 0,
+    "jaccard_sugarbind_GHMO": 0.0,
+    "shared_sugarbind_CEMAOGalNAc": 0,
+    "jaccard_sugarbind_CEMAOGalNAc": 0.0,
+    "shared_sugarbind_NGGM-TM": 0,
+    "jaccard_sugarbind_NGGM-TM": 0.0,
+    "shared_sugarbind_Man6P": 0,
+    "jaccard_sugarbind_Man6P": 0.0,
+    "shared_sugarbind_Schistosoma": 0,
+    "jaccard_sugarbind_Schistosoma": 0.0,
+    "shared_sugarbind_SialoGlycanNGL": 0,
+    "jaccard_sugarbind_SialoGlycanNGL": 0.0,
+    "shared_CFG_ASYMN": 9,
+    "jaccard_CFG_ASYMN": 0.13846153846153847,
+    "shared_CFG_FeiziCLL": 2,
+    "jaccard_CFG_FeiziCLL": 0.031746031746031744,
+    "shared_CFG_NCFG": 10,
+    "jaccard_CFG_NCFG": 0.15384615384615385,
+    "shared_CFG_PolyLacNAc": 4,
+    "jaccard_CFG_PolyLacNAc": 0.06349206349206349,
+    "shared_CFG_ZBiotech": 23,
+    "jaccard_CFG_ZBiotech": 0.34328358208955223,
+    "shared_CFG_ASNLinked": 11,
+    "jaccard_CFG_ASNLinked": 0.16666666666666666,
+    "shared_CFG_Microbial": 10,
+    "jaccard_CFG_Microbial": 0.15384615384615385,
+    "shared_CFG_GHMO": 3,
+    "jaccard_CFG_GHMO": 0.046153846153846156,
+    "shared_CFG_CEMAOGalNAc": 1,
+    "jaccard_CFG_CEMAOGalNAc": 0.015873015873015872,
+    "shared_CFG_NGGM-TM": 2,
+    "jaccard_CFG_NGGM-TM": 0.03125,
+    "shared_CFG_Man6P": 1,
+    "jaccard_CFG_Man6P": 0.015873015873015872,
+    "shared_CFG_Schistosoma": 1,
+    "jaccard_CFG_Schistosoma": 0.015873015873015872,
+    "shared_CFG_SialoGlycanNGL": 0,
+    "jaccard_CFG_SialoGlycanNGL": 0.0,
+    "shared_ASYMN_FeiziCLL": 2,
+    "jaccard_ASYMN_FeiziCLL": 0.18181818181818182,
+    "shared_ASYMN_NCFG": 4,
+    "jaccard_ASYMN_NCFG": 0.21052631578947367,
+    "shared_ASYMN_PolyLacNAc": 3,
+    "jaccard_ASYMN_PolyLacNAc": 0.25,
+    "shared_ASYMN_ZBiotech": 6,
+    "jaccard_ASYMN_ZBiotech": 0.1875,
+    "shared_ASYMN_ASNLinked": 5,
+    "jaccard_ASYMN_ASNLinked": 0.25,
+    "shared_ASYMN_Microbial": 3,
+    "jaccard_ASYMN_Microbial": 0.15,
+    "shared_ASYMN_GHMO": 1,
+    "jaccard_ASYMN_GHMO": 0.06666666666666667,
+    "shared_ASYMN_CEMAOGalNAc": 0,
+    "jaccard_ASYMN_CEMAOGalNAc": 0.0,
+    "shared_ASYMN_NGGM-TM": 1,
+    "jaccard_ASYMN_NGGM-TM": 0.07692307692307693,
+    "shared_ASYMN_Man6P": 0,
+    "jaccard_ASYMN_Man6P": 0.0,
+    "shared_ASYMN_Schistosoma": 0,
+    "jaccard_ASYMN_Schistosoma": 0.0,
+    "shared_ASYMN_SialoGlycanNGL": 0,
+    "jaccard_ASYMN_SialoGlycanNGL": 0.0,
+    "shared_FeiziCLL_NCFG": 2,
+    "jaccard_FeiziCLL_NCFG": 0.16666666666666666,
+    "shared_FeiziCLL_PolyLacNAc": 1,
+    "jaccard_FeiziCLL_PolyLacNAc": 0.2,
+    "shared_FeiziCLL_ZBiotech": 2,
+    "jaccard_FeiziCLL_ZBiotech": 0.07407407407407407,
+    "shared_FeiziCLL_ASNLinked": 1,
+    "jaccard_FeiziCLL_ASNLinked": 0.06666666666666667,
+    "shared_FeiziCLL_Microbial": 0,
+    "jaccard_FeiziCLL_Microbial": 0.0,
+    "shared_FeiziCLL_GHMO": 1,
+    "jaccard_FeiziCLL_GHMO": 0.16666666666666666,
+    "shared_FeiziCLL_CEMAOGalNAc": 0,
+    "jaccard_FeiziCLL_CEMAOGalNAc": 0.0,
+    "shared_FeiziCLL_NGGM-TM": 1,
+    "jaccard_FeiziCLL_NGGM-TM": 0.25,
+    "shared_FeiziCLL_Man6P": 0,
+    "jaccard_FeiziCLL_Man6P": 0.0,
+    "shared_FeiziCLL_Schistosoma": 0,
+    "jaccard_FeiziCLL_Schistosoma": 0.0,
+    "shared_FeiziCLL_SialoGlycanNGL": 0,
+    "jaccard_FeiziCLL_SialoGlycanNGL": 0.0,
+    "shared_NCFG_PolyLacNAc": 2,
+    "jaccard_NCFG_PolyLacNAc": 0.14285714285714285,
+    "shared_NCFG_ZBiotech": 9,
+    "jaccard_NCFG_ZBiotech": 0.3,
+    "shared_NCFG_ASNLinked": 7,
+    "jaccard_NCFG_ASNLinked": 0.3684210526315789,
+    "shared_NCFG_Microbial": 2,
+    "jaccard_NCFG_Microbial": 0.09090909090909091,
+    "shared_NCFG_GHMO": 2,
+    "jaccard_NCFG_GHMO": 0.13333333333333333,
+    "shared_NCFG_CEMAOGalNAc": 0,
+    "jaccard_NCFG_CEMAOGalNAc": 0.0,
+    "shared_NCFG_NGGM-TM": 2,
+    "jaccard_NCFG_NGGM-TM": 0.15384615384615385,
+    "shared_NCFG_Man6P": 0,
+    "jaccard_NCFG_Man6P": 0.0,
+    "shared_NCFG_Schistosoma": 0,
+    "jaccard_NCFG_Schistosoma": 0.0,
+    "shared_NCFG_SialoGlycanNGL": 0,
+    "jaccard_NCFG_SialoGlycanNGL": 0.0,
+    "shared_PolyLacNAc_ZBiotech": 4,
+    "jaccard_PolyLacNAc_ZBiotech": 0.14814814814814814,
+    "shared_PolyLacNAc_ASNLinked": 2,
+    "jaccard_PolyLacNAc_ASNLinked": 0.125,
+    "shared_PolyLacNAc_Microbial": 3,
+    "jaccard_PolyLacNAc_Microbial": 0.23076923076923078,
+    "shared_PolyLacNAc_GHMO": 0,
+    "jaccard_PolyLacNAc_GHMO": 0.0,
+    "shared_PolyLacNAc_CEMAOGalNAc": 0,
+    "jaccard_PolyLacNAc_CEMAOGalNAc": 0.0,
+    "shared_PolyLacNAc_NGGM-TM": 0,
+    "jaccard_PolyLacNAc_NGGM-TM": 0.0,
+    "shared_PolyLacNAc_Man6P": 0,
+    "jaccard_PolyLacNAc_Man6P": 0.0,
+    "shared_PolyLacNAc_Schistosoma": 0,
+    "jaccard_PolyLacNAc_Schistosoma": 0.0,
+    "shared_PolyLacNAc_SialoGlycanNGL": 0,
+    "jaccard_PolyLacNAc_SialoGlycanNGL": 0.0,
+    "shared_ZBiotech_ASNLinked": 6,
+    "jaccard_ZBiotech_ASNLinked": 0.17142857142857143,
+    "shared_ZBiotech_Microbial": 7,
+    "jaccard_ZBiotech_Microbial": 0.21875,
+    "shared_ZBiotech_GHMO": 2,
+    "jaccard_ZBiotech_GHMO": 0.06666666666666667,
+    "shared_ZBiotech_CEMAOGalNAc": 1,
+    "jaccard_ZBiotech_CEMAOGalNAc": 0.037037037037037035,
+    "shared_ZBiotech_NGGM-TM": 3,
+    "jaccard_ZBiotech_NGGM-TM": 0.1111111111111111,
+    "shared_ZBiotech_Man6P": 0,
+    "jaccard_ZBiotech_Man6P": 0.0,
+    "shared_ZBiotech_Schistosoma": 0,
+    "jaccard_ZBiotech_Schistosoma": 0.0,
+    "shared_ZBiotech_SialoGlycanNGL": 0,
+    "jaccard_ZBiotech_SialoGlycanNGL": 0.0,
+    "shared_ASNLinked_Microbial": 2,
+    "jaccard_ASNLinked_Microbial": 0.08333333333333333,
+    "shared_ASNLinked_GHMO": 1,
+    "jaccard_ASNLinked_GHMO": 0.05555555555555555,
+    "shared_ASNLinked_CEMAOGalNAc": 0,
+    "jaccard_ASNLinked_CEMAOGalNAc": 0.0,
+    "shared_ASNLinked_NGGM-TM": 1,
+    "jaccard_ASNLinked_NGGM-TM": 0.0625,
+    "shared_ASNLinked_Man6P": 0,
+    "jaccard_ASNLinked_Man6P": 0.0,
+    "shared_ASNLinked_Schistosoma": 0,
+    "jaccard_ASNLinked_Schistosoma": 0.0,
+    "shared_ASNLinked_SialoGlycanNGL": 0,
+    "jaccard_ASNLinked_SialoGlycanNGL": 0.0,
+    "shared_Microbial_GHMO": 1,
+    "jaccard_Microbial_GHMO": 0.0625,
+    "shared_Microbial_CEMAOGalNAc": 0,
+    "jaccard_Microbial_CEMAOGalNAc": 0.0,
+    "shared_Microbial_NGGM-TM": 0,
+    "jaccard_Microbial_NGGM-TM": 0.0,
+    "shared_Microbial_Man6P": 0,
+    "jaccard_Microbial_Man6P": 0.0,
+    "shared_Microbial_Schistosoma": 0,
+    "jaccard_Microbial_Schistosoma": 0.0,
+    "shared_Microbial_SialoGlycanNGL": 0,
+    "jaccard_Microbial_SialoGlycanNGL": 0.0,
+    "shared_GHMO_CEMAOGalNAc": 0,
+    "jaccard_GHMO_CEMAOGalNAc": 0.0,
+    "shared_GHMO_NGGM-TM": 1,
+    "jaccard_GHMO_NGGM-TM": 0.14285714285714285,
+    "shared_GHMO_Man6P": 0,
+    "jaccard_GHMO_Man6P": 0.0,
+    "shared_GHMO_Schistosoma": 0,
+    "jaccard_GHMO_Schistosoma": 0.0,
+    "shared_GHMO_SialoGlycanNGL": 0,
+    "jaccard_GHMO_SialoGlycanNGL": 0.0,
+    "shared_CEMAOGalNAc_NGGM-TM": 0,
+    "jaccard_CEMAOGalNAc_NGGM-TM": 0.0,
+    "shared_CEMAOGalNAc_Man6P": 0,
+    "jaccard_CEMAOGalNAc_Man6P": 0.0,
+    "shared_CEMAOGalNAc_Schistosoma": 0,
+    "jaccard_CEMAOGalNAc_Schistosoma": 0.0,
+    "shared_CEMAOGalNAc_SialoGlycanNGL": 0,
+    "jaccard_CEMAOGalNAc_SialoGlycanNGL": 0.0,
+    "shared_NGGM-TM_Man6P": 0,
+    "jaccard_NGGM-TM_Man6P": 0.0,
+    "shared_NGGM-TM_Schistosoma": 0,
+    "jaccard_NGGM-TM_Schistosoma": 0.0,
+    "shared_NGGM-TM_SialoGlycanNGL": 0,
+    "jaccard_NGGM-TM_SialoGlycanNGL": 0.0,
+    "shared_Man6P_Schistosoma": 1,
+    "jaccard_Man6P_Schistosoma": 1.0,
+    "shared_Man6P_SialoGlycanNGL": 0,
+    "jaccard_Man6P_SialoGlycanNGL": 0.0,
+    "shared_Schistosoma_SialoGlycanNGL": 0,
+    "jaccard_Schistosoma_SialoGlycanNGL": 0.0
+  },
+  "annotation_density": {
+    "by_label_source": {
+      "ASNLinked": {
+        "unique_glycans": 22,
+        "unique_agents": 14,
+        "pairs": 122,
+        "pairs_per_agent": 8.714285714285714,
+        "pairs_per_glycan": 5.545454545454546
+      },
+      "ASYMN": {
+        "unique_glycans": 31,
+        "unique_agents": 11,
+        "pairs": 128,
+        "pairs_per_agent": 11.636363636363637,
+        "pairs_per_glycan": 4.129032258064516
+      },
+      "CEMAOGalNAc": {
+        "unique_glycans": 4,
+        "unique_agents": 1,
+        "pairs": 4,
+        "pairs_per_agent": 4.0,
+        "pairs_per_glycan": 1.0
+      },
+      "CFG": {
+        "unique_glycans": 224,
+        "unique_agents": 63,
+        "pairs": 1763,
+        "pairs_per_agent": 27.984126984126984,
+        "pairs_per_glycan": 7.870535714285714
+      },
+      "FeiziCLL": {
+        "unique_glycans": 4,
+        "unique_agents": 2,
+        "pairs": 4,
+        "pairs_per_agent": 2.0,
+        "pairs_per_glycan": 1.0
+      },
+      "GHMO": {
+        "unique_glycans": 2,
+        "unique_agents": 5,
+        "pairs": 7,
+        "pairs_per_agent": 1.4,
+        "pairs_per_glycan": 3.5
+      },
+      "Man6P": {
+        "unique_glycans": 4,
+        "unique_agents": 1,
+        "pairs": 4,
+        "pairs_per_agent": 4.0,
+        "pairs_per_glycan": 1.0
+      },
+      "Microbial": {
+        "unique_glycans": 17,
+        "unique_agents": 12,
+        "pairs": 32,
+        "pairs_per_agent": 2.6666666666666665,
+        "pairs_per_glycan": 1.8823529411764706
+      },
+      "NCFG": {
+        "unique_glycans": 23,
+        "unique_agents": 12,
+        "pairs": 32,
+        "pairs_per_agent": 2.6666666666666665,
+        "pairs_per_glycan": 1.391304347826087
+      },
+      "NGGM-TM": {
+        "unique_glycans": 5,
+        "unique_agents": 3,
+        "pairs": 7,
+        "pairs_per_agent": 2.3333333333333335,
+        "pairs_per_glycan": 1.4
+      },
+      "PolyLacNAc": {
+        "unique_glycans": 3,
+        "unique_agents": 4,
+        "pairs": 6,
+        "pairs_per_agent": 1.5,
+        "pairs_per_glycan": 2.0
+      },
+      "Schistosoma": {
+        "unique_glycans": 1,
+        "unique_agents": 1,
+        "pairs": 1,
+        "pairs_per_agent": 1.0,
+        "pairs_per_glycan": 1.0
+      },
+      "SialoGlycanNGL": {
+        "unique_glycans": 7,
+        "unique_agents": 1,
+        "pairs": 7,
+        "pairs_per_agent": 7.0,
+        "pairs_per_glycan": 1.0
+      },
+      "ZBiotech": {
+        "unique_glycans": 43,
+        "unique_agents": 27,
+        "pairs": 129,
+        "pairs_per_agent": 4.777777777777778,
+        "pairs_per_glycan": 3.0
+      },
+      "sugarbind": {
+        "unique_glycans": 125,
+        "unique_agents": 539,
+        "pairs": 758,
+        "pairs_per_agent": 1.4063079777365493,
+        "pairs_per_glycan": 6.064
+      }
+    },
+    "by_glycan_source": {
+      "carbogrove_glycoshape": {
+        "unique_glycans": 217,
+        "unique_agents": 72,
+        "pairs": 1711,
+        "pairs_per_agent": 23.76388888888889,
+        "pairs_per_glycan": 7.88479262672811
+      },
+      "targeted_sugarbind": {
+        "unique_glycans": 125,
+        "unique_agents": 600,
+        "pairs": 1293,
+        "pairs_per_agent": 2.155,
+        "pairs_per_glycan": 10.344
+      }
+    }
+  },
+  "transfer_performance": {
+    "cfg_to_sugarbind": {
+      "source_train": "CFG",
+      "source_test": "sugarbind",
+      "n_agents_evaluated": 71,
+      "mrr": 0.38524273089517497,
+      "recall@5": 0.33802816901408445,
+      "recall@10": 0.47183098591549294,
+      "auprc_lb": 0.29720693239117907,
+      "mrr_ci_lower": 0.2916320101984456,
+      "mrr_ci_upper": 0.47868334763482856,
+      "recall@5_ci_lower": 0.24994131455399066,
+      "recall@5_ci_upper": 0.44134389671361496,
+      "recall@10_ci_lower": 0.39436619718309857,
+      "recall@10_ci_upper": 0.5610622065727698,
+      "auprc_lb_ci_lower": 0.23548676937676985,
+      "auprc_lb_ci_upper": 0.3712815447701594
+    },
+    "sugarbind_to_cfg": {
+      "source_train": "sugarbind",
+      "source_test": "CFG",
+      "n_agents_evaluated": 40,
+      "mrr": 0.18663154808782229,
+      "recall@5": 0.06217947330447331,
+      "recall@10": 0.09254326338865812,
+      "auprc_lb": 0.08924834238673661,
+      "mrr_ci_lower": 0.11581929956136768,
+      "mrr_ci_upper": 0.2732859176599741,
+      "recall@5_ci_lower": 0.02463314393939394,
+      "recall@5_ci_upper": 0.10149556727994227,
+      "recall@10_ci_lower": 0.053568335885605625,
+      "recall@10_ci_upper": 0.1431745971042846,
+      "auprc_lb_ci_lower": 0.06502990534839201,
+      "auprc_lb_ci_upper": 0.11626180256383671
+    },
+    "cfg_to_sugarbind_ci": {
+      "mrr": {
+        "mean": 0.38524273089517497,
+        "std": 0.39394988638975786,
+        "ci_lower": 0.2916320101984456,
+        "ci_upper": 0.47868334763482856,
+        "bootstrap_std": 0.046493916387204445,
+        "n_agents": 71
+      },
+      "recall@5": {
+        "mean": 0.33802816901408445,
+        "std": 0.3933343588212893,
+        "ci_lower": 0.24994131455399066,
+        "ci_upper": 0.44134389671361496,
+        "bootstrap_std": 0.04702102796992296,
+        "n_agents": 71
+      },
+      "recall@10": {
+        "mean": 0.47183098591549294,
+        "std": 0.3641676636388602,
+        "ci_lower": 0.39436619718309857,
+        "ci_upper": 0.5610622065727698,
+        "bootstrap_std": 0.042180442656766896,
+        "n_agents": 71
+      },
+      "auprc_lb": {
+        "mean": 0.29720693239117907,
+        "std": 0.3027252737454837,
+        "ci_lower": 0.23548676937676985,
+        "ci_upper": 0.3712815447701594,
+        "bootstrap_std": 0.034957355723737225,
+        "n_agents": 71
+      }
+    },
+    "sugarbind_to_cfg_ci": {
+      "mrr": {
+        "mean": 0.18663154808782229,
+        "std": 0.24941497981963923,
+        "ci_lower": 0.11581929956136768,
+        "ci_upper": 0.2732859176599741,
+        "bootstrap_std": 0.03972608558203288,
+        "n_agents": 40
+      },
+      "recall@5": {
+        "mean": 0.06217947330447331,
+        "std": 0.12366749254515602,
+        "ci_lower": 0.02463314393939394,
+        "ci_upper": 0.10149556727994227,
+        "bootstrap_std": 0.01964386157946539,
+        "n_agents": 40
+      },
+      "recall@10": {
+        "mean": 0.09254326338865812,
+        "std": 0.1494090739199835,
+        "ci_lower": 0.053568335885605625,
+        "ci_upper": 0.1431745971042846,
+        "bootstrap_std": 0.023303570535875756,
+        "n_agents": 40
+      },
+      "auprc_lb": {
+        "mean": 0.08924834238673661,
+        "std": 0.0837088653046494,
+        "ci_lower": 0.06502990534839201,
+        "ci_upper": 0.11626180256383671,
+        "bootstrap_std": 0.013274119685872497,
+        "n_agents": 40
+      }
+    }
+  }
+}

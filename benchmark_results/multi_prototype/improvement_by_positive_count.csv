@@ -1,0 +1,7 @@
+,mrr_delta,mrr_delta,mrr_delta,mrr_delta,improved
+,mean,median,std,count,sum
+n_pos_bin,,,,,
+2,0.0,0.0,0.0,75,0
+3-5,0.272,0.2512,0.1629,51,46
+6-10,0.1168,0.0912,0.0962,12,7
+>10,0.0222,0.0139,0.0412,58,10

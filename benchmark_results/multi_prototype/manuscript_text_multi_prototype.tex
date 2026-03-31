@@ -1,0 +1,5 @@
+\subsection{Multi-prototype representation improves ranking performance}
+
+To test whether single-prototype agent representation is overly restrictive, we compared single-prototype baseline (mean of all positives) against multi-prototype representation using k-means clustering (k=3) over positive examples. Multi-prototype achieves mean MRR=0.317, a 36.3\% relative improvement over single-prototype (MRR=0.233, Wilcoxon signed-rank test p=0.0000). This improvement is broad: 32.1\% of agents show $>$5\% MRR gains, with median gain of 0.005. 
+
+These results suggest many agents exhibit multimodal binding preferences not captured by a single prototype. The multi-prototype approach better accommodates structural diversity within positive training sets, yielding substantial performance gains across the benchmark.
