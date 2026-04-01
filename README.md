@@ -226,17 +226,6 @@ Benchmark data is released under CC-BY 4.0.
 
 ---
 
-## Documentation
-
-- **[Installation Guide](docs/installation.md)** - Detailed setup instructions
-- **[Quick Start Tutorial](docs/quickstart.md)** - Step-by-step walkthrough
-- **[Benchmark Schema](docs/benchmark_schema.md)** - Result format specification
-- **[Data Sources](docs/data_sources.md)** - Source documentation and provenance
-- **[Reproducibility Guide](docs/reproducibility.md)** - How to reproduce paper results
-- **[API Reference](docs/api_reference.md)** - Code documentation
-
----
-
 ## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](docs/contributing.md) for guidelines.
