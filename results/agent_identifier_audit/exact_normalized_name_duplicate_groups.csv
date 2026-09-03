@@ -1,0 +1,27 @@
+normalized_name,duplicate_group_size,agent_ids,display_names
+escherichiacolins,22,AGE133;AGE134;AGE135;AGE136;AGE137;AGE138;AGE139;AGE140;AGE141;AGE142;AGE143;AGE144;AGE145;AGE146;AGE147;AGE148;AGE149;AGE150;AGE151;AGE152;AGE549;AGE550,Escherichia coli N/S
+pseudomonasaeruginosans,8,AGE429;AGE430;AGE431;AGE432;AGE433;AGE434;AGE435;AGE436,Pseudomonas aeruginosa N/S
+helicobacterpylorins,6,AGE211;AGE213;AGE214;AGE215;AGE216;AGE217,Helicobacter pylori N/S
+vibriocholeraenstoxin,6,AGE528;AGE530;AGE532;AGE534;AGE536;AGE538,Vibrio cholerae N/S Toxin
+clostridiumtetaninstetanusneurotoxin,5,AGE87;AGE89;AGE91;AGE93;AGE95,Clostridium tetani N/S Tetanus neurotoxin
+escherichiacolinsheatlabileenterotoxin,5,AGE154;AGE156;AGE158;AGE160;AGE162,Escherichia coli N/S Heat-labile enterotoxin
+streptococcuspneumoniaens,5,AGE498;AGE499;AGE500;AGE501;AGE502,Streptococcus pneumoniae N/S
+klebsiellapneumoniaens,4,AGE349;AGE350;AGE351;AGE352,Klebsiella pneumoniae N/S
+actinomycesnaeslundiins,3,AGE10;AGE7;AGE8,Actinomyces naeslundii N/S
+haemophilusinfluenzaens,3,AGE185;AGE186;AGE187,Haemophilus influenzae N/S
+influenzavirusainfluenzaavirusns,3,AGE239;AGE240;AGE241,Influenzavirus A influenza A virus N/S
+neisseriagonorrhoeaens,3,AGE378;AGE379;AGE380,Neisseria gonorrhoeae N/S
+plasmodiumfalciparumns,3,AGE409;AGE410;AGE411,Plasmodium falciparum N/S
+streptococcussuisns,3,AGE509;AGE510;AGE511,Streptococcus suis N/S
+toxoplasmagondiins,3,AGE514;AGE515;AGE516,Toxoplasma gondii N/S
+actinomycesnaeslundiiwvu45,2,AGE12;AGE9,Actinomyces naeslundii WVU45
+entamoebahistolyticans,2,AGE108;AGE109,Entamoeba histolytica N/S
+escherichiacolinsshigatoxin2e,2,AGE172;AGE174,Escherichia coli N/S Shiga toxin 2e
+helicobacterpyloriccug17875,2,AGE204;AGE206,Helicobacter pylori CCUG 17875
+influenzavirusainfluenzaavirush4n6subtypeamallardnewyork67078,2,AGE273;AGE274,Influenzavirus A influenza A virus H4N6 subtype A/Mallard/New York/670/78;Influenzavirus A influenza A virus H4N6 subtype A/Mallard/NewYork/670/78
+legionellapneumophilans,2,AGE360;AGE361,Legionella pneumophila N/S
+mycoplasmapneumoniaens,2,AGE368;AGE369,Mycoplasma pneumoniae N/S
+propionibacteriumgranulosumns,2,AGE416;AGE417,Propionibacterium granulosum N/S
+salmonellatyphimuriumns,2,AGE451;AGE452,Salmonella typhimurium N/S
+streptococcusmitisns,2,AGE492;AGE493,Streptococcus mitis N/S
+streptococcussanguinisns,2,AGE504;AGE505,Streptococcus sanguinis N/S

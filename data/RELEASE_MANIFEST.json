@@ -1,0 +1,50 @@
+{
+  "cfg_status_file": "CFG_DATA_STATUS.json",
+  "counts": {
+    "agent_folds": 645,
+    "candidate_glycans": 44,
+    "candidate_positive_relations": 697,
+    "candidate_rows": 6996,
+    "cfg_catalogue_pages": 604,
+    "cfg_catalogue_records": 6035,
+    "eligible_evidence_records": 1263,
+    "evaluable_agents": 159,
+    "excluded_from_structure_supported_universe": 462,
+    "excluded_resolved_glycans": 129,
+    "identifier_resolved_agents": 385,
+    "identifier_resolved_glycans": 173,
+    "identifier_resolved_records": 1258,
+    "identifier_resolved_relations": 1201,
+    "joinable_agents": 227,
+    "joinable_evidence_records": 801,
+    "joinable_glycans": 44,
+    "joinable_relations": 765,
+    "positive_evidence_records": 1263,
+    "raw_evidence_records": 1263,
+    "source_agent_ligand_relations": 1212,
+    "source_agents": 386,
+    "source_ligand_identifiers": 204,
+    "structure_models": 220,
+    "valid_structures": 44
+  },
+  "cross_source_analysis": "not_estimable_without_quantitative_CFG_evidence",
+  "evaluation": {
+    "agent_bootstrap_replicates": 2000,
+    "candidate_manifest": "candidate_manifest.csv",
+    "null_repeats": 100,
+    "positive_fold_manifest": "positive_holdout_folds.csv",
+    "primary_protocol": "positive_holdout_protocol.json",
+    "primary_results": "results/summary/primary_results.csv",
+    "scaffold_manifest": "scaffold_folds.csv"
+  },
+  "historical_cfg_rfu_and_thresholds": "unrecoverable",
+  "metadata_only_sources": [
+    "CFG experiment catalogue"
+  ],
+  "original_release_recovered": false,
+  "quantitative_evidence_sources": [
+    "SugarBind"
+  ],
+  "release_id": "glycoaudit_data",
+  "release_type": "public_dataset"
+}

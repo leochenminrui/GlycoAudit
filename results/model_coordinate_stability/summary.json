@@ -1,0 +1,5 @@
+{
+  "fraction_agents_with_SSV_vs_GCV_MRR_ordering_change": 0.7924528301886793,
+  "n_pairwise_model_comparisons": 12900,
+  "scope": "downloaded GlycoShape level-1 model-index sensitivity; no population weighting or solution-state ensemble interpretation"
+}

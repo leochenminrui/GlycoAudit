@@ -1,0 +1,6 @@
+{
+  "bootstrap_replicates": 10000,
+  "holm_family": "six direct representation comparisons",
+  "seed": 20260831,
+  "test": "two-sided agent-paired sign-flip randomization"
+}

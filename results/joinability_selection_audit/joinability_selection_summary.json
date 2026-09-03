@@ -1,0 +1,9 @@
+{
+  "analysis_universe": "resolved GlyTouCan accessions only; unresolved source identifiers excluded",
+  "interpretation": "Strict structure availability selects a chemically and/or annotation-distinct subset; observed differences are descriptive selection and curation differences, not causal effects.",
+  "multiple_testing": "Holm adjustment across four continuous descriptive comparisons",
+  "n_joinable": 44,
+  "n_nonjoinable": 129,
+  "n_resolved_glycans": 173,
+  "unresolved_source_identifiers": 5
+}

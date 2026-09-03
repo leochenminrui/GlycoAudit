@@ -1,0 +1,77 @@
+{
+  "decision": "The data directory retains its original 100-repeat run; the 1,000-repeat high-resolution analysis is authoritative for the reported null statistics.",
+  "rows": [
+    {
+      "feature_permutation_mean": 0.12051871891342762,
+      "feature_permutation_sd": 0.0479296927689299,
+      "holm_feature_permutation_p": 0.07192807192807193,
+      "metric": "MRR",
+      "random_mean": 0.10956296305768304,
+      "random_sd": 0.007258112555322905,
+      "raw_feature_permutation_p": 0.017982017982017984,
+      "repeat_count": 1000,
+      "representation": "SSV",
+      "seed": 42
+    },
+    {
+      "feature_permutation_mean": 0.14319601677148847,
+      "feature_permutation_sd": 0.0891789984096007,
+      "holm_feature_permutation_p": 0.08091908091908091,
+      "metric": "Recall@5",
+      "random_mean": 0.12287746331236897,
+      "random_sd": 0.01389060255302909,
+      "raw_feature_permutation_p": 0.026973026973026972,
+      "repeat_count": 1000,
+      "representation": "SSV",
+      "seed": 42
+    },
+    {
+      "feature_permutation_mean": 0.11583526554210484,
+      "feature_permutation_sd": 0.04748289161776698,
+      "holm_feature_permutation_p": 0.4955044955044955,
+      "metric": "MRR",
+      "random_mean": 0.10956296305768304,
+      "random_sd": 0.007258112555322905,
+      "raw_feature_permutation_p": 0.24775224775224775,
+      "repeat_count": 1000,
+      "representation": "GCV 4.5 A",
+      "seed": 42
+    },
+    {
+      "feature_permutation_mean": 0.13288972746331237,
+      "feature_permutation_sd": 0.08416986075751418,
+      "holm_feature_permutation_p": 0.4955044955044955,
+      "metric": "Recall@5",
+      "random_mean": 0.12287746331236897,
+      "random_sd": 0.01389060255302909,
+      "raw_feature_permutation_p": 0.32167832167832167,
+      "repeat_count": 1000,
+      "representation": "GCV 4.5 A",
+      "seed": 42
+    },
+    {
+      "feature_permutation_mean": 0.10437062114217509,
+      "feature_permutation_sd": 0.04369153384134806,
+      "holm_feature_permutation_p": 0.005994005994005994,
+      "metric": "MRR",
+      "random_mean": 0.10956296305768304,
+      "random_sd": 0.007258112555322905,
+      "raw_feature_permutation_p": 0.000999000999000999,
+      "repeat_count": 1000,
+      "representation": "WURCS fold-TFIDF",
+      "seed": 42
+    },
+    {
+      "feature_permutation_mean": 0.11647190775681342,
+      "feature_permutation_sd": 0.08236418864527695,
+      "holm_feature_permutation_p": 0.005994005994005994,
+      "metric": "Recall@5",
+      "random_mean": 0.12287746331236897,
+      "random_sd": 0.01389060255302909,
+      "raw_feature_permutation_p": 0.000999000999000999,
+      "repeat_count": 1000,
+      "representation": "WURCS fold-TFIDF",
+      "seed": 42
+    }
+  ]
+}

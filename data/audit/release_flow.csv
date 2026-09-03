@@ -1,0 +1,6 @@
+stage,records,glycans,relations,agents,identifier_basis,rule
+raw_evidence_records,1263,204,1212,386,source ligand identifier,All normalized evidence-table rows
+eligible_evidence,1263,204,1212,386,source ligand identifier,Observed statuses except unmeasured
+identifier_resolved,1258,173,1201,385,resolved GlyTouCan accession,Unique normalized GlyTouCan identifier
+final_joinable,801,44,765,227,resolved GlyTouCan accession,Eligible evidence plus at least one valid structure
+excluded_or_unresolved,462,129,436,242,resolved GlyTouCan accession; unmapped records retained in record and agent counts,Eligible records failing mapping or structure join

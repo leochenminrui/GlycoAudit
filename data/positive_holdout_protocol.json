@@ -1,0 +1,22 @@
+{
+  "candidate_glycans": 44,
+  "candidate_policy": "training positives removed; held-out positives plus unlabeled remain",
+  "candidate_pool_id": "primary_shared_feature_intersection",
+  "evaluable_agents": 159,
+  "feature_tables": [
+    "ssv_features.csv",
+    "gcv_features.csv",
+    "wurcs_features.csv"
+  ],
+  "fold_manifest": "positive_holdout_folds.csv",
+  "minimum_positives": 2,
+  "positive_relations": 697,
+  "protocol": "agent-stratified positive holdout",
+  "prototype_scope": "training positives only",
+  "release_id": "glycoaudit_data",
+  "requested_splits": 5,
+  "scaffold_disjoint": false,
+  "scaffold_manifest": "scaffold_folds.csv",
+  "scaffold_manifest_role": "audit_only",
+  "seed": 42
+}

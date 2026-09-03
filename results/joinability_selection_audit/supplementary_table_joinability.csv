@@ -1,0 +1,2 @@
+analysis_universe,n_resolved_glycans,n_joinable,n_nonjoinable,unresolved_source_identifiers,multiple_testing,interpretation,largest_absolute_smd_feature
+resolved GlyTouCan accessions only; unresolved source identifiers excluded,173,44,129,5,Holm adjustment across four continuous descriptive comparisons,"Strict structure availability selects a chemically and/or annotation-distinct subset; observed differences are descriptive selection and curation differences, not causal effects.",evidence_record_count

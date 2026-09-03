@@ -1,0 +1,24 @@
+{
+  "bootstrap_replicates": 2000,
+  "candidate_manifest": "candidate_manifest.csv",
+  "feature_columns": "inferred numeric columns",
+  "features": "ssv_features.csv",
+  "fold_manifest": "positive_holdout_folds.csv",
+  "ks": [
+    5
+  ],
+  "labels": "evidence_records.csv",
+  "leakage_control": {
+    "candidate_pool": "training positives excluded",
+    "evaluation": "held-out positives only",
+    "preprocessing": "standardize fitted with held-out positive features excluded",
+    "prototype": "training positives only"
+  },
+  "minimum_positives": 3,
+  "n_splits": 5,
+  "null_repeats": 0,
+  "positive_evidence_rule": "evidence_status == positive",
+  "preprocessing": "standardize",
+  "release_id": "glycoaudit_data",
+  "seed": 42
+}

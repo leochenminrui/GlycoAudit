@@ -1,0 +1,18 @@
+{
+  "error_detail": "",
+  "failure_reason": "requested_accession_not_exposed_by_glycoshape_metadata",
+  "glycoshape_branch": "",
+  "glycoshape_branch_glytoucan_id": "",
+  "glycoshape_branch_wurcs": "",
+  "glycoshape_structure_id": "",
+  "license": "CC BY-NC-ND 4.0 for academic use; as stated in GlycoShape PDB REMARK",
+  "metadata_url": "https://glycoshape.org/api/glycan/G82576YO",
+  "model_count": 0,
+  "pdb_returned_glytoucan_id": "",
+  "pdb_sha256": "",
+  "pdb_url": "",
+  "requested_glytoucan_id": "G82576YO",
+  "requested_wurcs": "WURCS=2.0/1,1,0/[a1221m-1x_1-5]/1/",
+  "retrieved_at": "2026-08-04T03:48:22.494320+00:00",
+  "status": "failed"
+}

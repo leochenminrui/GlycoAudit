@@ -1,0 +1,4 @@
+failure_category,n_resolved_glycans,percent_of_nonjoinable
+glycoshape_http_404,95,73.64341085271317
+registry_glycoshape_wurcs_mismatch,5,3.875968992248062
+requested_accession_not_exposed_by_glycoshape_metadata,29,22.48062015503876

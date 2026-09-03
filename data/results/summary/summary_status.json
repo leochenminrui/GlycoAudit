@@ -1,0 +1,21 @@
+{
+  "outputs": [
+    "gcv_cutoff_sensitivity.csv",
+    "minimum_support_sensitivity.csv",
+    "model_sensitivity.csv",
+    "null_controls.csv",
+    "primary_results.csv",
+    "support_strata.csv"
+  ],
+  "dataset": "glycoaudit_data",
+  "source_scope": {
+    "cfg_quantitative_status": "unrecoverable_original_rfu_and_thresholds",
+    "metadata_only": [
+      "CFG experiment catalogue"
+    ],
+    "quantitative_evidence": [
+      "SugarBind"
+    ]
+  },
+  "status": "complete"
+}

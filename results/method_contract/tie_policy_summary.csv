@@ -1,0 +1,4 @@
+representation,status,primary_sort,secondary_key,rank_type,recall_boundary
+WURCS,DOCUMENTED_AND_DETERMINISTIC,descending cosine score,ascending glytoucan_id,ordinal,ordinal rank <= K
+SSV,DOCUMENTED_AND_DETERMINISTIC,descending cosine score,ascending glytoucan_id,ordinal,ordinal rank <= K
+GCV_4_5,DOCUMENTED_AND_DETERMINISTIC,descending cosine score,ascending glytoucan_id,ordinal,ordinal rank <= K

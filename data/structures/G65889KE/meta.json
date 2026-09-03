@@ -1,0 +1,18 @@
+{
+  "error_detail": "",
+  "failure_reason": "",
+  "glycoshape_branch": "beta",
+  "glycoshape_branch_glytoucan_id": "G65889KE",
+  "glycoshape_branch_wurcs": "WURCS=2.0/1,1,0/[a2112h-1b_1-5]/1/",
+  "glycoshape_structure_id": "GS00936",
+  "license": "CC BY-NC-ND 4.0 for academic use; as stated in GlycoShape PDB REMARK",
+  "metadata_url": "https://glycoshape.org/api/glycan/G65889KE",
+  "model_count": 5,
+  "pdb_returned_glytoucan_id": "G65889KE",
+  "pdb_sha256": "8bc1c625eb1dfaca045cd1c116a8e0bb185ec88fc7c4988e64e6a5dff815cc6a",
+  "pdb_url": "https://glycoshape.org/api/structure/PDB/GS00936?level=1&anomer=beta&format=pdb",
+  "requested_glytoucan_id": "G65889KE",
+  "requested_wurcs": "WURCS=2.0/1,1,0/[a2112h-1b_1-5]/1/",
+  "retrieved_at": "2026-08-04T03:48:22.494320+00:00",
+  "status": "ok"
+}

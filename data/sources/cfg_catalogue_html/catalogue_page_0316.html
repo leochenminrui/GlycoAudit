@@ -1,0 +1,2755 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-PQEC6MGEPR"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PQEC6MGEPR');
+    </script>
+
+    <meta charset="utf-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <!-- CSRF Token -->
+    <meta
+        name="csrf-token"
+        content="6HhwAooO1yCUiUAH5wpUATMl1RjbA7dxsdkM9waq"
+    >
+
+    <title>CFG : Glycan Array
+</title>
+
+    <!-- Fonts -->
+    <link
+        rel="dns-prefetch"
+        href="//fonts.gstatic.com"
+    >
+    <link
+        href="https://fonts.googleapis.com/css?family=Ubuntu"
+        rel="stylesheet"
+    >
+
+
+
+    <link rel="preload" as="style" href="https://functionalglycomics.org/build/assets/app-CiCRB16Z.css" /><link rel="modulepreload" as="script" href="https://functionalglycomics.org/build/assets/app-BnrEDzJR.js" /><link rel="modulepreload" as="script" href="https://functionalglycomics.org/build/assets/popper-rThFcGL3.js" /><link rel="stylesheet" href="https://functionalglycomics.org/build/assets/app-CiCRB16Z.css" data-navigate-track="reload" /><script type="module" src="https://functionalglycomics.org/build/assets/app-BnrEDzJR.js" data-navigate-track="reload"></script>
+
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+
+    <script src="https://www.google.com/recaptcha/api.js?hl=&render=6LffIsspAAAAAHSwC_8OflYGu05ar1pvjTDLZtn6"></script>
+</head>
+
+<body>
+    <div
+        id="app"
+        class="d-flex flex-column min-vh-100"
+    >
+
+        <!-- new nav -->
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+            <div class="container-fluid">
+                <a
+                    class="navbar-brand fs-4 text-break"
+                    href="https://functionalglycomics.org"
+                    style="max-width: 75%; white-space:inherit"
+                >
+                    Consortium for Functional Glycomics
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#glybraryNavBarButtons"
+                    aria-controls="glybraryNavBarButtons"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512"
+    style="width: 1em; height: 1em;"
+><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+    <path
+        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+    />
+</svg>                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="glybraryNavBarButtons"
+                >
+
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+
+                    <!-- Right Side of Navbar -->
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="/glycan-array"
+                            >
+                                Glycan Array Data
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="/"
+                            >Home</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+            <div class="container-fluid h-100 v-100">
+                <div>
+    <h2>
+        Glycan Array Experiments
+    </h2>
+
+    <p>
+        This page displays all glycan array experiments which were archived in the database.
+    </p>
+
+    <div>
+        <div wire:snapshot="{&quot;data&quot;:{&quot;tableName&quot;:&quot;gaexp_primaryscreen&quot;,&quot;sortDirection&quot;:&quot;desc&quot;,&quot;primaryKey&quot;:&quot;pscreen_key&quot;,&quot;sortField&quot;:&quot;pscreen_key&quot;,&quot;showFilters&quot;:false,&quot;theme&quot;:[{&quot;name&quot;:&quot;bootstrap5&quot;,&quot;root&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5&quot;,&quot;table&quot;:[{&quot;layout&quot;:[{&quot;base&quot;:&quot;pt-3 px-sm-3 px-lg-5 align-middle d-inline-block&quot;,&quot;div&quot;:&quot;table-responsive col-md-12 my-2 mx-0&quot;,&quot;table&quot;:&quot;table-hover table-striped w-100&quot;,&quot;container&quot;:&quot;my-0 mx-sm-n1 mx-lg-n3 overflow-x-auto&quot;,&quot;actions&quot;:&quot;d-flex gap-1&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;header&quot;:[{&quot;thead&quot;:&quot;&quot;,&quot;tr&quot;:&quot;&quot;,&quot;th&quot;:&quot;fw-bold text-secondary text-nowrap small py-2&quot;,&quot;thAction&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;body&quot;:[{&quot;tbody&quot;:&quot;table-group-divider&quot;,&quot;tbodyEmpty&quot;:&quot;&quot;,&quot;tr&quot;:&quot;&quot;,&quot;td&quot;:&quot;align-middle text-nowrap px-3 py-2 lh-sm&quot;,&quot;tdEmpty&quot;:&quot;p-2 text-nowrap&quot;,&quot;tdSummarize&quot;:&quot;text-dark-emphasis small px-3 py-2 lh-sm&quot;,&quot;trSummarize&quot;:&quot;&quot;,&quot;tdFilters&quot;:&quot;&quot;,&quot;trFilters&quot;:&quot;&quot;,&quot;tdActionsContainer&quot;:&quot;d-flex gap-1&quot;},{&quot;s&quot;:&quot;arr&quot;}]},{&quot;s&quot;:&quot;arr&quot;}],&quot;footer&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.footer&quot;,&quot;select&quot;:&quot;&quot;,&quot;footer&quot;:&quot;mt-50 pb-1 w-100 align-items-end px-1 d-flex flex-wrap justify-content-sm-center justify-content-md-between&quot;,&quot;footer_with_pagination&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;cols&quot;:[{&quot;div&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.editable&quot;,&quot;input&quot;:&quot;form-control&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;layout&quot;:[{&quot;table&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.table-base&quot;,&quot;header&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.header&quot;,&quot;pagination&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.pagination&quot;,&quot;footer&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.footer&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;toggleable&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.toggleable&quot;,&quot;base&quot;:&quot;form-check form-switch&quot;,&quot;label&quot;:&quot;form-check-label&quot;,&quot;input&quot;:&quot;form-check-input&quot;,&quot;role&quot;:&quot;switch&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;checkbox&quot;:[{&quot;th&quot;:&quot;fs-6 text-center&quot;,&quot;base&quot;:&quot;form-check&quot;,&quot;label&quot;:&quot;form-check-label&quot;,&quot;input&quot;:&quot;form-check-input&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;radio&quot;:[{&quot;th&quot;:&quot;&quot;,&quot;base&quot;:&quot;form-check&quot;,&quot;label&quot;:&quot;form-check-label&quot;,&quot;input&quot;:&quot;form-check-input&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterBoolean&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.boolean&quot;,&quot;base&quot;:&quot;&quot;,&quot;select&quot;:&quot;form-control form-select form-select-sm&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterDatePicker&quot;:[{&quot;base&quot;:&quot;&quot;,&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.date-picker&quot;,&quot;input&quot;:&quot;form-control form-control-sm&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterMultiSelect&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.multi-select&quot;,&quot;base&quot;:&quot;&quot;,&quot;select&quot;:&quot;form-control form-select form-select-sm&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterNumber&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.number&quot;,&quot;input&quot;:&quot;form-control form-control-sm text-12&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterSelect&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.select&quot;,&quot;base&quot;:&quot;&quot;,&quot;select&quot;:&quot;form-control form-select-sm form-select&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;filterInputText&quot;:[{&quot;view&quot;:&quot;livewire-powergrid::components.frameworks.bootstrap5.filters.input-text&quot;,&quot;base&quot;:&quot;&quot;,&quot;select&quot;:&quot;form-control form-select-sm mb-1 form-select&quot;,&quot;input&quot;:&quot;form-control form-control-sm&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;searchBox&quot;:[{&quot;input&quot;:&quot;col-12 col-sm-8 form-control&quot;,&quot;iconSearch&quot;:&quot;bi bi-search&quot;,&quot;iconClose&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}]},{&quot;s&quot;:&quot;arr&quot;}],&quot;primaryKeyAlias&quot;:null,&quot;ignoreTablePrefix&quot;:true,&quot;setUp&quot;:[{&quot;header&quot;:[{&quot;name&quot;:&quot;header&quot;,&quot;searchInput&quot;:true,&quot;toggleColumns&quot;:true,&quot;softDeletes&quot;:false,&quot;showMessageSoftDeletes&quot;:false,&quot;includeViewOnTop&quot;:&quot;&quot;,&quot;includeViewOnBottom&quot;:&quot;&quot;,&quot;wireLoading&quot;:true},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\SetUp\\Header&quot;,&quot;s&quot;:&quot;wrbl&quot;}],&quot;footer&quot;:[{&quot;name&quot;:&quot;footer&quot;,&quot;perPage&quot;:10,&quot;perPageValues&quot;:[[10,25,50],{&quot;s&quot;:&quot;arr&quot;}],&quot;recordCount&quot;:&quot;full&quot;,&quot;pagination&quot;:null,&quot;includeViewOnTop&quot;:&quot;&quot;,&quot;includeViewOnBottom&quot;:&quot;&quot;,&quot;pageName&quot;:&quot;page&quot;},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\SetUp\\Footer&quot;,&quot;s&quot;:&quot;wrbl&quot;}]},{&quot;s&quot;:&quot;arr&quot;}],&quot;showErrorBag&quot;:false,&quot;rowIndex&quot;:true,&quot;deferLoading&quot;:false,&quot;readyToLoad&quot;:true,&quot;loadingComponent&quot;:&quot;&quot;,&quot;columns&quot;:[[[{&quot;title&quot;:&quot;ID&quot;,&quot;field&quot;:&quot;pscreen_key&quot;,&quot;dataField&quot;:&quot;pscreen_key&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:true,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:true,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:null,&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Primary Screen ID&quot;,&quot;field&quot;:&quot;pscreen_id&quot;,&quot;dataField&quot;:&quot;pscreen_id&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:true,&quot;hidden&quot;:true,&quot;forceHidden&quot;:true,&quot;visibleInExport&quot;:true,&quot;sortable&quot;:true,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:null,&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Primary Screen ID&quot;,&quot;field&quot;:&quot;pscreen_id_link&quot;,&quot;dataField&quot;:&quot;pscreen_id&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:true,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:false,&quot;sortable&quot;:true,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterInputText&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;pscreen_id_link&quot;,&quot;field&quot;:&quot;pscreen_id&quot;,&quot;key&quot;:&quot;input_text&quot;,&quot;operators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;placeholder&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Request&quot;,&quot;field&quot;:&quot;ga_exp_title&quot;,&quot;dataField&quot;:&quot;ga_exp_title&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;white-space:normal; max-width: 25vw&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterInputText&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;ga_exp_title&quot;,&quot;field&quot;:&quot;ga_exp.title&quot;,&quot;key&quot;:&quot;input_text&quot;,&quot;operators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;placeholder&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Sample&quot;,&quot;field&quot;:&quot;sample&quot;,&quot;dataField&quot;:&quot;sample&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:true,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:true,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;white-space:normal; max-width: 25vw&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterInputText&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;sample&quot;,&quot;field&quot;:&quot;sample&quot;,&quot;key&quot;:&quot;input_text&quot;,&quot;operators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;placeholder&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Description&quot;,&quot;field&quot;:&quot;description&quot;,&quot;dataField&quot;:&quot;description&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:true,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;white-space:normal; max-width: 25vw&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:null,&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Category&quot;,&quot;field&quot;:&quot;dissemination_category&quot;,&quot;dataField&quot;:&quot;dissemination_category&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterSelect&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;dissemination_category&quot;,&quot;field&quot;:&quot;dissemination_category&quot;,&quot;key&quot;:&quot;select&quot;,&quot;dataSource&quot;:[null,{&quot;keys&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Collection&quot;,&quot;modelClass&quot;:&quot;App\\Models\\GaexpPrimaryscreen&quot;,&quot;s&quot;:&quot;elcln&quot;}],&quot;optionValue&quot;:&quot;dissemination_category&quot;,&quot;optionLabel&quot;:&quot;dissemination_category&quot;,&quot;depends&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;params&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;computedDatasource&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Glycan Array&quot;,&quot;field&quot;:&quot;glycanarray_ga_name&quot;,&quot;dataField&quot;:&quot;glycanarray_ga_name&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterSelect&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;glycanarray_ga_name&quot;,&quot;field&quot;:&quot;glycanarray.ga_name&quot;,&quot;key&quot;:&quot;select&quot;,&quot;dataSource&quot;:[null,{&quot;keys&quot;:{&quot;16&quot;:null,&quot;14&quot;:null,&quot;5&quot;:null,&quot;4&quot;:null,&quot;1&quot;:null,&quot;6&quot;:null,&quot;9&quot;:null,&quot;7&quot;:null,&quot;10&quot;:null,&quot;15&quot;:null,&quot;13&quot;:null,&quot;8&quot;:null,&quot;12&quot;:null,&quot;11&quot;:null,&quot;2&quot;:null,&quot;3&quot;:null,&quot;0&quot;:null},&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Collection&quot;,&quot;modelClass&quot;:&quot;App\\Models\\Glycanarray&quot;,&quot;s&quot;:&quot;elcln&quot;}],&quot;optionValue&quot;:&quot;ga_name&quot;,&quot;optionLabel&quot;:&quot;ga_name&quot;,&quot;depends&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;params&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;computedDatasource&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Investigator&quot;,&quot;field&quot;:&quot;primaryInvestigator&quot;,&quot;dataField&quot;:&quot;primaryInvestigator&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:null,&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}],[{&quot;title&quot;:&quot;Conclusive&quot;,&quot;field&quot;:&quot;conclusive&quot;,&quot;dataField&quot;:&quot;conclusive&quot;,&quot;placeholder&quot;:&quot;&quot;,&quot;searchable&quot;:true,&quot;enableSort&quot;:false,&quot;hidden&quot;:false,&quot;forceHidden&quot;:false,&quot;visibleInExport&quot;:null,&quot;sortable&quot;:false,&quot;index&quot;:false,&quot;properties&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;isAction&quot;:false,&quot;fixedOnResponsive&quot;:false,&quot;template&quot;:false,&quot;contentClassField&quot;:&quot;&quot;,&quot;contentClasses&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerClass&quot;:&quot;&quot;,&quot;headerStyle&quot;:&quot;&quot;,&quot;bodyClass&quot;:&quot;&quot;,&quot;bodyStyle&quot;:&quot;&quot;,&quot;toggleable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;editable&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filters&quot;:[{&quot;className&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Components\\Filters\\FilterSelect&quot;,&quot;builder&quot;:null,&quot;collection&quot;:null,&quot;component&quot;:&quot;&quot;,&quot;attributes&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;baseClass&quot;:&quot;&quot;,&quot;filterRelation&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;defaultValue&quot;:null,&quot;column&quot;:&quot;conclusive&quot;,&quot;field&quot;:&quot;conclusive&quot;,&quot;key&quot;:&quot;select&quot;,&quot;dataSource&quot;:[null,{&quot;keys&quot;:[null,null],&quot;class&quot;:&quot;Illuminate\\Database\\Eloquent\\Collection&quot;,&quot;modelClass&quot;:&quot;App\\Models\\GaexpPrimaryscreen&quot;,&quot;s&quot;:&quot;elcln&quot;}],&quot;optionValue&quot;:&quot;conclusive&quot;,&quot;optionLabel&quot;:&quot;conclusive&quot;,&quot;depends&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;params&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;computedDatasource&quot;:&quot;&quot;},{&quot;s&quot;:&quot;arr&quot;}],&quot;customContent&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},{&quot;class&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Column&quot;,&quot;s&quot;:&quot;wrbl&quot;}]],{&quot;s&quot;:&quot;arr&quot;}],&quot;headers&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;search&quot;:&quot;&quot;,&quot;currentTable&quot;:&quot;gaexp_primaryscreen&quot;,&quot;totalCurrentPage&quot;:0,&quot;supportModel&quot;:true,&quot;paginateRaw&quot;:false,&quot;measurePerformance&quot;:false,&quot;isExporting&quot;:false,&quot;checkbox&quot;:false,&quot;checkboxAll&quot;:false,&quot;checkboxValues&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;checkboxAttribute&quot;:&quot;id&quot;,&quot;filters&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;filtered&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;enabledFilters&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;select&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;emitClearFiltersEvent&quot;:true,&quot;withoutResourcesActions&quot;:false,&quot;additionalCacheKey&quot;:&quot;&quot;,&quot;persist&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;persistPrefix&quot;:&quot;&quot;,&quot;radio&quot;:false,&quot;radioAttribute&quot;:&quot;id&quot;,&quot;selectedRow&quot;:&quot;&quot;,&quot;softDeletes&quot;:&quot;&quot;,&quot;multiSort&quot;:false,&quot;sortArray&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;headerTotalColumn&quot;:false,&quot;footerTotalColumn&quot;:false,&quot;paginators&quot;:[{&quot;page&quot;:316},{&quot;s&quot;:&quot;arr&quot;}],&quot;batchExporting&quot;:false,&quot;batchFinished&quot;:false,&quot;batchId&quot;:&quot;&quot;,&quot;batchName&quot;:&quot;PowerGrid batch export&quot;,&quot;showExporting&quot;:true,&quot;batchProgress&quot;:0,&quot;exportedFiles&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}],&quot;exportableJobClass&quot;:&quot;PowerComponents\\LivewirePowerGrid\\Jobs\\ExportJob&quot;,&quot;batchErrors&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;jywtw6NvzLhSY2qQH6k0&quot;,&quot;name&quot;:&quot;tables.gaexp-primaryscreen-table&quot;,&quot;path&quot;:&quot;glycan-array&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;db9a0b3025e993567c2c904c2ffa0c80e79ffc56738438283bbe2b59bd45ef84&quot;}" wire:effects="{&quot;xjs&quot;:[{&quot;expression&quot;:&quot;    this.pgResourceIcons = []&quot;,&quot;params&quot;:[]},{&quot;expression&quot;:&quot;    window[`pgRowTemplates_${$wire.id}`] = []&quot;,&quot;params&quot;:[]},{&quot;expression&quot;:&quot;    this[`pgActionsHeader_${$wire.id}`] = []&quot;,&quot;params&quot;:[]}],&quot;url&quot;:{&quot;paginators.page&quot;:{&quot;as&quot;:&quot;page&quot;,&quot;use&quot;:&quot;push&quot;,&quot;alwaysShow&quot;:false,&quot;except&quot;:null}},&quot;listeners&quot;:[&quot;pg:datePicker-gaexp_primaryscreen&quot;,&quot;pg:multiSelect-gaexp_primaryscreen&quot;,&quot;pg:editable-gaexp_primaryscreen&quot;,&quot;pg:toggleable-gaexp_primaryscreen&quot;,&quot;pg:toggleColumn-gaexp_primaryscreen&quot;,&quot;pg:eventRefresh-gaexp_primaryscreen&quot;,&quot;pg:softDeletes-gaexp_primaryscreen&quot;]}" wire:id="jywtw6NvzLhSY2qQH6k0" >
+    <div class="col-md-12">
+        <div>
+        <div class="dt--top-section">
+        <div class="row">
+            <div class="col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center">
+                <div x-data="pgRenderActions">
+                    <span class="d-flex gap-1" x-html="toHtml"></span>
+                </div>
+
+                <div class="me-1">
+                                    </div>
+
+                <div class="dropdown">
+    <!--[if BLOCK]><![endif]-->        <div class="btn-group">
+            <button
+                data-cy="toggle-columns-gaexp_primaryscreen"
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+            >
+                <svg
+    width="18"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"
+    />
+</svg>
+            </button>
+            <ul class="dropdown-menu">
+                <!--[if BLOCK]><![endif]-->                    <li
+                        wire:key="toggle-column-pscreen_key"
+                        data-cy="toggle-field-pscreen_key"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'pscreen_key'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            ID
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-pscreen_id_link"
+                        data-cy="toggle-field-pscreen_id_link"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'pscreen_id_link'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Primary Screen ID
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-ga_exp_title"
+                        data-cy="toggle-field-ga_exp_title"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'ga_exp_title'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Request
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-sample"
+                        data-cy="toggle-field-sample"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'sample'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Sample
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-description"
+                        data-cy="toggle-field-description"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'description'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    width="18"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Description
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-dissemination_category"
+                        data-cy="toggle-field-dissemination_category"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'dissemination_category'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Category
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-glycanarray_ga_name"
+                        data-cy="toggle-field-glycanarray_ga_name"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'glycanarray_ga_name'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Glycan Array
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-primaryInvestigator"
+                        data-cy="toggle-field-primaryInvestigator"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'primaryInvestigator'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Investigator
+                        </a>
+                    </li>
+                                    <li
+                        wire:key="toggle-column-conclusive"
+                        data-cy="toggle-field-conclusive"
+                        wire:click="$dispatch('pg:toggleColumn-gaexp_primaryscreen', { field: 'conclusive'})"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="#"
+                        >
+                            <!--[if BLOCK]><![endif]-->                                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+    />
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+    />
+</svg>
+                            <!--[if ENDBLOCK]><![endif]-->                            Conclusive
+                        </a>
+                    </li>
+                <!--[if ENDBLOCK]><![endif]-->            </ul>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <div
+    wire:key="toggle-filters-gaexp_primaryscreen"
+    id="toggle-filters"
+    class="d-flex me-2 mt-2 mt-sm-0 gap-2"
+>
+    <button
+        wire:click="toggleFilters"
+        type="button"
+        class="btn btn-light btn-sm border rounded-circle d-flex align-items-center justify-content-center p-2 shadow-sm"
+        style="width: 36px; height: 36px;"
+    >
+        <svg
+    class="h-5 w-5 bi bi-filter"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z"
+    />
+</svg>
+    </button>
+</div>
+                <!--[if ENDBLOCK]><![endif]-->
+                <div class="d-flex align-items-center ps-4">
+    <div
+        wire:loading.class="spinner-border"
+        class="text-primary"
+        role="status"
+    >
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3">
+                <div
+    class="col-12"
+    style="text-align: right;"
+>
+    <label class="col-12 col-sm-8">
+        <!--[if BLOCK]><![endif]-->            <div class="input-group w-100">
+                <span class="input-group-text">
+                    <svg
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-search"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                        ></path>
+                    </svg>
+                </span>
+                <input
+                    wire:model.live.debounce.600ms="search"
+                    type="text"
+                    class="col-12 col-sm-8 form-control"
+                    placeholder="Search..."
+                >
+            </div>
+        <!--[if ENDBLOCK]><![endif]-->    </label>
+</div>
+            </div>
+        </div>
+    </div>
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--></div>
+    </div>
+
+    <!--[if BLOCK]><![endif]-->        
+        <div
+    x-data="{ open: window.Livewire.find('jywtw6NvzLhSY2qQH6k0').entangle('showFilters').live }"
+    class="mt-2 md:mt-0"
+>
+    <div
+        x-show="open"
+        x-cloak
+        x-transition:enter="transform duration-100"
+        x-transition:enter-start="opacity-0 scale-90"
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="transform duration-100"
+        x-transition:leave-start="opacity-100 scale-100"
+        x-transition:leave-end="opacity-0 scale-90"
+        class="pg-filter-container"
+    >
+                <div class="d-grid gap-3" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <!--[if BLOCK]><![endif]-->                
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <div>
+    
+    <!--[if BLOCK]><![endif]-->        <div class="">
+            <!--[if BLOCK]><![endif]-->                <label class="form-label fw-semibold mb-1">Primary Screen ID</label>
+            <!--[if ENDBLOCK]><![endif]-->                <div class="d-flex flex-row gap-2 align-items-center">
+                <!--[if BLOCK]><![endif]-->                    <select
+                        class="form-select form-select-sm w-auto"
+                        style=""
+                        wire:model="filters.input_text_options.pscreen_id" wire:input.live.debounce.600ms="filterInputTextOptions('pscreen_id', $event.target.value, 'Primary Screen ID')"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <option
+                                wire:key="input-text-options-gaexp_primaryscreen-0-contains"
+                                value="contains"
+                            >Contains</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-1-contains_not"
+                                value="contains_not"
+                            >Does not contain</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-2-is"
+                                value="is"
+                            >Is</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-3-is_not"
+                                value="is_not"
+                            >Is not</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-4-starts_with"
+                                value="starts_with"
+                            >Starts with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-5-ends_with"
+                                value="ends_with"
+                            >Ends with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-6-is_empty"
+                                value="is_empty"
+                            >Is empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-7-is_not_empty"
+                                value="is_not_empty"
+                            >Is not empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-8-is_null"
+                                value="is_null"
+                            >Is null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-9-is_not_null"
+                                value="is_not_null"
+                            >Is not null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-10-is_blank"
+                                value="is_blank"
+                            >Is blank</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-11-is_not_blank"
+                                value="is_not_blank"
+                            >Is not blank</option>
+                        <!--[if ENDBLOCK]><![endif]-->                    </select>
+                <!--[if ENDBLOCK]><![endif]-->                <input
+                    wire:key="input-pscreen_id"
+                    data-id="pscreen_id"
+                                                wire:model="filters.input_text.pscreen_id" wire:input.live.debounce.600ms="filterInputText('pscreen_id', $event.target.value, 'Primary Screen ID')"                     type="text"
+                    class="form-control form-control-sm"
+                    placeholder="Primary Screen ID"
+                />
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </div>
+                            
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <div>
+    
+    <!--[if BLOCK]><![endif]-->        <div class="">
+            <!--[if BLOCK]><![endif]-->                <label class="form-label fw-semibold mb-1">Request</label>
+            <!--[if ENDBLOCK]><![endif]-->                <div class="d-flex flex-row gap-2 align-items-center">
+                <!--[if BLOCK]><![endif]-->                    <select
+                        class="form-select form-select-sm w-auto"
+                        style=""
+                        wire:model="filters.input_text_options.ga_exp.title" wire:input.live.debounce.600ms="filterInputTextOptions('ga_exp.title', $event.target.value, 'Request')"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <option
+                                wire:key="input-text-options-gaexp_primaryscreen-0-contains"
+                                value="contains"
+                            >Contains</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-1-contains_not"
+                                value="contains_not"
+                            >Does not contain</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-2-is"
+                                value="is"
+                            >Is</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-3-is_not"
+                                value="is_not"
+                            >Is not</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-4-starts_with"
+                                value="starts_with"
+                            >Starts with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-5-ends_with"
+                                value="ends_with"
+                            >Ends with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-6-is_empty"
+                                value="is_empty"
+                            >Is empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-7-is_not_empty"
+                                value="is_not_empty"
+                            >Is not empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-8-is_null"
+                                value="is_null"
+                            >Is null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-9-is_not_null"
+                                value="is_not_null"
+                            >Is not null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-10-is_blank"
+                                value="is_blank"
+                            >Is blank</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-11-is_not_blank"
+                                value="is_not_blank"
+                            >Is not blank</option>
+                        <!--[if ENDBLOCK]><![endif]-->                    </select>
+                <!--[if ENDBLOCK]><![endif]-->                <input
+                    wire:key="input-ga_exp.title"
+                    data-id="ga_exp.title"
+                                                wire:model="filters.input_text.ga_exp.title" wire:input.live.debounce.600ms="filterInputText('ga_exp.title', $event.target.value, 'Request')"                     type="text"
+                    class="form-control form-control-sm"
+                    placeholder="Request"
+                />
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </div>
+                            
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <div>
+    
+    <!--[if BLOCK]><![endif]-->        <div class="">
+            <!--[if BLOCK]><![endif]-->                <label class="form-label fw-semibold mb-1">Sample</label>
+            <!--[if ENDBLOCK]><![endif]-->                <div class="d-flex flex-row gap-2 align-items-center">
+                <!--[if BLOCK]><![endif]-->                    <select
+                        class="form-select form-select-sm w-auto"
+                        style=""
+                        wire:model="filters.input_text_options.sample" wire:input.live.debounce.600ms="filterInputTextOptions('sample', $event.target.value, 'Sample')"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <option
+                                wire:key="input-text-options-gaexp_primaryscreen-0-contains"
+                                value="contains"
+                            >Contains</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-1-contains_not"
+                                value="contains_not"
+                            >Does not contain</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-2-is"
+                                value="is"
+                            >Is</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-3-is_not"
+                                value="is_not"
+                            >Is not</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-4-starts_with"
+                                value="starts_with"
+                            >Starts with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-5-ends_with"
+                                value="ends_with"
+                            >Ends with</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-6-is_empty"
+                                value="is_empty"
+                            >Is empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-7-is_not_empty"
+                                value="is_not_empty"
+                            >Is not empty</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-8-is_null"
+                                value="is_null"
+                            >Is null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-9-is_not_null"
+                                value="is_not_null"
+                            >Is not null</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-10-is_blank"
+                                value="is_blank"
+                            >Is blank</option>
+                                                    <option
+                                wire:key="input-text-options-gaexp_primaryscreen-11-is_not_blank"
+                                value="is_not_blank"
+                            >Is not blank</option>
+                        <!--[if ENDBLOCK]><![endif]-->                    </select>
+                <!--[if ENDBLOCK]><![endif]-->                <input
+                    wire:key="input-sample"
+                    data-id="sample"
+                                                wire:model="filters.input_text.sample" wire:input.live.debounce.600ms="filterInputText('sample', $event.target.value, 'Sample')"                     type="text"
+                    class="form-control form-control-sm"
+                    placeholder="Sample"
+                />
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </div>
+                            
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <!--[if BLOCK]><![endif]-->    <div class="mb-2">
+        <!--[if BLOCK]><![endif]-->            <label class="form-label fw-semibold mb-1">Category</label>
+        <!--[if ENDBLOCK]><![endif]-->        <div
+            class=""
+        >
+            <select
+                class="form-control form-select-sm form-select "
+                style=""
+                wire:model="filters.select.dissemination_category" wire:input.live.debounce.600ms="filterSelect('dissemination_category', 'Category')"
+            >
+
+                <!--[if BLOCK]><![endif]-->                    <option value="">All</option>
+                <!--[if ENDBLOCK]><![endif]-->
+                
+                <!--[if BLOCK]><![endif]-->                    <option
+                        wire:key="select-gaexp_primaryscreen-0"
+                        value="C-type Lectin"
+                    >
+                        C-type Lectin
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-1"
+                        value="iTypeLectins"
+                    >
+                        iTypeLectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-2"
+                        value="Other Animal Lectins"
+                    >
+                        Other Animal Lectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-3"
+                        value="otherAnimalLectin"
+                    >
+                        otherAnimalLectin
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-4"
+                        value="plantLectins"
+                    >
+                        plantLectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-5"
+                        value="---"
+                    >
+                        ---
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-6"
+                        value="cellsOrganisms"
+                    >
+                        cellsOrganisms
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-7"
+                        value="otherAnimalLectins"
+                    >
+                        otherAnimalLectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-8"
+                        value="Antibodies and Serum samples"
+                    >
+                        Antibodies and Serum samples
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-9"
+                        value="Pathogens (bacteria, viruses) and Microbial Lectin"
+                    >
+                        Pathogens (bacteria, viruses) and Microbial Lectin
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-10"
+                        value="sTypeLectins"
+                    >
+                        sTypeLectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-11"
+                        value="notClassified"
+                    >
+                        notClassified
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-12"
+                        value="cTypeLectins"
+                    >
+                        cTypeLectins
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-13"
+                        value="other"
+                    >
+                        other
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-14"
+                        value="antiBodies"
+                    >
+                        antiBodies
+                    </option>
+                <!--[if ENDBLOCK]><![endif]-->            </select>
+        </div>
+    </div>
+<!--[if ENDBLOCK]><![endif]-->                    <!--[if ENDBLOCK]><![endif]-->                </div>
+                            
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <!--[if BLOCK]><![endif]-->    <div class="mb-2">
+        <!--[if BLOCK]><![endif]-->            <label class="form-label fw-semibold mb-1">Glycan Array</label>
+        <!--[if ENDBLOCK]><![endif]-->        <div
+            class=""
+        >
+            <select
+                class="form-control form-select-sm form-select "
+                style=""
+                wire:model="filters.select.glycanarray.ga_name" wire:input.live.debounce.600ms="filterSelect('glycanarray.ga_name', 'Glycan Array')"
+            >
+
+                <!--[if BLOCK]><![endif]-->                    <option value="">All</option>
+                <!--[if ENDBLOCK]><![endif]-->
+                
+                <!--[if BLOCK]><![endif]-->                    <option
+                        wire:key="select-gaexp_primaryscreen-16"
+                        value="PA_v52"
+                    >
+                        PA_v52
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-14"
+                        value="PA_v51"
+                    >
+                        PA_v51
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-5"
+                        value="PA_v5"
+                    >
+                        PA_v5
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-4"
+                        value="PA_v42"
+                    >
+                        PA_v42
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-1"
+                        value="PA_v41"
+                    >
+                        PA_v41
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-6"
+                        value="PA_v4"
+                    >
+                        PA_v4
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-9"
+                        value="PA_v32"
+                    >
+                        PA_v32
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-7"
+                        value="PA_v31"
+                    >
+                        PA_v31
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-10"
+                        value="PA_v3"
+                    >
+                        PA_v3
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-15"
+                        value="PA_v21"
+                    >
+                        PA_v21
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-13"
+                        value="PA_v2"
+                    >
+                        PA_v2
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-8"
+                        value="PA_v1"
+                    >
+                        PA_v1
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-12"
+                        value="PA_v0"
+                    >
+                        PA_v0
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-11"
+                        value="GLYCAN_v3"
+                    >
+                        GLYCAN_v3
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-2"
+                        value="GLYCAN_v2"
+                    >
+                        GLYCAN_v2
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-3"
+                        value="GLYCAN_v1"
+                    >
+                        GLYCAN_v1
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-0"
+                        value="BACT_v1"
+                    >
+                        BACT_v1
+                    </option>
+                <!--[if ENDBLOCK]><![endif]-->            </select>
+        </div>
+    </div>
+<!--[if ENDBLOCK]><![endif]-->                    <!--[if ENDBLOCK]><![endif]-->                </div>
+                            
+                <div class="">
+                    <!--[if BLOCK]><![endif]-->                        <!--[if BLOCK]><![endif]-->    <div class="mb-2">
+        <!--[if BLOCK]><![endif]-->            <label class="form-label fw-semibold mb-1">Conclusive</label>
+        <!--[if ENDBLOCK]><![endif]-->        <div
+            class=""
+        >
+            <select
+                class="form-control form-select-sm form-select "
+                style=""
+                wire:model="filters.select.conclusive" wire:input.live.debounce.600ms="filterSelect('conclusive', 'Conclusive')"
+            >
+
+                <!--[if BLOCK]><![endif]-->                    <option value="">All</option>
+                <!--[if ENDBLOCK]><![endif]-->
+                
+                <!--[if BLOCK]><![endif]-->                    <option
+                        wire:key="select-gaexp_primaryscreen-0"
+                        value="Data"
+                    >
+                        Data
+                    </option>
+                                    <option
+                        wire:key="select-gaexp_primaryscreen-1"
+                        value="Inconclusive"
+                    >
+                        Inconclusive
+                    </option>
+                <!--[if ENDBLOCK]><![endif]-->            </select>
+        </div>
+    </div>
+<!--[if ENDBLOCK]><![endif]-->                    <!--[if ENDBLOCK]><![endif]-->                </div>
+            <!--[if ENDBLOCK]><![endif]-->        </div>
+    </div>
+</div>
+    <!--[if ENDBLOCK]><![endif]-->
+    <div
+        class="table-responsive col-md-12 my-2 mx-0"
+    >
+        <div >
+    <div x-data="{ expandedId: null }">
+        <table
+            id="table_base_gaexp_primaryscreen"
+            class="table power-grid-table table-hover table-striped w-100"
+        >
+            <thead
+                class=""
+            >
+                <tr
+    class=""
+>
+    <!--[if BLOCK]><![endif]-->        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <th x-data="{ sortable: true }"
+    data-column="pscreen_key"
+             x-multisort-shift-click="jywtw6NvzLhSY2qQH6k0"
+    wire:click="sortBy('pscreen_key')"     class="fw-bold text-secondary text-nowrap small py-2 "
+    style="cursor:pointer; width: max-content !important;"
+>
+    <div class="">
+        <span data-value>ID</span>
+
+        <!--[if BLOCK]><![endif]-->            <svg
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    width="16"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4.5 15.75l7.5-7.5 7.5 7.5"
+    />
+</svg>
+        <!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: true }"
+    data-column="pscreen_id"
+             x-multisort-shift-click="jywtw6NvzLhSY2qQH6k0"
+    wire:click="sortBy('pscreen_id')"     class="fw-bold text-secondary text-nowrap small py-2 "
+    style="display:none; cursor:pointer; width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Primary Screen ID</span>
+
+        <!--[if BLOCK]><![endif]-->            <svg
+    width="16"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+    />
+</svg>
+        <!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: true }"
+    data-column="pscreen_id"
+             x-multisort-shift-click="jywtw6NvzLhSY2qQH6k0"
+    wire:click="sortBy('pscreen_id')"     class="fw-bold text-secondary text-nowrap small py-2 "
+    style="cursor:pointer; width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Primary Screen ID</span>
+
+        <!--[if BLOCK]><![endif]-->            <svg
+    width="16"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+    />
+</svg>
+        <!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="ga_exp_title"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Request</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: true }"
+    data-column="sample"
+             x-multisort-shift-click="jywtw6NvzLhSY2qQH6k0"
+    wire:click="sortBy('sample')"     class="fw-bold text-secondary text-nowrap small py-2 "
+    style="cursor:pointer; width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Sample</span>
+
+        <!--[if BLOCK]><![endif]-->            <svg
+    width="16"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+>
+    <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
+    />
+</svg>
+        <!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="description"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="display:none; width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Description</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="dissemination_category"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Category</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="glycanarray_ga_name"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Glycan Array</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="primaryInvestigator"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Investigator</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+                    <th x-data="{ sortable: false }"
+    data-column="conclusive"
+                class="fw-bold text-secondary text-nowrap small py-2 "
+    style="width: max-content !important;"
+>
+    <div class="">
+        <span data-value>Conclusive</span>
+
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    </div>
+</th>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]--></tr>
+            </thead>
+            <!--[if BLOCK]><![endif]-->                <tbody
+                    class="table-group-divider"
+                >
+                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            
+            <!--[if BLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <!--[if BLOCK]><![endif]-->                        
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003215, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003215</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3216</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003215">primscreen_3216</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_1835</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Platypodium elegans legume lectin- 200</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Plant Lectins</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Anne Imberty</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Data</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003214, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003214</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3215</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003214">primscreen_3215</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_1912</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Galectin-12 (mouse), C-terminal domain only (m12C-NusA)</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>S Type Lectins</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>FuTong Liu</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Data</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003213, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003213</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3214</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003213">primscreen_3214</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_1912</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Galectin-12 (human), N-terminal domain only (h12N-NusA)</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>S Type Lectins</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>FuTong Liu</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Data</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003212, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003212</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3213</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003212">primscreen_3213</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_1886</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>SiiE bacterial adhesin from S. typhimurium</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Other</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Michael Hensel</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003211, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003211</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3212</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003211">primscreen_3212</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_1867</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Intellectin-1 (human)- HL-1</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Other Animal Lectins</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>J. Michael Pierce</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003210, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003210</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3211</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003210">primscreen_3211</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_2029</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Hs-NESD human ortholog of Drosophila NESD (binds beta-galactosides)</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100321-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Other Animal Lectins</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Pier Paolo DAvino</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100321-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003209, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003209</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3210</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003209">primscreen_3210</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_2013</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Sp2-IgMK control antibody</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Antibodies</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Mary Foster</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003208, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003208</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3209</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003208">primscreen_3209</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_2013</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>66-4 Antibody to col4a3-NC1 collagen</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Antibodies</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Mary Foster</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003207, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003207</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3208</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003207">primscreen_3208</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_2013</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>58-1 Antibody to col4a3-NC1 collagen</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Antibodies</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Mary Foster</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                                                    
+                        <tr
+                            wire:replace.self
+                            class=""
+                            x-data="pgRowAttributes({ rowId: 1003206, rules: [] })"
+                            x-bind="getAttributes"
+                        >
+                            <!--[if BLOCK]><![endif]-->        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_key-0"
+        data-column="pscreen_key"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1003206</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; ;"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>primscreen_3207</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-pscreen_id-0"
+        data-column="pscreen_id"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div><a href="https://functionalglycomics.org/glycan-array/1003206">primscreen_3207</a></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-ga_exp_title-0"
+        data-column="ga_exp_title"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>cfg_rRequest_2013</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-sample-0"
+        data-column="sample"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>1G6-C9-Sc22 Antibody to col4a3-NC1 collagen</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style="display:none; white-space:normal; max-width: 25vw;"
+        wire:key="row-100320-description-0"
+        data-column="description"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div></div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-dissemination_category-0"
+        data-column="dissemination_category"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Antibodies</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-glycanarray_ga_name-0"
+        data-column="glycanarray_ga_name"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>PA_v41</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-primaryInvestigator-0"
+        data-column="primaryInvestigator"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Mary Foster</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+        <td
+        class="align-middle text-nowrap px-3 py-2 lh-sm "
+        style=";"
+        wire:key="row-100320-conclusive-0"
+        data-column="conclusive"
+    >
+        <!--[if BLOCK]><![endif]-->            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            
+            <!--[if BLOCK]><![endif]-->                <span class=" ">
+                    <!--[if BLOCK]><![endif]-->                        <div>Inconclusive</div>
+                    <!--[if ENDBLOCK]><![endif]-->                </span>
+            <!--[if ENDBLOCK]><![endif]-->        <!--[if ENDBLOCK]><![endif]-->    </td>
+<!--[if ENDBLOCK]><![endif]-->                        </tr>
+
+                                            <!--[if ENDBLOCK]><![endif]-->                <!--[if ENDBLOCK]><![endif]-->            <!--[if ENDBLOCK]><![endif]-->
+                    <!--[if ENDBLOCK]><![endif]-->
+                </tbody>
+            <!--[if ENDBLOCK]><![endif]-->        </table>
+    </div>
+
+    
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--></div>
+    </div>
+    <div class="row">
+        <div class="col-12 overflow-auto">
+            <div>
+        <!--[if BLOCK]><![endif]-->        <footer
+                class="mt-50 pb-1 w-100 align-items-end px-1 d-flex flex-wrap justify-content-sm-center justify-content-md-between"
+        >
+            <div class="col-auto overflow-auto my-sm-2 my-md-0 ms-sm-0">
+                <!--[if BLOCK]><![endif]-->                    <div class="d-flex flex-lg-row align-items-center">
+                        <label class="w-auto">
+                            <select
+                                    wire:model.live="setUp.footer.perPage"
+                                    class="form-select "
+                            >
+                                <!--[if BLOCK]><![endif]-->                                    <option value="10">
+                                        <!--[if BLOCK]><![endif]-->                                            10
+                                        <!--[if ENDBLOCK]><![endif]-->                                    </option>
+                                                                    <option value="25">
+                                        <!--[if BLOCK]><![endif]-->                                            25
+                                        <!--[if ENDBLOCK]><![endif]-->                                    </option>
+                                                                    <option value="50">
+                                        <!--[if BLOCK]><![endif]-->                                            50
+                                        <!--[if ENDBLOCK]><![endif]-->                                    </option>
+                                <!--[if ENDBLOCK]><![endif]-->                            </select>
+                        </label>
+                        <small class="ms-2 text-muted">
+                            Records per page
+                        </small>
+                    </div>
+                <!--[if ENDBLOCK]><![endif]-->            </div>
+            <div class="col-auto overflow-auto mt-2 mt-sm-0">
+                <!--[if BLOCK]><![endif]-->                    <div class="d-flex flex-column flex-lg-row align-items-sm-center justify-content-between">
+    <!--[if BLOCK]><![endif]-->        <!--[if BLOCK]><![endif]-->            <small class="text-muted d-block mb-2 my-md-2 me-1">
+                Showing
+                <span class="font-semibold">3151</span>
+                to
+                <span class="font-semibold">3160</span>
+                of
+                <span class="font-semibold">6035</span>
+                Results
+            </small>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <nav>
+                <ul class="pagination mb-0 ms-0 ms-sm-1">
+                    
+                    <!--[if BLOCK]><![endif]-->                        <li class="page-item">
+                            <button
+                                type="button"
+                                class="page-link"
+                                wire:click="previousPage('page')"
+                                wire:loading.attr="disabled"
+                                rel="prev"
+                                aria-label="&laquo; Previous"
+                            >
+                                &lsaquo;
+                            </button>
+                        </li>
+                    <!--[if ENDBLOCK]><![endif]-->
+                    
+                    <!--[if BLOCK]><![endif]-->                        
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        
+                        <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]-->                                <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-1"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(1, 'page')"
+                                        >1</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-2"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(2, 'page')"
+                                        >2</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                            <!--[if ENDBLOCK]><![endif]-->                        <!--[if ENDBLOCK]><![endif]-->                                            
+                        <!--[if BLOCK]><![endif]-->                            <li
+                                class="page-item disabled"
+                                aria-disabled="true"
+                            ><span class="page-link">...</span></li>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->                                            
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        
+                        <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]-->                                <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-313"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(313, 'page')"
+                                        >313</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-314"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(314, 'page')"
+                                        >314</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-315"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(315, 'page')"
+                                        >315</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item active"
+                                        wire:key="paginator-page-316"
+                                        aria-current="page"
+                                    >
+                                        <span class="page-link">316</span>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-317"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(317, 'page')"
+                                        >317</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-318"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(318, 'page')"
+                                        >318</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-319"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(319, 'page')"
+                                        >319</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                            <!--[if ENDBLOCK]><![endif]-->                        <!--[if ENDBLOCK]><![endif]-->                                            
+                        <!--[if BLOCK]><![endif]-->                            <li
+                                class="page-item disabled"
+                                aria-disabled="true"
+                            ><span class="page-link">...</span></li>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->                                            
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        
+                        <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]-->                                <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-603"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(603, 'page')"
+                                        >603</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                                                            <!--[if BLOCK]><![endif]-->                                    <li
+                                        class="page-item"
+                                        wire:key="paginator-page-604"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="page-link"
+                                            wire:click="gotoPage(604, 'page')"
+                                        >604</button>
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->                            <!--[if ENDBLOCK]><![endif]-->                        <!--[if ENDBLOCK]><![endif]-->                    <!--[if ENDBLOCK]><![endif]-->
+                    
+                    <!--[if BLOCK]><![endif]-->                        <li class="page-item">
+                            <button
+                                type="button"
+                                class="page-link"
+                                wire:click="nextPage('page')"
+                                wire:loading.attr="disabled"
+                                rel="next"
+                                aria-label="Next &raquo;"
+                            >&rsaquo;
+                            </button>
+                        </li>
+                    <!--[if ENDBLOCK]><![endif]-->                </ul>
+            </nav>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]--></div>
+
+                <!--[if ENDBLOCK]><![endif]-->            </div>
+        </footer>
+    <!--[if ENDBLOCK]><![endif]-->
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+    </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+            </div>
+        </main>
+
+        <footer class="mt-auto card-footer bg-white border-top">
+            <div class="row m-2 p-2">
+                <div class="col-md-9 mb-2">
+                    The CFG website is maintained by the National Center for Functional Glycomics
+                </div>
+                <div class="col-md-1 mb-2">
+
+                </div>
+                <div class="col-md-1 mb-2">
+
+                </div>
+                <div class="col-md-1 mb-2">
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="/livewire/livewire.min.js?id=57eb113f"   data-csrf="6HhwAooO1yCUiUAH5wpUATMl1RjbA7dxsdkM9waq" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+</body>
+
+</html>

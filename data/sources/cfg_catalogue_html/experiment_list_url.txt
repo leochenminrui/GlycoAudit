@@ -1,0 +1,3 @@
+URL: https://functionalglycomics.org/glycan-array
+Base: https://functionalglycomics.org
+Timestamp: 20260804_112709

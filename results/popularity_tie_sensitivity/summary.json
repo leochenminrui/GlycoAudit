@@ -1,0 +1,55 @@
+{
+  "agent_folds": 645,
+  "all_three_conclusions_stable_for_all_seeds": true,
+  "folds_with_any_tie": 645,
+  "folds_with_highest_score_tied": 287,
+  "folds_with_top5_boundary_tie": 76,
+  "maximum_tied_group": 8,
+  "median_fraction_candidates_in_ties": 0.675,
+  "metric_summary": [
+    {
+      "conclusion_tested": "popularity > WURCS",
+      "maximum": 0.4928598987232173,
+      "mean": 0.4923477170078561,
+      "metric": "mrr",
+      "minimum": 0.49168280251424995,
+      "percentile_2_5": 0.49201822587537125,
+      "percentile_97_5": 0.492691549201423,
+      "sd": 0.0001797935776860142,
+      "stable_seed_count": 1000,
+      "stable_seed_fraction": 1.0,
+      "wurcs_value": 0.38055528969046554
+    },
+    {
+      "conclusion_tested": "popularity > WURCS",
+      "maximum": 0.49098717397099056,
+      "mean": 0.4904939018561529,
+      "metric": "known_positive_ap",
+      "minimum": 0.48983728357421574,
+      "percentile_2_5": 0.49016446390586804,
+      "percentile_97_5": 0.49084038782766554,
+      "sd": 0.00018053631044736123,
+      "stable_seed_count": 1000,
+      "stable_seed_fraction": 1.0,
+      "wurcs_value": 0.3733023338863305
+    },
+    {
+      "conclusion_tested": "WURCS > popularity",
+      "maximum": 0.4559748427672956,
+      "mean": 0.45597484276729544,
+      "metric": "recall@5",
+      "minimum": 0.4559748427672956,
+      "percentile_2_5": 0.4559748427672956,
+      "percentile_97_5": 0.4559748427672956,
+      "sd": 1.666167829227528e-16,
+      "stable_seed_count": 1000,
+      "stable_seed_fraction": 1.0,
+      "wurcs_value": 0.6882599580712788
+    }
+  ],
+  "random_tie_repeats": 1000,
+  "seed_range": [
+    20260901,
+    20261900
+  ]
+}

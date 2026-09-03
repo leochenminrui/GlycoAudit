@@ -1,0 +1,12 @@
+stage,count,unit,excluded_from_previous,exclusion_reason
+source_records,1263,records,0,none
+resolved_records,1258,records,5,unresolved source identifier
+resolved_glycans,173,unique glycans,0,unit transition
+strictly_joined_records,801,records,457,resolved glycan failed strict structure contract
+strictly_joined_glycans,44,unique glycans,129,"no GlycoShape record, requested branch absent, or WURCS mismatch"
+canonical_joined_relations,765,agent-glycan relations,0,deduplicated from joined records
+evaluable_agents,159,agent identifiers,68,fewer than two joined positive relations
+evaluable_relations,697,agent-glycan relations,68,relations assigned to agents with fewer than two joined positives
+candidate_glycans,44,glycans,0,fixed common representation universe
+candidate_rows,6996,agent-glycan candidate rows,0,159 by 44 Cartesian product
+agent_folds,645,agent-folds,0,up to five predefined folds per evaluable agent

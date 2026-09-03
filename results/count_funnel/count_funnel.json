@@ -1,0 +1,15 @@
+{
+  "agent_folds": 645,
+  "agents_excluded_for_insufficient_support": 68,
+  "candidate_glycans": 44,
+  "candidate_rows": 6996,
+  "canonical_joined_relations": 765,
+  "evaluable_agents": 159,
+  "evaluable_relations": 697,
+  "relations_excluded_for_insufficient_agent_support": 68,
+  "resolved_glycans": 173,
+  "resolved_records": 1258,
+  "source_records": 1263,
+  "strictly_joined_glycans": 44,
+  "strictly_joined_records": 801
+}

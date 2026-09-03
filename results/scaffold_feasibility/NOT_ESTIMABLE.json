@@ -1,0 +1,4 @@
+{
+  "reason": "A secondary grouped metric was not run automatically: the frozen scaffold manifest supplies a glycan grouping but no released agent-level grouped split manifest, and creating a new one would change the released population.",
+  "status": "NOT_ESTIMABLE"
+}

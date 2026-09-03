@@ -1,0 +1,125 @@
+{
+  "agent_folds": 645,
+  "ap_known_contribution_definition": "For ordered held-out positive k in agent a, fold f: k / (m_{a,f} * r_{a,f,(k)}); sum within stratum and fold, average folds within agent with zero for absent strata, then average agents equally.",
+  "ap_known_decomposition_tolerance": 1e-12,
+  "contrasts": [
+    {
+      "degree_stratum": "low",
+      "wurcs_minus_popularity_ap_known_contribution_to_overall_equal_agent_mean": 0.0805216093514734,
+      "wurcs_minus_popularity_mean_rank": -2.5449580488240287,
+      "wurcs_minus_popularity_recall_at_5": 0.2772314455304146,
+      "wurcs_minus_popularity_reciprocal_rank": 0.3221317089654605,
+      "wurcs_minus_popularity_top1": 0.31753469897799796
+    },
+    {
+      "degree_stratum": "middle",
+      "wurcs_minus_popularity_ap_known_contribution_to_overall_equal_agent_mean": -0.10361578411106714,
+      "wurcs_minus_popularity_mean_rank": 2.4135338345864663,
+      "wurcs_minus_popularity_recall_at_5": 0.1729323308270676,
+      "wurcs_minus_popularity_reciprocal_rank": -0.3516067474714091,
+      "wurcs_minus_popularity_top1": -0.4473684210526316
+    },
+    {
+      "degree_stratum": "high",
+      "wurcs_minus_popularity_ap_known_contribution_to_overall_equal_agent_mean": -0.09308176100628929,
+      "wurcs_minus_popularity_mean_rank": 0.8264840182648405,
+      "wurcs_minus_popularity_recall_at_5": 0.0,
+      "wurcs_minus_popularity_reciprocal_rank": -0.34589041095890416,
+      "wurcs_minus_popularity_top1": -0.6255707762557077
+    }
+  ],
+  "degree_definition": "number of distinct positive relations for the glycan among non-target agents only",
+  "evaluated_agents": 159,
+  "held_out_positive_relations": 697,
+  "low_degree_max": 40,
+  "method_summary": [
+    {
+      "agents_with_stratum_positives": 97,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.11571965538384064,
+      "degree_max": 40,
+      "degree_min": 0,
+      "degree_stratum": "low",
+      "held_out_positive_relations": 246,
+      "mean_rank": 9.215918016691212,
+      "method": "wurcs",
+      "recall_at_5": 0.5762005176953631,
+      "reciprocal_rank": 0.4483157432295366,
+      "top1": 0.31753469897799796
+    },
+    {
+      "agents_with_stratum_positives": 97,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.035198046032367244,
+      "degree_max": 40,
+      "degree_min": 0,
+      "degree_stratum": "low",
+      "held_out_positive_relations": 246,
+      "mean_rank": 11.760876065515241,
+      "method": "popularity",
+      "recall_at_5": 0.29896907216494845,
+      "reciprocal_rank": 0.12618403426407607,
+      "top1": 0.0
+    },
+    {
+      "agents_with_stratum_positives": 133,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.08588456529494265,
+      "degree_max": 66,
+      "degree_min": 41,
+      "degree_stratum": "middle",
+      "held_out_positive_relations": 232,
+      "mean_rank": 5.947368421052632,
+      "method": "wurcs",
+      "recall_at_5": 0.706766917293233,
+      "reciprocal_rank": 0.22474484579747736,
+      "top1": 0.022556390977443608
+    },
+    {
+      "agents_with_stratum_positives": 133,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.1895003494060098,
+      "degree_max": 66,
+      "degree_min": 41,
+      "degree_stratum": "middle",
+      "held_out_positive_relations": 232,
+      "mean_rank": 3.5338345864661656,
+      "method": "popularity",
+      "recall_at_5": 0.5338345864661654,
+      "reciprocal_rank": 0.5763515932688864,
+      "top1": 0.4699248120300752
+    },
+    {
+      "agents_with_stratum_positives": 73,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.1716981132075472,
+      "degree_max": 72,
+      "degree_min": 72,
+      "degree_stratum": "high",
+      "held_out_positive_relations": 219,
+      "mean_rank": 1.849315068493151,
+      "method": "wurcs",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.6426940639269406,
+      "top1": 0.3515981735159817
+    },
+    {
+      "agents_with_stratum_positives": 73,
+      "ap_known_contribution_to_overall_equal_agent_mean": 0.2647798742138365,
+      "degree_max": 72,
+      "degree_min": 72,
+      "degree_stratum": "high",
+      "held_out_positive_relations": 219,
+      "mean_rank": 1.0228310502283104,
+      "method": "popularity",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.9885844748858448,
+      "top1": 0.9771689497716894
+    }
+  ],
+  "middle_degree_max": 66,
+  "overall_ap_known": {
+    "popularity": 0.4894782696522135,
+    "wurcs": 0.3733023338863305
+  },
+  "quantile_rule": "Empirical tertile cut points of leave-one-agent-out degree over the 697 held-out positives; integer ties remain in the lower bin.",
+  "released_overall_ap_known": {
+    "popularity": 0.4894782696522135,
+    "wurcs": 0.3733023338863305
+  }
+}

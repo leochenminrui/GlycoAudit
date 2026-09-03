@@ -1,0 +1,174 @@
+glytoucan_id,structure_id,candidate_id,source,source_accession,source_url,snapshot_date,local_path,sha256,bytes,model_count,forcefield,ensemble_level,status,failure_reason
+G00047MO,,,GlycoShape,,https://glycoshape.org/api/glycan/G00047MO,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G00049MO,GlycoShape:GS00783:beta,level_1_multimodel,GlycoShape,GS00783,https://glycoshape.org/api/structure/PDB/GS00783?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00049MO/structure_1.pdb,8e8dad86d039fdfe6aee86880b5f9c43b90d4ef07619026af03f5acb716ab9c8,48366,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00050MO,GlycoShape:GS00844:beta,level_1_multimodel,GlycoShape,GS00844,https://glycoshape.org/api/structure/PDB/GS00844?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00050MO/structure_1.pdb,fbe3059951cb01a0df9c2e6cfc8528a6fc4b1eb67f675bb4c5ec522337cf649f,58525,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00054MO,GlycoShape:GS00314:beta,level_1_multimodel,GlycoShape,GS00314,https://glycoshape.org/api/structure/PDB/GS00314?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00054MO/structure_1.pdb,f57745d7b4b847281bce43e6161ab27b0394db33fa81339d5fc58eb1236ba82f,57969,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00059MO,GlycoShape:GS00478:beta,level_1_multimodel,GlycoShape,GS00478,https://glycoshape.org/api/structure/PDB/GS00478?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00059MO/structure_1.pdb,447306856f793b55719a8e841e806ad34ee65360e7d114aad5727f5d099a0606,34669,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00061MO,GlycoShape:GS00107:beta,level_1_multimodel,GlycoShape,GS00107,https://glycoshape.org/api/structure/PDB/GS00107?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00061MO/structure_1.pdb,0f9d592a2b24a8313e043781528f9a7e74d62f25b15082060cfb23560b600d3a,48366,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00065MO,GlycoShape:GS00238:beta,level_1_multimodel,GlycoShape,GS00238,https://glycoshape.org/api/structure/PDB/GS00238?level=1&anomer=beta&format=pdb,2026-08-04,structures/G00065MO/structure_1.pdb,4b529b9faeb79a9a4396e711a1bf1678e1b37a6ac0fd4b2d06f0d3dee36f4b8e,47808,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G00407UJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G00407UJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G00711NG,,,GlycoShape,,https://glycoshape.org/api/glycan/G00711NG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G00998NI,,,GlycoShape,,https://glycoshape.org/api/glycan/G00998NI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G01187XC,,,GlycoShape,,https://glycoshape.org/api/glycan/G01187XC,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G01296LJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G01296LJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G01767JJ,GlycoShape:GS00134:beta,level_1_multimodel,GlycoShape,GS00134,https://glycoshape.org/api/structure/PDB/GS00134?level=1&anomer=beta&format=pdb,2026-08-04,structures/G01767JJ/structure_1.pdb,7ea1171055cc6d951e2da95010941eace426ab35013d890c0ea83253933fe255,66608,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G02657AK,,,GlycoShape,GS00591,https://glycoshape.org/api/structure/PDB/GS00591?level=1&anomer=beta&format=pdb,2026-08-04,,,0,0,,,failed,registry_glycoshape_wurcs_mismatch
+G02880JU,,,GlycoShape,,https://glycoshape.org/api/glycan/G02880JU,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G03067VG,GlycoShape:GS00639:beta,level_1_multimodel,GlycoShape,GS00639,https://glycoshape.org/api/structure/PDB/GS00639?level=1&anomer=beta&format=pdb,2026-08-04,structures/G03067VG/structure_1.pdb,85ea208dce3242e30c32f8a28d1e257e3397cbdb3443e3cb22df15d7de0475af,90969,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G03277YI,GlycoShape:GS00589:beta,level_1_multimodel,GlycoShape,GS00589,https://glycoshape.org/api/structure/PDB/GS00589?level=1&anomer=beta&format=pdb,2026-08-04,structures/G03277YI/structure_1.pdb,8dd8c5cc555fdd4243921b7ec515a43310756d46c4cdc0e00b2c1d030decf352,66608,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G03499BP,GlycoShape:GS00806:beta,level_1_multimodel,GlycoShape,GS00806,https://glycoshape.org/api/structure/PDB/GS00806?level=1&anomer=beta&format=pdb,2026-08-04,structures/G03499BP/structure_1.pdb,91993052f417dd5a270f0a3dfb24ccfce86cd5e14a7c422cc71a9024478e9abe,37702,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G03506YN,GlycoShape:GS00609:beta,level_1_multimodel,GlycoShape,GS00609,https://glycoshape.org/api/structure/PDB/GS00609?level=1&anomer=beta&format=pdb,2026-08-04,structures/G03506YN/structure_1.pdb,6d7378308f40e1b1a3e44f5662b4df2221f5d6114aef815f6bc9a0f795e89f42,90971,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G03777BI,,,GlycoShape,,https://glycoshape.org/api/glycan/G03777BI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G04165ZA,,,GlycoShape,,https://glycoshape.org/api/glycan/G04165ZA,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G04616ST,,,GlycoShape,,https://glycoshape.org/api/glycan/G04616ST,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G04715SK,,,GlycoShape,,https://glycoshape.org/api/glycan/G04715SK,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G05357CB,,,GlycoShape,,https://glycoshape.org/api/glycan/G05357CB,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G06000DZ,,,GlycoShape,,https://glycoshape.org/api/glycan/G06000DZ,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G06239NA,GlycoShape:GS00130:beta,level_1_multimodel,GlycoShape,GS00130,https://glycoshape.org/api/structure/PDB/GS00130?level=1&anomer=beta&format=pdb,2026-08-04,structures/G06239NA/structure_1.pdb,d3b8055f7a973b196ad82a0d6974ba0f1ce004cf74465acb7231449835471e19,37702,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G07169WN,,,GlycoShape,,https://glycoshape.org/api/glycan/G07169WN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G07490EK,,,GlycoShape,,https://glycoshape.org/api/glycan/G07490EK,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G07982RO,,,GlycoShape,,https://glycoshape.org/api/glycan/G07982RO,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G08079IN,,,GlycoShape,,https://glycoshape.org/api/glycan/G08079IN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G08855PJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G08855PJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G09376MR,,,GlycoShape,,https://glycoshape.org/api/glycan/G09376MR,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G09552LA,,,GlycoShape,GS00164,https://glycoshape.org/api/structure/PDB/GS00164?level=1&anomer=beta&format=pdb,2026-08-04,,,0,0,,,failed,registry_glycoshape_wurcs_mismatch
+G10203DW,,,GlycoShape,,https://glycoshape.org/api/glycan/G10203DW,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G11485ID,,,GlycoShape,,https://glycoshape.org/api/glycan/G11485ID,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G12068BR,,,GlycoShape,,https://glycoshape.org/api/glycan/G12068BR,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G12460DL,,,GlycoShape,,https://glycoshape.org/api/glycan/G12460DL,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G14300ZJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G14300ZJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G15021LG,,,GlycoShape,,https://glycoshape.org/api/glycan/G15021LG,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G16194TN,,,GlycoShape,,https://glycoshape.org/api/glycan/G16194TN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G17108EX,,,GlycoShape,,https://glycoshape.org/api/glycan/G17108EX,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G17780OR,,,GlycoShape,,https://glycoshape.org/api/glycan/G17780OR,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G18625KA,,,GlycoShape,GS01007,https://glycoshape.org/api/structure/PDB/GS01007?level=1&anomer=beta&format=pdb,2026-08-04,,,0,0,,,failed,registry_glycoshape_wurcs_mismatch
+G19336PT,,,GlycoShape,,https://glycoshape.org/api/glycan/G19336PT,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G20044TD,GlycoShape:GS00782:beta,level_1_multimodel,GlycoShape,GS00782,https://glycoshape.org/api/structure/PDB/GS00782?level=1&anomer=beta&format=pdb,2026-08-04,structures/G20044TD/structure_1.pdb,cfd5db80c76e90160297c464ce660baa72e30a682951a32b8974b71c6676d3de,25522,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G20420WT,,,GlycoShape,,https://glycoshape.org/api/glycan/G20420WT,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G20624LQ,,,GlycoShape,,https://glycoshape.org/api/glycan/G20624LQ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G21066IE,,,GlycoShape,,https://glycoshape.org/api/glycan/G21066IE,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G21856LC,GlycoShape:GS00536:beta,level_1_multimodel,GlycoShape,GS00536,https://glycoshape.org/api/structure/PDB/GS00536?level=1&anomer=beta&format=pdb,2026-08-04,structures/G21856LC/structure_1.pdb,8f8e608c56b70699e165e4e928b2a2c4c6b6cf1d3e594cf5df17ca96afd606bc,48366,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G21938SG,,,GlycoShape,,https://glycoshape.org/api/glycan/G21938SG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G22689CV,,,GlycoShape,,https://glycoshape.org/api/glycan/G22689CV,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G23041XK,,,GlycoShape,,https://glycoshape.org/api/glycan/G23041XK,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G23581GL,,,GlycoShape,,https://glycoshape.org/api/glycan/G23581GL,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G24034CH,,,GlycoShape,,https://glycoshape.org/api/glycan/G24034CH,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G26036PN,,,GlycoShape,,https://glycoshape.org/api/glycan/G26036PN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G26123AX,GlycoShape:GS00290:beta,level_1_multimodel,GlycoShape,GS00290,https://glycoshape.org/api/structure/PDB/GS00290?level=1&anomer=beta&format=pdb,2026-08-04,structures/G26123AX/structure_1.pdb,5746ee9f8b24dced1b81fc4ce67d142851a10f0a6de56316de3f81adc70bc22b,58527,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G27025MB,,,GlycoShape,,https://glycoshape.org/api/glycan/G27025MB,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G28330DZ,,,GlycoShape,,https://glycoshape.org/api/glycan/G28330DZ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G28528AG,,,GlycoShape,,https://glycoshape.org/api/glycan/G28528AG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G28566CQ,,,GlycoShape,,https://glycoshape.org/api/glycan/G28566CQ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G29313LW,,,GlycoShape,,https://glycoshape.org/api/glycan/G29313LW,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G30207PZ,GlycoShape:GS00298:beta,level_1_multimodel,GlycoShape,GS00298,https://glycoshape.org/api/structure/PDB/GS00298?level=1&anomer=beta&format=pdb,2026-08-04,structures/G30207PZ/structure_1.pdb,2d6e0025a7e027fb92dbe26caf61aad17d3ddd17959abb16757771c3ff318d19,31583,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G32254QI,GlycoShape:GS00840:beta,level_1_multimodel,GlycoShape,GS00840,https://glycoshape.org/api/structure/PDB/GS00840?level=1&anomer=beta&format=pdb,2026-08-04,structures/G32254QI/structure_1.pdb,986eaa9629e5dc03ecdeac7f833f6933ca2995bc960a7c5478906a35b1a31414,77272,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G32417JV,,,GlycoShape,,https://glycoshape.org/api/glycan/G32417JV,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G32969VW,,,GlycoShape,,https://glycoshape.org/api/glycan/G32969VW,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G33224VN,,,GlycoShape,,https://glycoshape.org/api/glycan/G33224VN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G37184KW,,,GlycoShape,,https://glycoshape.org/api/glycan/G37184KW,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G37563FN,,,GlycoShape,,https://glycoshape.org/api/glycan/G37563FN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G37830TX,GlycoShape:GS00106:beta,level_1_multimodel,GlycoShape,GS00106,https://glycoshape.org/api/structure/PDB/GS00106?level=1&anomer=beta&format=pdb,2026-08-04,structures/G37830TX/structure_1.pdb,5f54fb1c151be2be2d14518de7f0c8803846200b825161ef16847a4f6b6d8ab6,82888,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G39011KA,,,GlycoShape,,https://glycoshape.org/api/glycan/G39011KA,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G39064VB,,,GlycoShape,,https://glycoshape.org/api/glycan/G39064VB,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G39211DH,,,GlycoShape,,https://glycoshape.org/api/glycan/G39211DH,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G40183QN,,,GlycoShape,GS00465,https://glycoshape.org/api/structure/PDB/GS00465?level=1&anomer=beta&format=pdb,2026-08-04,,,0,0,,,failed,registry_glycoshape_wurcs_mismatch
+G41709CA,,,GlycoShape,,https://glycoshape.org/api/glycan/G41709CA,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G44345UH,,,GlycoShape,,https://glycoshape.org/api/glycan/G44345UH,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G45215IJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G45215IJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G45827GY,,,GlycoShape,,https://glycoshape.org/api/glycan/G45827GY,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G46677TE,GlycoShape:GS00511:beta,level_1_multimodel,GlycoShape,GS00511,https://glycoshape.org/api/structure/PDB/GS00511?level=1&anomer=beta&format=pdb,2026-08-04,structures/G46677TE/structure_1.pdb,d7515bb8c262986763578897993360076d6955f8da49889b45ed12c8a3f6eafb,84852,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G46776WR,GlycoShape:GS00176:beta,level_1_multimodel,GlycoShape,GS00176,https://glycoshape.org/api/structure/PDB/GS00176?level=1&anomer=beta&format=pdb,2026-08-04,structures/G46776WR/structure_1.pdb,bbdd730887ffe102786fd868d492448ba82fb69b934871daf610ee5fcf95a9fe,45280,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G47395XN,,,GlycoShape,,https://glycoshape.org/api/glycan/G47395XN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G47812NS,,,GlycoShape,,https://glycoshape.org/api/glycan/G47812NS,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G48059CD,,,GlycoShape,,https://glycoshape.org/api/glycan/G48059CD,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G48236KP,,,GlycoShape,,https://glycoshape.org/api/glycan/G48236KP,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G48558GR,GlycoShape:GS00216:beta,level_1_multimodel,GlycoShape,GS00216,https://glycoshape.org/api/structure/PDB/GS00216?level=1&anomer=beta&format=pdb,2026-08-04,structures/G48558GR/structure_1.pdb,5947d71c151aa6676013896c93aa631cdef70a074a726bea7a7a3c1c587cf598,66610,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G48600JD,,,GlycoShape,,https://glycoshape.org/api/glycan/G48600JD,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G49963IQ,,,GlycoShape,,https://glycoshape.org/api/glycan/G49963IQ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G50321QR,,,GlycoShape,,https://glycoshape.org/api/glycan/G50321QR,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G50850NI,GlycoShape:GS00901:alpha,level_1_multimodel,GlycoShape,GS00901,https://glycoshape.org/api/structure/PDB/GS00901?level=1&anomer=alpha&format=pdb,2026-08-04,structures/G50850NI/structure_1.pdb,4ab98bb2671e659f07562836be23235877a84d9b7a29cfa57d22fefe071bd5e8,20920,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G50899UD,,,GlycoShape,,https://glycoshape.org/api/glycan/G50899UD,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G51331BY,,,GlycoShape,,https://glycoshape.org/api/glycan/G51331BY,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G51379UR,,,GlycoShape,,https://glycoshape.org/api/glycan/G51379UR,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G51699SI,,,GlycoShape,,https://glycoshape.org/api/glycan/G51699SI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G54721WC,,,GlycoShape,,https://glycoshape.org/api/glycan/G54721WC,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G55153IW,,,GlycoShape,,https://glycoshape.org/api/glycan/G55153IW,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G55205ZV,,,GlycoShape,,https://glycoshape.org/api/glycan/G55205ZV,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G55958KV,,,GlycoShape,,https://glycoshape.org/api/glycan/G55958KV,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G56299XO,,,GlycoShape,,https://glycoshape.org/api/glycan/G56299XO,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G56478LD,,,GlycoShape,,https://glycoshape.org/api/glycan/G56478LD,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G56516VH,,,GlycoShape,,https://glycoshape.org/api/glycan/G56516VH,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G57710SU,GlycoShape:GS00010:beta,level_1_multimodel,GlycoShape,GS00010,https://glycoshape.org/api/structure/PDB/GS00010?level=1&anomer=beta&format=pdb,2026-08-04,structures/G57710SU/structure_1.pdb,b49f8bf5ec331878df6da3e63908a2994b3f627de70b361f023a069cc9388c15,48366,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G57920AK,GlycoShape:GS00528:beta,level_1_multimodel,GlycoShape,GS00528,https://glycoshape.org/api/structure/PDB/GS00528?level=1&anomer=beta&format=pdb,2026-08-04,structures/G57920AK/structure_1.pdb,e49315eb6ce5180de68562ce1082a59caec62bdded1aff21af9a96e73f068bf1,58525,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G58507AZ,,,GlycoShape,,https://glycoshape.org/api/glycan/G58507AZ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G58612ZQ,,,GlycoShape,,https://glycoshape.org/api/glycan/G58612ZQ,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G58896AZ,GlycoShape:GS00116:beta,level_1_multimodel,GlycoShape,GS00116,https://glycoshape.org/api/structure/PDB/GS00116?level=1&anomer=beta&format=pdb,2026-08-04,structures/G58896AZ/structure_1.pdb,5f38167c63cb2817f7cd46c88848a644ec43c5fb29a4af1bfff6f2f2908f5bf8,48366,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G59168YE,,,GlycoShape,,https://glycoshape.org/api/glycan/G59168YE,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G59508TM,,,GlycoShape,,https://glycoshape.org/api/glycan/G59508TM,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G60011XD,,,GlycoShape,,https://glycoshape.org/api/glycan/G60011XD,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G60395SO,,,GlycoShape,,https://glycoshape.org/api/glycan/G60395SO,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G60645OK,GlycoShape:GS00484:beta,level_1_multimodel,GlycoShape,GS00484,https://glycoshape.org/api/structure/PDB/GS00484?level=1&anomer=beta&format=pdb,2026-08-04,structures/G60645OK/structure_1.pdb,00cd42bd9fc4f746e18bff79830239b78e24115dd982b91b917ac751ce14fa00,59030,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G60859DF,,,GlycoShape,,https://glycoshape.org/api/glycan/G60859DF,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G61298NX,,,GlycoShape,,https://glycoshape.org/api/glycan/G61298NX,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G61418DU,GlycoShape:GS00918:beta,level_1_multimodel,GlycoShape,GS00918,https://glycoshape.org/api/structure/PDB/GS00918?level=1&anomer=beta&format=pdb,2026-08-04,structures/G61418DU/structure_1.pdb,b15e4aaa931016eebb4808e2e8eb90c7d4406f211649e50f1fa0d2d30af37be8,16374,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G62593IS,,,GlycoShape,,https://glycoshape.org/api/glycan/G62593IS,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G62763GO,,,GlycoShape,,https://glycoshape.org/api/glycan/G62763GO,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G62971NJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G62971NJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G63238VS,,,GlycoShape,,https://glycoshape.org/api/glycan/G63238VS,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G64581RP,,,GlycoShape,,https://glycoshape.org/api/glycan/G64581RP,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G65191ST,,,GlycoShape,,https://glycoshape.org/api/glycan/G65191ST,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G65507FU,,,GlycoShape,,https://glycoshape.org/api/glycan/G65507FU,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G65889KE,GlycoShape:GS00936:beta,level_1_multimodel,GlycoShape,GS00936,https://glycoshape.org/api/structure/PDB/GS00936?level=1&anomer=beta&format=pdb,2026-08-04,structures/G65889KE/structure_1.pdb,8bc1c625eb1dfaca045cd1c116a8e0bb185ec88fc7c4988e64e6a5dff815cc6a,13341,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G66086EX,,,GlycoShape,,https://glycoshape.org/api/glycan/G66086EX,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G67988RO,,,GlycoShape,,https://glycoshape.org/api/glycan/G67988RO,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G68158BT,,,GlycoShape,,https://glycoshape.org/api/glycan/G68158BT,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G70323CJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G70323CJ,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G71142DF,GlycoShape:GS00913:beta,level_1_multimodel,GlycoShape,GS00913,https://glycoshape.org/api/structure/PDB/GS00913?level=1&anomer=beta&format=pdb,2026-08-04,structures/G71142DF/structure_1.pdb,341284c96d6ecf248fae4be6ac78150bff1e2ff8360523249892685392b4d8b7,13341,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G71485PH,,,GlycoShape,GS00095,https://glycoshape.org/api/structure/PDB/GS00095?level=1&anomer=beta&format=pdb,2026-08-04,,,0,0,,,failed,registry_glycoshape_wurcs_mismatch
+G72494BI,,,GlycoShape,,https://glycoshape.org/api/glycan/G72494BI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G72506RN,,,GlycoShape,,https://glycoshape.org/api/glycan/G72506RN,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G72548RZ,,,GlycoShape,,https://glycoshape.org/api/glycan/G72548RZ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G72565QB,,,GlycoShape,,https://glycoshape.org/api/glycan/G72565QB,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G72692DY,,,GlycoShape,,https://glycoshape.org/api/glycan/G72692DY,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G74621DY,,,GlycoShape,,https://glycoshape.org/api/glycan/G74621DY,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G75789AR,GlycoShape:GS00513:beta,level_1_multimodel,GlycoShape,GS00513,https://glycoshape.org/api/structure/PDB/GS00513?level=1&anomer=beta&format=pdb,2026-08-04,structures/G75789AR/structure_1.pdb,4406ecc8477d35c1d8a00b1080795b506a9d08c44473744d0b963130b7cb1b52,42752,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G76297JC,,,GlycoShape,,https://glycoshape.org/api/glycan/G76297JC,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G77824XV,,,GlycoShape,,https://glycoshape.org/api/glycan/G77824XV,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G78074HX,GlycoShape:GS00766:beta,level_1_multimodel,GlycoShape,GS00766,https://glycoshape.org/api/structure/PDB/GS00766?level=1&anomer=beta&format=pdb,2026-08-04,structures/G78074HX/structure_1.pdb,8bc2c96e25f5a7d753329d91472326765ebd6c7df972ebd1b7c8ef70eca75500,34669,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G78260AJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G78260AJ,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G78436BB,,,GlycoShape,,https://glycoshape.org/api/glycan/G78436BB,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G79389NT,GlycoShape:GS00468:beta,level_1_multimodel,GlycoShape,GS00468,https://glycoshape.org/api/structure/PDB/GS00468?level=1&anomer=beta&format=pdb,2026-08-04,structures/G79389NT/structure_1.pdb,bfd5bbe791f638c5a158b1cf19890590f7dcbcd1148c1b39a285ac59fa68c500,55946,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G79536OW,GlycoShape:GS00167:beta,level_1_multimodel,GlycoShape,GS00167,https://glycoshape.org/api/structure/PDB/GS00167?level=1&anomer=beta&format=pdb,2026-08-04,structures/G79536OW/structure_1.pdb,83ec8d8ebdea1f0ca1e3ddebcde46e1fd08fe5b7f434b380bd6315331f37978d,66608,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G80062GG,,,GlycoShape,,https://glycoshape.org/api/glycan/G80062GG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G80722US,GlycoShape:GS00805:beta,level_1_multimodel,GlycoShape,GS00805,https://glycoshape.org/api/structure/PDB/GS00805?level=1&anomer=beta&format=pdb,2026-08-04,structures/G80722US/structure_1.pdb,7fe6e5a21b2ab6e816344e2b567841cd9526be2bdb0a93b79b130f0e79c29afe,56958,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G81533KY,,,GlycoShape,,https://glycoshape.org/api/glycan/G81533KY,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G82576YO,,,GlycoShape,,https://glycoshape.org/api/glycan/G82576YO,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G82858KU,,,GlycoShape,,https://glycoshape.org/api/glycan/G82858KU,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G83212YI,,,GlycoShape,,https://glycoshape.org/api/glycan/G83212YI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G83513YI,,,GlycoShape,,https://glycoshape.org/api/glycan/G83513YI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G84034JH,GlycoShape:GS00126:beta,level_1_multimodel,GlycoShape,GS00126,https://glycoshape.org/api/structure/PDB/GS00126?level=1&anomer=beta&format=pdb,2026-08-04,structures/G84034JH/structure_1.pdb,7c7a5754522f08ac1f7a80c79d2d41924daa178e94de9cd8dbe7d2152cba3c92,72727,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G84224TW,GlycoShape:GS00072:beta,level_1_multimodel,GlycoShape,GS00072,https://glycoshape.org/api/structure/PDB/GS00072?level=1&anomer=beta&format=pdb,2026-08-04,structures/G84224TW/structure_1.pdb,e034fe2f9d8aeffdc300cdd1c15cd8bac5d588c5f62add304c6ed1d1fe34c658,24005,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G86123DJ,,,GlycoShape,,https://glycoshape.org/api/glycan/G86123DJ,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G87245HS,,,GlycoShape,,https://glycoshape.org/api/glycan/G87245HS,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G87315SO,,,GlycoShape,,https://glycoshape.org/api/glycan/G87315SO,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G87727XV,,,GlycoShape,,https://glycoshape.org/api/glycan/G87727XV,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G88393MK,,,GlycoShape,,https://glycoshape.org/api/glycan/G88393MK,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G88796WA,,,GlycoShape,,https://glycoshape.org/api/glycan/G88796WA,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G89659QV,GlycoShape:GS00516:beta,level_1_multimodel,GlycoShape,GS00516,https://glycoshape.org/api/structure/PDB/GS00516?level=1&anomer=beta&format=pdb,2026-08-04,structures/G89659QV/structure_1.pdb,c124582ba8822df3b932a453651107637689c39f768a1a72f5720f902ee9480e,68686,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G90562PB,GlycoShape:GS00471:beta,level_1_multimodel,GlycoShape,GS00471,https://glycoshape.org/api/structure/PDB/GS00471?level=1&anomer=beta&format=pdb,2026-08-04,structures/G90562PB/structure_1.pdb,33ddf654d7ac9bd4fedde16998d3db590c0f366d3c16ba8dcc3efec864c666f6,37702,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G90889KG,,,GlycoShape,,https://glycoshape.org/api/glycan/G90889KG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G91237TK,GlycoShape:GS00259:beta,level_1_multimodel,GlycoShape,GS00259,https://glycoshape.org/api/structure/PDB/GS00259?level=1&anomer=beta&format=pdb,2026-08-04,structures/G91237TK/structure_1.pdb,7361768b84c3988396a10ff3fa2fb21987cbefe7369638ded3a4efe87a7fb3a6,42247,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G91326YS,,,GlycoShape,,https://glycoshape.org/api/glycan/G91326YS,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G91649BT,,,GlycoShape,,https://glycoshape.org/api/glycan/G91649BT,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G93779QZ,GlycoShape:GS00856:beta,level_1_multimodel,GlycoShape,GS00856,https://glycoshape.org/api/structure/PDB/GS00856?level=1&anomer=beta&format=pdb,2026-08-04,structures/G93779QZ/structure_1.pdb,cb5d09ea3f87608faaa54aaf368202b4a8becec76f999a2b6cc02a1e67cdc030,46797,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G94938PL,,,GlycoShape,,https://glycoshape.org/api/glycan/G94938PL,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G95034OI,,,GlycoShape,,https://glycoshape.org/api/glycan/G95034OI,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G96401FK,,,GlycoShape,,https://glycoshape.org/api/glycan/G96401FK,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G96614JE,,,GlycoShape,,https://glycoshape.org/api/glycan/G96614JE,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G97569KL,,,GlycoShape,,https://glycoshape.org/api/glycan/G97569KL,2026-08-04,,,0,0,,,failed,requested_accession_not_exposed_by_glycoshape_metadata
+G97932OH,,,GlycoShape,,https://glycoshape.org/api/glycan/G97932OH,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G98173LG,,,GlycoShape,,https://glycoshape.org/api/glycan/G98173LG,2026-08-04,,,0,0,,,failed,glycoshape_http_404
+G98465JN,GlycoShape:GS00108:beta,level_1_multimodel,GlycoShape,GS00108,https://glycoshape.org/api/structure/PDB/GS00108?level=1&anomer=beta&format=pdb,2026-08-04,structures/G98465JN/structure_1.pdb,6c24d6237235ae450d927046c899c35b012dea2a4b4ad9729171b5407ff9a132,69189,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G98544DH,GlycoShape:GS00299:beta,level_1_multimodel,GlycoShape,GS00299,https://glycoshape.org/api/structure/PDB/GS00299?level=1&anomer=beta&format=pdb,2026-08-04,structures/G98544DH/structure_1.pdb,fb569460a9cb90ce8a1299b15c85d0cadbecf95668e847f0f9f3869bc1eb0ac3,60489,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G99053DY,GlycoShape:GS00105:beta,level_1_multimodel,GlycoShape,GS00105,https://glycoshape.org/api/structure/PDB/GS00105?level=1&anomer=beta&format=pdb,2026-08-04,structures/G99053DY/structure_1.pdb,a6bad595e4494cfc3c3454a1837ad4aa164e4f1e977a8d3c188cd2374f4f6eec,59030,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,
+G99745QX,GlycoShape:GS00843:beta,level_1_multimodel,GlycoShape,GS00843,https://glycoshape.org/api/structure/PDB/GS00843?level=1&anomer=beta&format=pdb,2026-08-04,structures/G99745QX/structure_1.pdb,ab66f736266034db0f5ff91e7d188db7287eb055f032427b169a7098f74581d1,46797,5,GLYCAM_06j,GlycoShape level_1 multi-model PDB,ok,

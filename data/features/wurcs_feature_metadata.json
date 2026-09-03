@@ -1,0 +1,14 @@
+{
+  "hash": "unsigned first-64-bit SHA-256 modulo n_features",
+  "leakage_control": "Hash buckets are fixed without fitting; inverse-document frequencies must be fitted inside each evaluation fold excluding held-out positives.",
+  "n_features": 4096,
+  "n_glycans": 173,
+  "ngram_range": [
+    3,
+    5
+  ],
+  "normalization": "sort independent clauses in final WURCS linkage section",
+  "observed_unique_ngrams": 1803,
+  "occupied_buckets": 1463,
+  "representation": "fixed SHA-256 character-ngram hashing followed by fold-fitted TF-IDF"
+}

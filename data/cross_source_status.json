@@ -1,0 +1,5 @@
+{
+  "exclusion_note": "Cross-source outputs that mixed CarboGrove provenance with CFG labeling are excluded.",
+  "reason": "The original CFG record-level RFU files and threshold rules are unavailable; no cross-source result is generated from catalogue metadata alone.",
+  "status": "not_evaluable"
+}

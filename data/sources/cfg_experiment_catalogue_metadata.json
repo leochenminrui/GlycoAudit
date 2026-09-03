@@ -1,0 +1,15 @@
+{
+  "source": "CFG glycan-array public catalogue",
+  "source_url": "https://functionalglycomics.org/glycan-array",
+  "retrieved_at": "2026-08-04T03:37:15.459568+00:00",
+  "reported_total": 6035,
+  "parsed_unique_records": 6035,
+  "total_pages": 604,
+  "failed_pages": [],
+  "catalogue_complete": true,
+  "catalogue_file": "data/sources/cfg_experiment_catalogue.csv",
+  "catalogue_snapshot_pattern": "data/sources/cfg_catalogue_html/catalogue_page_NNNN.html",
+  "raw_spreadsheets_included": false,
+  "raw_spreadsheet_status": "protected_download_requires_site_recaptcha",
+  "historical_original_threshold_status": "unrecoverable_after_original_file_loss"
+}

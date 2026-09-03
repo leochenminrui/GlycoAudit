@@ -1,0 +1,28 @@
+{
+  "interpretation": "Agent bootstrap intervals quantify uncertainty of the equal-weighted across-agent mean; the perturbation audit quantifies within-agent sensitivity to omitted training positives.",
+  "n_agent_folds": 645,
+  "one_example_agents": 36,
+  "one_training_positive_folds": 72,
+  "percent_one_training_positive_folds": 11.162790697674419,
+  "rank_change_definition": "For each training-positive deletion, average signed held-out-rank changes within the fold, take the absolute value of that fold mean, then average over perturbations.",
+  "reference_metrics": {
+    "GCV_4_5": {
+      "mean_absolute_fold_mean_held_out_rank_change": 3.858001130901895,
+      "mean_prototype_cosine": 0.8480597890939414,
+      "mean_score_spearman": 0.8728110699949954,
+      "mean_top5_jaccard": 0.5873520739932954
+    },
+    "SSV": {
+      "mean_absolute_fold_mean_held_out_rank_change": 3.3810432569974553,
+      "mean_prototype_cosine": 0.9124463538786114,
+      "mean_score_spearman": 0.8780023920304036,
+      "mean_top5_jaccard": 0.6427982417168167
+    },
+    "WURCS": {
+      "mean_absolute_fold_mean_held_out_rank_change": 1.7319762510602206,
+      "mean_prototype_cosine": 0.9793275051756671,
+      "mean_score_spearman": 0.9701606863370464,
+      "mean_top5_jaccard": 0.7876849495806238
+    }
+  }
+}

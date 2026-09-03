@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "repeat_count": 1000,
+  "empirical_p_value_resolution": "1/1001 = 0.000999000999000999",
+  "protocol": "Frozen released folds and candidate pool; random ranking and feature-permutation controls are reported separately from direct representation comparisons.",
+  "results": [
+    {
+      "representation": "ssv",
+      "feature_permutation_mrr_p": 0.017982017982017984,
+      "feature_permutation_recall_at_5_p": 0.026973026973026972,
+      "random_mrr_p": 0.000999000999000999,
+      "random_recall_at_5_p": 0.000999000999000999,
+      "n_repeats": 1000
+    },
+    {
+      "representation": "gcv_4_5",
+      "feature_permutation_mrr_p": 0.24775224775224775,
+      "feature_permutation_recall_at_5_p": 0.32167832167832167,
+      "random_mrr_p": 0.002997002997002997,
+      "random_recall_at_5_p": 0.004995004995004995,
+      "n_repeats": 1000
+    },
+    {
+      "representation": "wurcs",
+      "feature_permutation_mrr_p": 0.000999000999000999,
+      "feature_permutation_recall_at_5_p": 0.000999000999000999,
+      "random_mrr_p": 0.000999000999000999,
+      "random_recall_at_5_p": 0.000999000999000999,
+      "n_repeats": 1000
+    }
+  ]
+}

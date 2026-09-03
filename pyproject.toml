@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glycoaudit"
+version = "1.0.0"
+description = "Auditable glycan-agent relation ranking analyses"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Minqi Chen"},
+  {name = "Minrui Chen"},
+  {name = "Guanjie Zou"},
+  {name = "Lunxu Liu"},
+]
+dependencies = [
+  "biopython>=1.81",
+  "httpx>=0.25",
+  "numpy>=1.24,<2.0",
+  "pandas>=2.0,<3.1",
+  "scipy>=1.10",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["glycoaudit*"]

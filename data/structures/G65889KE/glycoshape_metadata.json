@@ -1,0 +1,272 @@
+{
+  "alpha": {
+    "ID": "GS00936",
+    "glycam": "DGalpa1-OH",
+    "glytoucan": "G09546QO",
+    "iupac": "Gal(a1-",
+    "iupac_extended": "D-Galp",
+    "name": "DGalpa1-OH",
+    "wurcs": "WURCS=2.0/1,1,0/[a2112h-1a_1-5]/1/"
+  },
+  "archetype": {
+    "ID": "GS00936",
+    "cluster_levels": {
+      "level_1": {
+        "clusters": {
+          "Cluster 0": 44.55,
+          "Cluster 1": 28.71,
+          "Cluster 2": 18.81,
+          "Cluster 3": 4.95,
+          "Cluster 4": 2.97
+        },
+        "n_clusters": 5
+      },
+      "level_2": {
+        "clusters": {
+          "Cluster 0": 29.703,
+          "Cluster 1": 29.703,
+          "Cluster 2": 11.8812,
+          "Cluster 3": 9.901,
+          "Cluster 4": 6.9307,
+          "Cluster 5": 5.9406,
+          "Cluster 6": 5.9406
+        },
+        "n_clusters": 7
+      },
+      "level_3": {
+        "clusters": {
+          "Cluster 0": 0.9901,
+          "Cluster 1": 0.9901,
+          "Cluster 10": 0.9901,
+          "Cluster 100": 0.9901,
+          "Cluster 11": 0.9901,
+          "Cluster 12": 0.9901,
+          "Cluster 13": 0.9901,
+          "Cluster 14": 0.9901,
+          "Cluster 15": 0.9901,
+          "Cluster 16": 0.9901,
+          "Cluster 17": 0.9901,
+          "Cluster 18": 0.9901,
+          "Cluster 19": 0.9901,
+          "Cluster 2": 0.9901,
+          "Cluster 20": 0.9901,
+          "Cluster 21": 0.9901,
+          "Cluster 22": 0.9901,
+          "Cluster 23": 0.9901,
+          "Cluster 24": 0.9901,
+          "Cluster 25": 0.9901,
+          "Cluster 26": 0.9901,
+          "Cluster 27": 0.9901,
+          "Cluster 28": 0.9901,
+          "Cluster 29": 0.9901,
+          "Cluster 3": 0.9901,
+          "Cluster 30": 0.9901,
+          "Cluster 31": 0.9901,
+          "Cluster 32": 0.9901,
+          "Cluster 33": 0.9901,
+          "Cluster 34": 0.9901,
+          "Cluster 35": 0.9901,
+          "Cluster 36": 0.9901,
+          "Cluster 37": 0.9901,
+          "Cluster 38": 0.9901,
+          "Cluster 39": 0.9901,
+          "Cluster 4": 0.9901,
+          "Cluster 40": 0.9901,
+          "Cluster 41": 0.9901,
+          "Cluster 42": 0.9901,
+          "Cluster 43": 0.9901,
+          "Cluster 44": 0.9901,
+          "Cluster 45": 0.9901,
+          "Cluster 46": 0.9901,
+          "Cluster 47": 0.9901,
+          "Cluster 48": 0.9901,
+          "Cluster 49": 0.9901,
+          "Cluster 5": 0.9901,
+          "Cluster 50": 0.9901,
+          "Cluster 51": 0.9901,
+          "Cluster 52": 0.9901,
+          "Cluster 53": 0.9901,
+          "Cluster 54": 0.9901,
+          "Cluster 55": 0.9901,
+          "Cluster 56": 0.9901,
+          "Cluster 57": 0.9901,
+          "Cluster 58": 0.9901,
+          "Cluster 59": 0.9901,
+          "Cluster 6": 0.9901,
+          "Cluster 60": 0.9901,
+          "Cluster 61": 0.9901,
+          "Cluster 62": 0.9901,
+          "Cluster 63": 0.9901,
+          "Cluster 64": 0.9901,
+          "Cluster 65": 0.9901,
+          "Cluster 66": 0.9901,
+          "Cluster 67": 0.9901,
+          "Cluster 68": 0.9901,
+          "Cluster 69": 0.9901,
+          "Cluster 7": 0.9901,
+          "Cluster 70": 0.9901,
+          "Cluster 71": 0.9901,
+          "Cluster 72": 0.9901,
+          "Cluster 73": 0.9901,
+          "Cluster 74": 0.9901,
+          "Cluster 75": 0.9901,
+          "Cluster 76": 0.9901,
+          "Cluster 77": 0.9901,
+          "Cluster 78": 0.9901,
+          "Cluster 79": 0.9901,
+          "Cluster 8": 0.9901,
+          "Cluster 80": 0.9901,
+          "Cluster 81": 0.9901,
+          "Cluster 82": 0.9901,
+          "Cluster 83": 0.9901,
+          "Cluster 84": 0.9901,
+          "Cluster 85": 0.9901,
+          "Cluster 86": 0.9901,
+          "Cluster 87": 0.9901,
+          "Cluster 88": 0.9901,
+          "Cluster 89": 0.9901,
+          "Cluster 9": 0.9901,
+          "Cluster 90": 0.9901,
+          "Cluster 91": 0.9901,
+          "Cluster 92": 0.9901,
+          "Cluster 93": 0.9901,
+          "Cluster 94": 0.9901,
+          "Cluster 95": 0.9901,
+          "Cluster 96": 0.9901,
+          "Cluster 97": 0.9901,
+          "Cluster 98": 0.9901,
+          "Cluster 99": 0.9901
+        },
+        "n_clusters": 101
+      }
+    },
+    "clusters": {
+      "Cluster 0": 44.55,
+      "Cluster 1": 28.71,
+      "Cluster 2": 18.81,
+      "Cluster 3": 4.95,
+      "Cluster 4": 2.97
+    },
+    "components": {
+      "Gal": 1
+    },
+    "composition": {
+      "Hex": 1
+    },
+    "coverage_clusters": {
+      "Cluster 0": 29.703,
+      "Cluster 1": 29.703,
+      "Cluster 2": 11.8812,
+      "Cluster 3": 9.901,
+      "Cluster 4": 6.9307,
+      "Cluster 5": 5.9406,
+      "Cluster 6": 5.9406
+    },
+    "coverage_clusters_per_main": {
+      "0": [
+        2
+      ],
+      "1": [
+        4,
+        6
+      ],
+      "2": [
+        0,
+        3,
+        5
+      ],
+      "3": [
+        1
+      ],
+      "4": []
+    },
+    "entropy": 6.478895499294119,
+    "forcefield": "GLYCAM_06j",
+    "glycam": "DGalp",
+    "glycoct": "RES 1b:b-dgal-HEX-1:5",
+    "glytoucan": "G43523TH",
+    "hbond_acceptor": 6,
+    "hbond_donor": 5,
+    "iupac": "Gal",
+    "iupac_extended": "D-Gal",
+    "length": 1.5,
+    "mass": 180.06,
+    "motifs": [],
+    "name": "DGalpa1-OH",
+    "oxford": null,
+    "package": "GROMACS",
+    "pca_variance": {
+      "cumulative_variance": [
+        0.15049026655951966,
+        0.25532324455644434,
+        0.34647094800293454,
+        0.4163424669254177,
+        0.48151939054501114,
+        0.5360382722457894,
+        0.5871559547779595,
+        0.6338863924083448,
+        0.6753718032336216,
+        0.712734991744518
+      ],
+      "explained_variance_ratio": [
+        0.15049026655951966,
+        0.10483297799692469,
+        0.09114770344649022,
+        0.06987151892248315,
+        0.0651769236195934,
+        0.05451888170077827,
+        0.051117682532170056,
+        0.04673043763038527,
+        0.041485410825276764,
+        0.03736318851089652
+      ],
+      "n_components": 10
+    },
+    "pressure": 1.0,
+    "rot_bonds": 1,
+    "salt": 150.0,
+    "silhouette_scores": {
+      "2": 0.30708475192396917,
+      "3": 0.209570204422815,
+      "4": 0.20908644490184622,
+      "5": 0.27151887858719487,
+      "6": 0.2865227310240772,
+      "7": 0.23718098175707358,
+      "8": 0.229563226968384
+    },
+    "smiles": "O1C(O)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO",
+    "temperature": 300.0,
+    "termini": null,
+    "torsion_summary": {
+      "by_common_name": {},
+      "by_family": {
+        "residue_local": 1
+      },
+      "by_subtype": {
+        "bond_C5_C6": 1
+      },
+      "count": 1,
+      "glycosidic": 0,
+      "non_glycosidic": 1
+    },
+    "wurcs": "WURCS=2.0/1,1,0/[u2112h]/1/"
+  },
+  "beta": {
+    "ID": "GS00936",
+    "glycam": "DGalpb1-OH",
+    "glytoucan": "G65889KE",
+    "iupac": "Gal(b1-",
+    "iupac_extended": "D-Galp",
+    "name": "DGalpa1-OH",
+    "wurcs": "WURCS=2.0/1,1,0/[a2112h-1b_1-5]/1/"
+  },
+  "search_meta": {
+    "common_names": [],
+    "description": "GS00936 is a glycan with IUPAC notation Gal. Simulated with MD package GROMACS, force field GLYCAM_06j, 300.0K. Composed of 1x Gal. GlyTouCan ID search for DGalpa1-OH was glitching- so the GlyTouCan ID feild has been left empty above.",
+    "keywords": [
+      "FF:GLYCAM_06j",
+      "MD:GROMACS",
+      "Source:manual"
+    ]
+  }
+}

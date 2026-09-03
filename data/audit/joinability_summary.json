@@ -1,0 +1,22 @@
+{
+  "by_source": {
+    "SugarBind": {
+      "eligible_records": 1263,
+      "joinable_glycans": 44,
+      "joinable_records": 801,
+      "raw_records": 1263,
+      "resolved_eligible_records": 1258
+    }
+  },
+  "eligible_evidence_records": 1263,
+  "joinable_evidence_records": 801,
+  "joinable_glycans": 44,
+  "raw_evidence_records": 1263,
+  "record_failure_counts": {
+    "invalid_structure": 457,
+    "unmapped_identifier": 5
+  },
+  "resolved_eligible_records": 1258,
+  "supplied_exclusion_reason_counts": {},
+  "unique_resolved_glycans": 173
+}

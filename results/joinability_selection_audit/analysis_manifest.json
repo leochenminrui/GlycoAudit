@@ -1,0 +1,11 @@
+{
+  "dataset": "glycoaudit_data",
+  "seed": 20260831,
+  "status": "complete",
+  "variables": [
+    "wurcs_sequence_length_characters",
+    "evidence_record_count",
+    "canonical_relation_count",
+    "unique_age_agent_count"
+  ]
+}

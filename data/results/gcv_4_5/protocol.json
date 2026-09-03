@@ -1,0 +1,46 @@
+{
+  "bootstrap_replicates": 2000,
+  "candidate_manifest": "candidate_manifest.csv",
+  "feature_columns": [
+    "contact_density",
+    "long_range_contact_fraction",
+    "mean_residue_neighbor_count",
+    "sd_residue_neighbor_count",
+    "torsion_diversity",
+    "graph_laplacian_spectral_gap",
+    "core_periphery_ratio",
+    "max_contact_distance_seq",
+    "n_residues",
+    "n_contacts",
+    "contact_density_sd",
+    "long_range_contact_fraction_sd",
+    "mean_residue_neighbor_count_sd",
+    "sd_residue_neighbor_count_sd",
+    "torsion_diversity_sd",
+    "graph_laplacian_spectral_gap_sd",
+    "core_periphery_ratio_sd",
+    "max_contact_distance_seq_sd",
+    "n_residues_sd",
+    "n_contacts_sd"
+  ],
+  "features": "gcv_features.csv",
+  "fold_manifest": "positive_holdout_folds.csv",
+  "ks": [
+    5,
+    10
+  ],
+  "labels": "evidence_records.csv",
+  "leakage_control": {
+    "candidate_pool": "training positives excluded",
+    "evaluation": "held-out positives only",
+    "preprocessing": "standardize fitted with held-out positive features excluded",
+    "prototype": "training positives only"
+  },
+  "minimum_positives": 2,
+  "n_splits": 5,
+  "null_repeats": 100,
+  "positive_evidence_rule": "evidence_status == positive",
+  "preprocessing": "standardize",
+  "release_id": "glycoaudit_data",
+  "seed": 42
+}

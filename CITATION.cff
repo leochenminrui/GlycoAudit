@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use GlycoAudit in your research, please cite it as below."
+title: "GlycoAudit: structural joinability and annotation degree shape glycan-agent relation ranking"
+version: 1.0.0
+license: MIT
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Minqi"
+    orcid: "https://orcid.org/0009-0009-6960-8667"
+  - family-names: "Chen"
+    given-names: "Minrui"
+    orcid: "https://orcid.org/0000-0002-5845-3200"
+  - family-names: "Zou"
+    given-names: "Guanjie"
+    orcid: "https://orcid.org/0009-0005-1687-5316"
+  - family-names: "Liu"
+    given-names: "Lunxu"
+    orcid: "https://orcid.org/0000-0003-3964-5378"
+keywords:
+  - glycobiology
+  - benchmark
+  - machine learning
+  - positive-unlabeled learning
+  - lectin
+  - antibody
+  - glycan
+  - relation ranking
+abstract: |
+  GlycoAudit is an auditable benchmark-construction and evaluation framework for
+  structure-supported glycan-binding relation recovery. It records identifier
+  reconciliation, structural coverage, evidence status, provenance, candidate
+  pools, and split definitions, and provides leakage-controlled evaluation for
+  incomplete and heterogeneous binding evidence.

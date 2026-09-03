@@ -1,0 +1,13 @@
+{
+  "catalogue_pages": 604,
+  "catalogue_records": 6035,
+  "catalogue_snapshot_date": "2026-08-04",
+  "consequence": "CFG contributes catalogue metadata only and is excluded from all quantitative, explicit-nonbinding, and cross-source results in this release.",
+  "historical_threshold_status": "unrecoverable",
+  "processed_rfu_status": "unrecoverable_from_original_release",
+  "quantitative_benchmark_inclusion": false,
+  "raw_rfu_status": "unrecoverable_from_original_release",
+  "reason": "The original experiment-level RFU files, processed RFU values, analyzed experiment subset, and positivity rules were lost. The public catalogue was reconstructed, but protected workbook downloads were not bypassed and no threshold was inferred.",
+  "release_role": "metadata_only",
+  "source": "Consortium for Functional Glycomics experiment catalogue"
+}

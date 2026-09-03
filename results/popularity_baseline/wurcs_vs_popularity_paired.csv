@@ -1,0 +1,4 @@
+comparison,metric,n_paired_agents,mean_paired_difference,bootstrap_ci_lower,bootstrap_ci_upper,bootstrap_replicates,seed,inferential_p_value_reported
+WURCS minus leave-one-agent-out glycan popularity,mrr,159,-0.11078973114553836,-0.16935561050793435,-0.054101408419521456,10000,20260901,False
+WURCS minus leave-one-agent-out glycan popularity,recall@5,159,0.23228511530398321,0.18155136268343816,0.2843841719077568,10000,20260901,False
+WURCS minus leave-one-agent-out glycan popularity,known_positive_ap,159,-0.11617593576588307,-0.17392623044474875,-0.05969532303025886,10000,20260901,False

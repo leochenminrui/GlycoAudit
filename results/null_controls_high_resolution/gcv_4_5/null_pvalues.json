@@ -1,0 +1,11 @@
+{
+  "known_positive_ap_vs_feature_permutation": 0.24975024975024976,
+  "known_positive_ap_vs_random": 0.004995004995004995,
+  "mrr_vs_feature_permutation": 0.24775224775224775,
+  "mrr_vs_random": 0.002997002997002997,
+  "n_repeats": 1000,
+  "recall@10_vs_feature_permutation": 0.5714285714285714,
+  "recall@10_vs_random": 0.8831168831168831,
+  "recall@5_vs_feature_permutation": 0.32167832167832167,
+  "recall@5_vs_random": 0.004995004995004995
+}

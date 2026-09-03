@@ -1,0 +1,37 @@
+[
+  {
+    "feature":"parsed_residue_count",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"parsed_linkage_count",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"branch_count",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"terminal_residue_count",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"monosaccharide_composition",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"fucosylation",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  },
+  {
+    "feature":"sialylation_linkage_class",
+    "status":"NOT_ESTIMABLE",
+    "reason":"No validated WURCS chemical parser is bundled in the frozen release; regex-derived chemistry was intentionally not used."
+  }
+]

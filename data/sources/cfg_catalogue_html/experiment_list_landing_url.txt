@@ -1,0 +1,3 @@
+URL: https://ncfg.hms.harvard.edu/glycan-array/primscreen
+Base: https://ncfg.hms.harvard.edu
+Timestamp: 20260804_112155

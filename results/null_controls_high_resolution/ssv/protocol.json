@@ -1,0 +1,41 @@
+{
+  "bootstrap_replicates": 2000,
+  "candidate_manifest": "data/candidate_manifest.csv",
+  "feature_columns": [
+    "n_atoms",
+    "n_residues",
+    "radius_of_gyration",
+    "max_pair_distance",
+    "compactness",
+    "branch_proxy",
+    "terminal_proxy",
+    "exposure_proxy",
+    "n_atoms_sd",
+    "n_residues_sd",
+    "radius_of_gyration_sd",
+    "max_pair_distance_sd",
+    "compactness_sd",
+    "branch_proxy_sd",
+    "terminal_proxy_sd",
+    "exposure_proxy_sd"
+  ],
+  "features": "data/ssv_features.csv",
+  "fold_manifest": "data/positive_holdout_folds.csv",
+  "ks": [
+    5,
+    10
+  ],
+  "labels": "data/evidence_records.csv",
+  "leakage_control": {
+    "candidate_pool": "training positives excluded",
+    "evaluation": "held-out positives only",
+    "preprocessing": "standardize fitted with held-out positive features excluded",
+    "prototype": "training positives only"
+  },
+  "minimum_positives": 2,
+  "n_splits": 5,
+  "null_repeats": 1000,
+  "positive_evidence_rule": "evidence_status == positive",
+  "preprocessing": "standardize",
+  "seed": 42
+}

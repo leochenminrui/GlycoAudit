@@ -1,0 +1,26 @@
+{
+  "automatic_merging": false,
+  "cluster_bootstrap_reason": "External UniProt identifiers cover only a subset and identify recorded binding mediators rather than a complete, uniform biological-entity key for every SugarBind agent identifier.",
+  "cluster_bootstrap_status": "NOT_ESTIMABLE",
+  "interpretation": "Equal weighting remains at the SugarBind agent-identifier level and should not be interpreted as independent unique biological entities.",
+  "manual_alias_inference": false,
+  "normalization": "lowercase alphanumeric exact match only",
+  "primary_evaluation_scope": {
+    "agent_identifiers": 159,
+    "exact_normalized_name_duplicate_groups": 7,
+    "maximum_normalized_name_duplicate_group_size": 4,
+    "maximum_shared_external_identifier_group_size": 2,
+    "not_defensibly_mappable": 106,
+    "shared_external_identifier_groups": 2,
+    "with_external_uniprot_identifier": 53
+  },
+  "source_scope": {
+    "agent_identifiers": 386,
+    "exact_normalized_name_duplicate_groups": 26,
+    "maximum_normalized_name_duplicate_group_size": 22,
+    "maximum_shared_external_identifier_group_size": 12,
+    "not_defensibly_mappable": 285,
+    "shared_external_identifier_groups": 6,
+    "with_external_uniprot_identifier": 101
+  }
+}

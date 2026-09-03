@@ -1,0 +1,2 @@
+status,experiment_id,agent_id,positivity_threshold,replicate_rule,background_rule,quality_control_rule,reason
+unrecoverable,,,,,,,No historical CFG RFU threshold can be reconstructed from the available files; no CFG record is used as quantitative evidence.
