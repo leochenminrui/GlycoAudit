@@ -101,3 +101,10 @@ choice jointly shape apparent benchmark performance.
 Code is released under the MIT License. Source records and structures retain
 their upstream provenance in the released metadata; users are responsible for
 complying with the terms of the originating resources.
+
+## Cite
+
+Minqi Chen, Minrui Chen, Guanjie Zou, Lunxu Liu.
+GlycoAudit: structural joinability and annotation degree shape glycan–agent relation ranking.
+*Bioinformatics Advances*, 2026, vbag308.
+[https://doi.org/10.1093/bioadv/vbag308](https://doi.org/10.1093/bioadv/vbag308)
