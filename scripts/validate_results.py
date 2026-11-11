@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 from pathlib import Path
 
 import numpy as np
@@ -99,10 +100,28 @@ def validate_prototype(contract: dict) -> None:
 def validate_scope() -> None:
     forbidden_suffixes = {".tex", ".pdf", ".aux", ".bbl", ".blg"}
     forbidden_parts = {"tests", "figure_source_data", "reviewers"}
+    # Installed environments and caches are not release contents. Always inspect
+    # declared or Git-tracked files, including any accidentally tracked cache.
+    release_files = {
+        line.split(None, 1)[1].removeprefix("./")
+        for line in (ROOT / "CHECKSUMS.sha256").read_text().splitlines()
+        if line.strip()
+    }
+    if (ROOT / ".git").exists():
+        release_files.update(
+            subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT)
+            .decode()
+            .rstrip("\0")
+            .split("\0")
+        )
+    local_parts = {".git", ".venv", "__pycache__", ".pytest_cache"}
     for path in ROOT.rglob("*"):
         if not path.is_file():
             continue
-        relative_parts = {part.lower() for part in path.relative_to(ROOT).parts[:-1]}
+        relative = path.relative_to(ROOT)
+        relative_parts = {part.lower() for part in relative.parts[:-1]}
+        if relative_parts & local_parts and relative.as_posix() not in release_files:
+            continue
         if path.suffix.lower() in forbidden_suffixes:
             raise AssertionError(f"Forbidden publication artifact: {path.relative_to(ROOT)}")
         if path.relative_to(ROOT).parts[0].lower() == "manuscript":

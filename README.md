@@ -1,110 +1,123 @@
 # GlycoAudit
 
-This is the minimal public research package aligned with the manuscript
-"GlycoAudit: structural joinability and annotation degree shape glycan-agent
-relation ranking" and its reviewer response.
+GlycoAudit is an auditable benchmark for ranking glycan–agent relations from
+incomplete binding evidence. It makes the path from source records to matched
+structures, candidate sets, evaluation folds, and ranking results inspectable.
+Use it to compare glycan representations under a common protocol and measure
+how structural availability and annotation degree affect the comparison.
 
-The repository contains the preserved public dataset, the code required to
-reproduce the reported analyses, and the machine-readable reference results. It
-intentionally contains no manuscript or response LaTeX, PDFs,
-review correspondence, tests, figure-generation code, figure source data,
-submission packaging, internal audit logs, caches, virtual environments, or
-withdrawn historical result code.
+**Paper:** Minqi Chen, Minrui Chen, Guanjie Zou, and Lunxu Liu.
+[GlycoAudit: structural joinability and annotation degree shape glycan–agent relation ranking](https://doi.org/10.1093/bioadv/vbag308).
+*Bioinformatics Advances*, 2026, vbag308.
 
-## Scientific scope
+[Quick start](#quick-start) · [Results](#findings) ·
+[Reproduction guide](docs/reproduction.md) · [Data](data/README.md) ·
+[Citation](#citation)
 
-The quantitative benchmark uses SugarBind positive relations. CFG contributes a
-6,035-entry experiment catalogue as provenance metadata only; the historical RFU
-files, analyzed subset, and positivity threshold were not recoverable. Missing
-relations are unlabeled, not confirmed negatives. Cross-source quantitative
-transfer is therefore not estimable from this release.
+## Findings
 
-The strict structure contract retains 44 of 173 resolved glycans. The primary
-held-out-positive evaluation contains 159 SugarBind agent identifiers, 697
-positive relations, 645 agent-folds, and a fixed 44-glycan candidate universe.
+Strict accession, branch, and sequence matching retains **44 of 173 resolved
+SugarBind glycans (25.4%)**. The held-out-positive benchmark evaluates **697
+relations from 159 agent identifiers across 645 folds**, with a fixed 44-glycan
+candidate universe.
 
-The popularity control uses two explicitly separated scopes:
+| Representation or control | MRR | Recall@5 | Known-positive AP |
+| --- | ---: | ---: | ---: |
+| WURCS with fold-fitted TF–IDF | 0.381 | 0.688 | 0.373 |
+| SSV structural summary | 0.258 | 0.351 | 0.251 |
+| GCV structural summary, 4.5 Å | 0.132 | 0.159 | 0.128 |
+| Leave-one-agent-out annotation degree | 0.491 | 0.456 | 0.489 |
 
-- scoring reference pool: all 765 strictly joined relations from 227 agents;
-- evaluation population: 697 relations from 159 agents across 645 folds.
+WURCS performs best among the evaluated molecular representations. Annotation
+degree gives higher MRR and known-positive AP, whereas WURCS gives higher
+Recall@5. The choice of metric therefore changes the apparent ordering of a
+structural representation and a non-molecular control. Exact values are in
+[REFERENCE_RESULTS.json](REFERENCE_RESULTS.json).
 
-For each target agent, every target-agent relation is removed from its popularity
-scores. This definition reproduces the manuscript values (MRR 0.491, Recall@5
-0.456, and known-positive AP 0.489).
+For each fold, the evaluator builds an agent prototype from training positives,
+fits preprocessing without the held-out positives, and ranks the remaining
+candidates. The annotation-degree control removes every relation of the target
+agent before scoring. Missing relations remain unlabeled: the task is recovery
+of held-out known positives.
 
-Prototype rank sensitivity uses the manuscript statistic: for each
-training-positive deletion, signed held-out-rank changes are averaged within the
-fold, the absolute value of that fold mean is taken, and the result is averaged
-over perturbations. This reproduces 1.73, 3.38, and 3.86 for WURCS, SSV, and GCV.
+## Quick start
 
-## Contents
-
-```text
-data/                    source snapshots, structures, evidence, mappings,
-                         features, folds, and frozen benchmark results
-glycoaudit/              ranking and join-audit implementation
-scripts/                 reconstruction, feature computation, and analyses
-results/                 machine-readable results used by the paper/response
-REFERENCE_RESULTS.json   authoritative numerical contract
-```
-
-## Install
+Use Python 3.12 (the package supports Python 3.10–3.12). The public data,
+features, candidate and fold manifests, and reference results are included in
+the repository; the commands below need no external data download or GPU.
 
 ```bash
+git clone https://github.com/leochenminrui/GlycoAudit.git
+cd GlycoAudit
 python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
 python -m pip install -e .
 ```
 
-## Reproduce
-
-Regenerate the frozen primary summaries:
+Run WURCS ranking from the released feature and evidence tables:
 
 ```bash
-python scripts/summarize_primary_results.py
+python scripts/reproduce_primary_results.py \
+  --features data/wurcs_features.csv \
+  --labels data/evidence_records.csv \
+  --preprocessing tfidf \
+  --fold-manifest data/positive_holdout_folds.csv \
+  --candidate-manifest data/candidate_manifest.csv \
+  --outdir results/reproduced/wurcs
 ```
 
-Regenerate joinability, paired comparisons, prototype perturbation, support,
-scaffold-feasibility, agent-identity and coordinate-sensitivity results:
+This writes `aggregate_metrics.json`, per-agent and per-fold CSV tables, and
+`protocol.json` to `results/reproduced/wurcs/`. Expected point estimates are
+MRR **0.380555**, Recall@5 **0.688260**, and known-positive AP **0.373302**.
+The command uses the released folds and 2,000 bootstrap replicates; null-control
+reruns and additional analyses are described in the
+[reproduction guide](docs/reproduction.md).
 
-```bash
-python scripts/reproduce_additional_analyses.py
+## Reproducibility artifact
+
+The repository includes the source snapshots, join decisions and exclusions,
+features, fixed candidates and folds, and numerical references supporting the
+paper. [The reproduction guide](docs/reproduction.md) maps each analysis to its
+inputs, command, outputs, and verification checks.
+
+- [Data and provenance](data/README.md)
+- [Data release manifest](data/RELEASE_MANIFEST.json)
+- [Numerical reference contract](REFERENCE_RESULTS.json)
+- [Paper-aligned scientific source at revision `68d1d53`](https://github.com/leochenminrui/GlycoAudit/tree/68d1d53168a738b73af684e5e0d821da6e186d60)
+
+That revision freezes the scientific implementation and data before this
+README update. For work based on a later checkout, record its commit alongside
+the paper citation.
+
+## Citation
+
+**If you use GlycoAudit's code, benchmark data, or evaluation protocol, cite the
+journal article:**
+
+> Minqi Chen, Minrui Chen, Guanjie Zou, and Lunxu Liu. GlycoAudit: structural
+> joinability and annotation degree shape glycan–agent relation ranking.
+> *Bioinformatics Advances*, 2026, vbag308.
+> https://doi.org/10.1093/bioadv/vbag308
+
+```bibtex
+@article{chen2026glycoaudit,
+  author = {Chen, Minqi and Chen, Minrui and Zou, Guanjie and Liu, Lunxu},
+  title = {{GlycoAudit}: structural joinability and annotation degree shape glycan--agent relation ranking},
+  journal = {Bioinformatics Advances},
+  year = {2026},
+  pages = {vbag308},
+  doi = {10.1093/bioadv/vbag308},
+  url = {https://doi.org/10.1093/bioadv/vbag308}
+}
 ```
 
-Regenerate popularity, tie, entity-exclusion and degree-stratified controls:
+[CITATION.cff](CITATION.cff) supplies the same article as GitHub's preferred
+citation. Also record the code revision (`git rev-parse HEAD`) and retain
+attribution for upstream resources listed in the data provenance.
 
-```bash
-python scripts/reproduce_annotation_controls.py
-```
+## License
 
-Run an individual held-out-positive evaluation with
-`scripts/reproduce_primary_results.py`. Use `--preprocessing tfidf` for WURCS
-and `--preprocessing standardize` for SSV/GCV. The released fold and candidate
-manifests must be supplied.
-
-Validate the preserved data release and the manuscript numerical contract:
-
-```bash
-python scripts/validate_data_release.py data
-python scripts/validate_results.py
-```
-
-## Interpretation
-
-WURCS is the strongest molecular representation evaluated under the common
-protocol. The non-molecular popularity control is higher for MRR and
-known-positive AP, whereas WURCS is higher for Recall@5. The results demonstrate
-that structural joinability, annotation degree, candidate construction and metric
-choice jointly shape apparent benchmark performance.
-
-Code is released under the MIT License. Source records and structures retain
-their upstream provenance in the released metadata; users are responsible for
-complying with the terms of the originating resources.
-
-## Cite
-
-Minqi Chen, Minrui Chen, Guanjie Zou, Lunxu Liu.
-GlycoAudit: structural joinability and annotation degree shape glycan–agent relation ranking.
-*Bioinformatics Advances*, 2026, vbag308.
-[https://doi.org/10.1093/bioadv/vbag308](https://doi.org/10.1093/bioadv/vbag308)
+Code is available under the **MIT License**; the benchmark dataset in `data/`
+is released under **CC BY 4.0**, as specified in [LICENSE](LICENSE). Source
+records and structures retain their upstream provenance and applicable source
+terms. Cite the GlycoAudit paper when using the benchmark data.

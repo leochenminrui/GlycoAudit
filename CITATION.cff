@@ -1,9 +1,11 @@
 cff-version: 1.2.0
-message: "If you use GlycoAudit in your research, please cite it as below."
+message: "If you use GlycoAudit code, benchmark data, or protocol, cite the journal article in preferred-citation and record the code revision."
 title: "GlycoAudit: structural joinability and annotation degree shape glycan-agent relation ranking"
 version: 1.0.0
 license: MIT
 type: software
+repository-code: "https://github.com/leochenminrui/GlycoAudit"
+url: "https://github.com/leochenminrui/GlycoAudit"
 authors:
   - family-names: "Chen"
     given-names: "Minqi"
@@ -32,3 +34,26 @@ abstract: |
   reconciliation, structural coverage, evidence status, provenance, candidate
   pools, and split definitions, and provides leakage-controlled evaluation for
   incomplete and heterogeneous binding evidence.
+
+preferred-citation:
+  type: article
+  title: "GlycoAudit: structural joinability and annotation degree shape glycan–agent relation ranking"
+  authors:
+    - family-names: "Chen"
+      given-names: "Minqi"
+      orcid: "https://orcid.org/0009-0009-6960-8667"
+    - family-names: "Chen"
+      given-names: "Minrui"
+      orcid: "https://orcid.org/0000-0002-5845-3200"
+    - family-names: "Zou"
+      given-names: "Guanjie"
+      orcid: "https://orcid.org/0009-0005-1687-5316"
+    - family-names: "Liu"
+      given-names: "Lunxu"
+      orcid: "https://orcid.org/0000-0003-3964-5378"
+  journal: "Bioinformatics Advances"
+  year: 2026
+  month: 10
+  start: "vbag308"
+  doi: "10.1093/bioadv/vbag308"
+  url: "https://doi.org/10.1093/bioadv/vbag308"
